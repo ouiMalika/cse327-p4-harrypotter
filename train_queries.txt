@@ -1,0 +1,100 @@
+love(Y, madame_maxime).
+witch(cho_chang).
+sibling(X, X).
+child(X, _EX4).
+taught_by(_EX0, X).
+taught_by(_EX2, X).
+mutual_friend(_EX1, _EX6, bill_weasley).
+son(dudley_dursley, petunia_dursley).
+must_find_date_yule_ball(Y).
+son(X, _EX5).
+must_find_date_yule_ball(_EX6).
+casts_spells(_EX2).
+taught_by(charlie_weasley, Z).
+brothers(_EX5, _EX5).
+taught_by(_EX2, _EX0).
+taught_by(voldemort, Z).
+brothers(_EX4, _EX4).
+taught_by(_EX1, umbridge).
+mutual_friend(_EX4, _EX4, neville_longbottom).
+taught_by(Y, lockhart).
+taught_by(george_weasley, _EX4).
+wizard(fred_weasley).
+mutual_friend(_EX6, george_weasley, _EX5).
+taught_by(charlie_weasley, dumbledore).
+brothers(_EX6, _EX3).
+sibling(ron_weasley, _EX3).
+brothers(X, fred_weasley).
+mother(_EX5, _EX2).
+taught_by(crabbe, _EX2).
+mutual_friend(_EX6, _EX6, _EX4).
+mutual_friend(ron_weasley, ron_weasley, _EX4).
+mutual_friend(Z, Z, fred_weasley).
+mutual_friend(ron_weasley, _EX2, neville_longbottom).
+mutual_friend(_EX4, _EX4, remus_lupin).
+taught_by(neville_longbottom, _EX6).
+mutual_friend(hermione_granger, george_weasley, Y).
+brave(peter_pettigrew).
+taught_by(ron_weasley, Z).
+mutual_friend(_EX4, _EX4, luna_lovegood).
+mutual_friend(Y, _EX4, luna_lovegood).
+mutual_friend(_EX0, _EX1, remus_lupin).
+taught_by(_EX1, remus_lupin).
+ally(_EX1, Y).
+must_find_date_yule_ball(sirius_black).
+love(_EX0, _EX1).
+witch(_EX0).
+love(_EX1, _EX1).
+mutual_friend(fred_weasley, _EX0, Z).
+mutual_friend(_EX2, _EX2, bill_weasley).
+sibling(george_weasley, X).
+mutual_friend(_EX2, george_weasley, _EX5).
+taught_by(draco_malfoy, _EX0).
+mutual_friend(fred_weasley, fred_weasley, Z).
+wizard(_EX3).
+taught_by(X, _EX5).
+casts_spells(draco_malfoy).
+friend(_EX2, bill_weasley).
+mutual_friend(hermione_granger, fred_weasley, _EX6).
+taught_by(_EX5, _EX3).
+sibling(Z, _EX5).
+taught_by(_EX5, quirrell).
+casts_spells(fred_weasley).
+mutual_friend(_EX2, hermione_granger, neville_longbottom).
+mutual_friend(george_weasley, luna_lovegood, Z).
+taught_by(voldemort, _EX1).
+friend(_EX3, Z).
+friend(george_weasley, X).
+ally(dumbledore, dumbledore).
+mutual_friend(luna_lovegood, fred_weasley, Y).
+brothers(_EX1, _EX1).
+mutual_friend(ron_weasley, Z, _EX2).
+taught_by(crabbe, X).
+taught_by(_EX2, _EX4).
+taught_by(_EX2, _EX3).
+ally(_EX6, Y).
+mutual_friend(X, hermione_granger, luna_lovegood).
+witch(X).
+taught_by(george_weasley, mcgonagall).
+mutual_friend(_EX2, _EX3, _EX6).
+son(Z, arthur_weasley).
+taught_by(_EX2, quirrell).
+ally(_EX4, _EX1).
+mutual_friend(_EX3, _EX2, neville_longbottom).
+brothers(_EX0, _EX0).
+father(_EX1, fred_weasley).
+taught_by(_EX1, _EX2).
+order_of_phoenix(_EX0).
+brothers(X, X).
+taught_by(cedric_diggory, severus_snape).
+brave(Z).
+taught_by(Z, slughorn).
+mutual_friend(george_weasley, _EX4, Z).
+sibling(X, _EX2).
+mutual_friend(fred_weasley, ron_weasley, _EX2).
+mother(X, ginny_weasley).
+witch(_EX3).
+ally(ron_weasley, _EX6).
+taught_by(_EX6, _EX0).
+brothers(X, _EX5).
+mutual_friend(george_weasley, _EX3, _EX4).

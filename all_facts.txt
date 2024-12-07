@@ -1,0 +1,418 @@
+friend(fred_weasley, neville_longbottom).
+job_terminated(umbridge).
+mutual_friend(hermione_granger, hermione_granger, neville_longbottom).
+taught_by(ron_weasley, trelawney).
+daughter(ginny_weasley, arthur_weasley).
+job_terminated(quirrell).
+taught_by(draco_malfoy, umbridge).
+taught_by(crabbe, remus_lupin).
+son(fred_weasley, molly_weasley).
+must_find_date_yule_ball(harry_potter).
+child(dudley_dursley, petunia_dursley).
+mutual_friend(ron_weasley, ron_weasley, bill_weasley).
+brave(hermione_granger).
+mutual_friend(ron_weasley, fred_weasley, bill_weasley).
+taught_by(lucius_malfoy, umbridge).
+taught_by(draco_malfoy, slughorn).
+ally(dumbledore, hermione_granger).
+casts_spells(fred_weasley).
+taught_by(george_weasley, slughorn).
+taught_by(lucius_malfoy, trelawney).
+wizard(lucius_malfoy).
+ally(hermione_granger, ron_weasley).
+defeat_voldemort(neville_longbottom).
+son(dudley_dursley, petunia_dursley).
+mutual_friend(george_weasley, ron_weasley, luna_lovegood).
+brave(ron_weasley).
+witch(ginny_weasley).
+casts_spells(lucius_malfoy).
+mutual_friend(george_weasley, luna_lovegood, neville_longbottom).
+friend(ron_weasley, luna_lovegood).
+mutual_friend(george_weasley, hermione_granger, neville_longbottom).
+mutual_friend(hermione_granger, hermione_granger, luna_lovegood).
+mutual_friend(george_weasley, fred_weasley, neville_longbottom).
+defeat_voldemort(fred_weasley).
+mutual_friend(ron_weasley, hermione_granger, george_weasley).
+casts_spells(george_weasley).
+love(hagrid, madame_maxime).
+child(george_weasley, molly_weasley).
+taught_by(neville_longbottom, lockhart).
+taught_by(fred_weasley, severus_snape).
+taught_by(charlie_weasley, dumbledore).
+taught_by(crabbe, umbridge).
+mutual_friend(ron_weasley, fred_weasley, neville_longbottom).
+taught_by(peter_pettigrew, severus_snape).
+taught_by(crabbe, quirrell).
+child(luna_lovegood, xenophilius_lovegood).
+wizard(peter_pettigrew).
+brave(arthur_weasley).
+mutual_friend(ron_weasley, hermione_granger, fred_weasley).
+love(madame_maxime, madame_maxime).
+mutual_friend(hermione_granger, hermione_granger, dumbledore).
+ally(hermione_granger, neville_longbottom).
+taught_by(ron_weasley, mcgonagall).
+taught_by(cedric_diggory, trelawney).
+son(harry_potter, lily_potter).
+mutual_friend(hermione_granger, fred_weasley, george_weasley).
+taught_by(neville_longbottom, dumbledore).
+taught_by(bill_weasley, lockhart).
+son(harry_potter, james_potter).
+mutual_friend(ron_weasley, ron_weasley, fred_weasley).
+brothers(harry_potter, harry_potter).
+mutual_friend(fred_weasley, hermione_granger, george_weasley).
+mutual_friend(ron_weasley, hermione_granger, dumbledore).
+mutual_friend(fred_weasley, luna_lovegood, neville_longbottom).
+father(arthur_weasley, ginny_weasley).
+taught_by(voldemort, dumbledore).
+ally(harry_potter, neville_longbottom).
+mutual_friend(hermione_granger, ron_weasley, bill_weasley).
+unforgivable_curses(crucio, avada_kedavra, imperio).
+taught_by(draco_malfoy, remus_lupin).
+taught_by(voldemort, quirrell).
+defeat_voldemort(charlie_weasley).
+sibling(ron_weasley, george_weasley).
+taught_by(peter_pettigrew, umbridge).
+relation_to_half_blood_prince(severus_snape).
+casts_spells(voldemort).
+sibling(fred_weasley, ginny_weasley).
+taught_by(peter_pettigrew, hagrid).
+taught_by(charlie_weasley, quirrell).
+taught_by(george_weasley, severus_snape).
+ally(dumbledore, harry_potter).
+mutual_friend(hermione_granger, hermione_granger, george_weasley).
+defeat_voldemort(george_weasley).
+casts_spells(cedric_diggory).
+taught_by(goyle, lockhart).
+sibling(ginny_weasley, george_weasley).
+child(ron_weasley, arthur_weasley).
+ally(dumbledore, ron_weasley).
+sibling(ron_weasley, ron_weasley).
+mutual_friend(hermione_granger, ron_weasley, remus_lupin).
+friend(hermione_granger, bill_weasley).
+mutual_friend(hermione_granger, george_weasley, neville_longbottom).
+mutual_friend(ron_weasley, ron_weasley, neville_longbottom).
+mother(molly_weasley, ron_weasley).
+brave(harry_potter).
+mutual_friend(george_weasley, ron_weasley, neville_longbottom).
+sibling(ginny_weasley, fred_weasley).
+taught_by(voldemort, lockhart).
+must_find_date_yule_ball(sirius_black).
+taught_by(ron_weasley, umbridge).
+relation_to_half_blood_prince(slughorn).
+taught_by(fred_weasley, mcgonagall).
+taught_by(peter_pettigrew, remus_lupin).
+brave(molly_weasley).
+taught_by(voldemort, severus_snape).
+child(fred_weasley, molly_weasley).
+taught_by(lucius_malfoy, lockhart).
+taught_by(arthur_weasley, trelawney).
+taught_by(arthur_weasley, lockhart).
+taught_by(george_weasley, mcgonagall).
+mother(molly_weasley, ginny_weasley).
+mutual_friend(ron_weasley, hermione_granger, remus_lupin).
+sisters(luna_lovegood, luna_lovegood).
+must_find_date_yule_ball(ron_weasley).
+ally(neville_longbottom, ron_weasley).
+taught_by(cedric_diggory, mcgonagall).
+taught_by(neville_longbottom, umbridge).
+witch(bellatrix_lestrange).
+taught_by(goyle, quirrell).
+mutual_friend(hermione_granger, george_weasley, luna_lovegood).
+mutual_friend(sirius_black, ron_weasley, remus_lupin).
+taught_by(bill_weasley, hagrid).
+ally(harry_potter, harry_potter).
+ally(harry_potter, hermione_granger).
+taught_by(bill_weasley, slughorn).
+must_be_asked_yule_ball(umbridge).
+taught_by(fred_weasley, slughorn).
+mutual_friend(draco_malfoy, draco_malfoy, crabbe).
+mutual_friend(fred_weasley, hermione_granger, bill_weasley).
+taught_by(bill_weasley, severus_snape).
+child(harry_potter, lily_potter).
+mutual_friend(fred_weasley, ron_weasley, george_weasley).
+must_find_date_yule_ball(victor_krum).
+sibling(dudley_dursley, dudley_dursley).
+witch(cho_chang).
+must_be_asked_yule_ball(madame_maxime).
+brothers(lucius_malfoy, lucius_malfoy).
+brothers(fred_weasley, george_weasley).
+son(lucius_malfoy, draco_malfoy).
+brothers(ron_weasley, fred_weasley).
+wizard(crabbe).
+mutual_friend(hermione_granger, hermione_granger, fred_weasley).
+taught_by(peter_pettigrew, lockhart).
+taught_by(peter_pettigrew, slughorn).
+taught_by(lucius_malfoy, quirrell).
+mutual_friend(sirius_black, sirius_black, remus_lupin).
+taught_by(crabbe, mcgonagall).
+sibling(harry_potter, harry_potter).
+must_find_date_yule_ball(neville_longbottom).
+mutual_friend(luna_lovegood, hermione_granger, neville_longbottom).
+taught_by(crabbe, trelawney).
+child(ron_weasley, molly_weasley).
+taught_by(neville_longbottom, mcgonagall).
+mutual_friend(fred_weasley, fred_weasley, luna_lovegood).
+taught_by(arthur_weasley, hagrid).
+must_be_asked_yule_ball(cho_chang).
+wore_big_glasses(trelawney).
+brothers(ron_weasley, ron_weasley).
+mutual_friend(ron_weasley, george_weasley, bill_weasley).
+taught_by(peter_pettigrew, mcgonagall).
+sibling(ginny_weasley, ginny_weasley).
+taught_by(goyle, dumbledore).
+love(hagrid, hagrid).
+taught_by(cedric_diggory, hagrid).
+taught_by(cedric_diggory, slughorn).
+taught_by(arthur_weasley, remus_lupin).
+taught_by(goyle, severus_snape).
+taught_by(cedric_diggory, umbridge).
+taught_by(fred_weasley, dumbledore).
+ally(hermione_granger, harry_potter).
+must_be_asked_yule_ball(bellatrix_lestrange).
+mutual_friend(hermione_granger, hermione_granger, bill_weasley).
+defeat_voldemort(arthur_weasley).
+sibling(george_weasley, ron_weasley).
+brave(peter_pettigrew).
+wizard(fred_weasley).
+child(ginny_weasley, arthur_weasley).
+taught_by(charlie_weasley, lockhart).
+father(arthur_weasley, fred_weasley).
+mutual_friend(fred_weasley, george_weasley, luna_lovegood).
+taught_by(crabbe, severus_snape).
+mutual_friend(hermione_granger, luna_lovegood, neville_longbottom).
+taught_by(george_weasley, lockhart).
+child(ginny_weasley, molly_weasley).
+taught_by(cedric_diggory, lockhart).
+wizard(bill_weasley).
+taught_by(neville_longbottom, hagrid).
+mutual_friend(ron_weasley, hermione_granger, bill_weasley).
+brave(ginny_weasley).
+taught_by(neville_longbottom, severus_snape).
+taught_by(charlie_weasley, umbridge).
+sisters(ginny_weasley, ginny_weasley).
+defeat_voldemort(bill_weasley).
+mutual_friend(ron_weasley, ron_weasley, dumbledore).
+love(madame_maxime, hagrid).
+child(george_weasley, arthur_weasley).
+taught_by(george_weasley, hagrid).
+mutual_friend(ron_weasley, hermione_granger, luna_lovegood).
+mutual_friend(ron_weasley, fred_weasley, george_weasley).
+defeat_voldemort(peter_pettigrew).
+ally(ron_weasley, hermione_granger).
+son(george_weasley, arthur_weasley).
+taught_by(charlie_weasley, slughorn).
+friend(ron_weasley, bill_weasley).
+taught_by(cedric_diggory, dumbledore).
+brothers(fred_weasley, fred_weasley).
+taught_by(george_weasley, umbridge).
+taught_by(fred_weasley, quirrell).
+casts_spells(ron_weasley).
+casts_spells(neville_longbottom).
+ally(sirius_black, sirius_black).
+taught_by(neville_longbottom, slughorn).
+ally(harry_potter, ron_weasley).
+ally(ron_weasley, ron_weasley).
+taught_by(fred_weasley, remus_lupin).
+son(dudley_dursley, vernon_dursley).
+mutual_friend(fred_weasley, ron_weasley, luna_lovegood).
+taught_by(crabbe, hagrid).
+sibling(george_weasley, fred_weasley).
+taught_by(george_weasley, trelawney).
+mutual_friend(fred_weasley, george_weasley, bill_weasley).
+child(harry_potter, james_potter).
+casts_spells(crabbe).
+mutual_friend(hermione_granger, sirius_black, remus_lupin).
+taught_by(neville_longbottom, quirrell).
+order_of_phoenix(harry_potter).
+friend(ron_weasley, neville_longbottom).
+brothers(george_weasley, fred_weasley).
+mutual_friend(luna_lovegood, ron_weasley, neville_longbottom).
+defeat_voldemort(ron_weasley).
+wizard(voldemort).
+mutual_friend(george_weasley, fred_weasley, bill_weasley).
+son(fred_weasley, arthur_weasley).
+mutual_friend(hermione_granger, ron_weasley, george_weasley).
+taught_by(cedric_diggory, remus_lupin).
+taught_by(voldemort, mcgonagall).
+sibling(george_weasley, ginny_weasley).
+ally(ron_weasley, neville_longbottom).
+defeat_voldemort(harry_potter).
+taught_by(bill_weasley, trelawney).
+brave(george_weasley).
+mutual_friend(ron_weasley, hermione_granger, neville_longbottom).
+taught_by(draco_malfoy, quirrell).
+wizard(draco_malfoy).
+ally(ron_weasley, harry_potter).
+taught_by(arthur_weasley, slughorn).
+mutual_friend(draco_malfoy, draco_malfoy, goyle).
+brave(bill_weasley).
+mutual_friend(sirius_black, hermione_granger, remus_lupin).
+brothers(george_weasley, ron_weasley).
+taught_by(voldemort, trelawney).
+taught_by(fred_weasley, hagrid).
+daughter(ginny_weasley, molly_weasley).
+casts_spells(peter_pettigrew).
+sibling(fred_weasley, george_weasley).
+wizard(neville_longbottom).
+mutual_friend(hermione_granger, fred_weasley, luna_lovegood).
+wizard(cedric_diggory).
+child(fred_weasley, arthur_weasley).
+mutual_friend(fred_weasley, fred_weasley, bill_weasley).
+taught_by(bill_weasley, quirrell).
+taught_by(ron_weasley, lockhart).
+child(dudley_dursley, vernon_dursley).
+sibling(ginny_weasley, ron_weasley).
+wizard(ron_weasley).
+wizard(arthur_weasley).
+wizard(george_weasley).
+taught_by(draco_malfoy, severus_snape).
+taught_by(crabbe, lockhart).
+ally(hermione_granger, hermione_granger).
+taught_by(neville_longbottom, trelawney).
+ally(neville_longbottom, harry_potter).
+son(george_weasley, molly_weasley).
+must_find_date_yule_ball(remus_lupin).
+mother(lily_potter, harry_potter).
+mutual_friend(hermione_granger, ron_weasley, luna_lovegood).
+sibling(fred_weasley, ron_weasley).
+casts_spells(draco_malfoy).
+taught_by(george_weasley, remus_lupin).
+taught_by(neville_longbottom, remus_lupin).
+taught_by(goyle, trelawney).
+mutual_friend(fred_weasley, hermione_granger, neville_longbottom).
+friend(hermione_granger, luna_lovegood).
+taught_by(fred_weasley, lockhart).
+witch(hermione_granger).
+brothers(fred_weasley, ron_weasley).
+mutual_friend(ron_weasley, ron_weasley, remus_lupin).
+taught_by(cedric_diggory, severus_snape).
+taught_by(draco_malfoy, hagrid).
+must_be_asked_yule_ball(tonks).
+mutual_friend(ron_weasley, ron_weasley, luna_lovegood).
+mutual_friend(fred_weasley, hermione_granger, luna_lovegood).
+must_be_asked_yule_ball(ginny_weasley).
+sibling(fred_weasley, fred_weasley).
+sibling(lucius_malfoy, lucius_malfoy).
+taught_by(goyle, hagrid).
+taught_by(peter_pettigrew, dumbledore).
+taught_by(bill_weasley, dumbledore).
+taught_by(charlie_weasley, severus_snape).
+taught_by(fred_weasley, umbridge).
+wizard(goyle).
+mutual_friend(hermione_granger, ron_weasley, fred_weasley).
+mutual_friend(hermione_granger, ron_weasley, dumbledore).
+mutual_friend(fred_weasley, ron_weasley, bill_weasley).
+mutual_friend(fred_weasley, fred_weasley, neville_longbottom).
+taught_by(bill_weasley, remus_lupin).
+casts_spells(harry_potter).
+mutual_friend(george_weasley, fred_weasley, luna_lovegood).
+taught_by(bill_weasley, mcgonagall).
+sibling(ron_weasley, ginny_weasley).
+child(lucius_malfoy, draco_malfoy).
+taught_by(harry_potter, umbridge).
+taught_by(crabbe, dumbledore).
+taught_by(crabbe, slughorn).
+father(arthur_weasley, george_weasley).
+wizard(harry_potter).
+taught_by(arthur_weasley, dumbledore).
+sibling(ron_weasley, fred_weasley).
+brave(neville_longbottom).
+taught_by(charlie_weasley, remus_lupin).
+ally(neville_longbottom, hermione_granger).
+mutual_friend(ron_weasley, luna_lovegood, neville_longbottom).
+father(arthur_weasley, ron_weasley).
+taught_by(lucius_malfoy, remus_lupin).
+taught_by(draco_malfoy, dumbledore).
+taught_by(draco_malfoy, lockhart).
+taught_by(ron_weasley, hagrid).
+friend(george_weasley, neville_longbottom).
+taught_by(peter_pettigrew, quirrell).
+sibling(george_weasley, george_weasley).
+taught_by(voldemort, slughorn).
+taught_by(arthur_weasley, severus_snape).
+ally(dumbledore, dumbledore).
+taught_by(voldemort, umbridge).
+job_terminated(remus_lupin).
+must_be_asked_yule_ball(mcgonagall).
+mutual_friend(hermione_granger, fred_weasley, neville_longbottom).
+casts_spells(arthur_weasley).
+death_eater(lucius_malfoy).
+casts_spells(charlie_weasley).
+mutual_friend(george_weasley, ron_weasley, bill_weasley).
+casts_spells(goyle).
+mutual_friend(hermione_granger, hermione_granger, remus_lupin).
+taught_by(draco_malfoy, trelawney).
+casts_spells(bill_weasley).
+father(vernon_dursley, dudley_dursley).
+mutual_friend(fred_weasley, george_weasley, neville_longbottom).
+mutual_friend(george_weasley, hermione_granger, luna_lovegood).
+taught_by(goyle, umbridge).
+must_be_asked_yule_ball(hermione_granger).
+mutual_friend(luna_lovegood, george_weasley, neville_longbottom).
+seeker(harry_potter).
+brave(fred_weasley).
+taught_by(lucius_malfoy, slughorn).
+brothers(george_weasley, george_weasley).
+taught_by(harry_potter, lockhart).
+mutual_friend(hermione_granger, fred_weasley, bill_weasley).
+taught_by(charlie_weasley, trelawney).
+brave(charlie_weasley).
+taught_by(voldemort, remus_lupin).
+brothers(dudley_dursley, dudley_dursley).
+taught_by(lucius_malfoy, dumbledore).
+mother(molly_weasley, george_weasley).
+taught_by(cedric_diggory, quirrell).
+mutual_friend(ron_weasley, george_weasley, neville_longbottom).
+father(draco_malfoy, lucius_malfoy).
+mother(petunia_dursley, dudley_dursley).
+taught_by(lucius_malfoy, mcgonagall).
+taught_by(lucius_malfoy, hagrid).
+taught_by(lucius_malfoy, severus_snape).
+father(james_potter, harry_potter).
+taught_by(george_weasley, quirrell).
+chosen_one(harry_potter).
+witch(luna_lovegood).
+mutual_friend(luna_lovegood, fred_weasley, neville_longbottom).
+ally(neville_longbottom, neville_longbottom).
+taught_by(peter_pettigrew, trelawney).
+order_of_phoenix(ron_weasley).
+taught_by(goyle, slughorn).
+mutual_friend(ron_weasley, sirius_black, remus_lupin).
+slytherin_gone_bad(lucius_malfoy).
+sibling(luna_lovegood, luna_lovegood).
+taught_by(bill_weasley, umbridge).
+taught_by(goyle, remus_lupin).
+taught_by(fred_weasley, trelawney).
+mutual_friend(fred_weasley, ron_weasley, neville_longbottom).
+taught_by(ron_weasley, quirrell).
+mutual_friend(george_weasley, george_weasley, bill_weasley).
+mutual_friend(luna_lovegood, luna_lovegood, neville_longbottom).
+taught_by(charlie_weasley, hagrid).
+taught_by(draco_malfoy, mcgonagall).
+mutual_friend(hermione_granger, ron_weasley, neville_longbottom).
+mutual_friend(george_weasley, george_weasley, neville_longbottom).
+mother(molly_weasley, fred_weasley).
+taught_by(arthur_weasley, umbridge).
+mutual_friend(ron_weasley, george_weasley, luna_lovegood).
+wizard(charlie_weasley).
+mutual_friend(ron_weasley, ron_weasley, george_weasley).
+brothers(ron_weasley, george_weasley).
+must_find_date_yule_ball(dumbledore).
+mutual_friend(george_weasley, george_weasley, luna_lovegood).
+mutual_friend(ron_weasley, fred_weasley, luna_lovegood).
+taught_by(voldemort, hagrid).
+son(ron_weasley, arthur_weasley).
+mutual_friend(hermione_granger, george_weasley, bill_weasley).
+mutual_friend(fred_weasley, fred_weasley, george_weasley).
+job_terminated(lockhart).
+mutual_friend(george_weasley, hermione_granger, bill_weasley).
+taught_by(george_weasley, dumbledore).
+taught_by(harry_potter, quirrell).
+son(ron_weasley, molly_weasley).
+taught_by(goyle, mcgonagall).
+taught_by(arthur_weasley, quirrell).
+taught_by(harry_potter, hagrid).
+taught_by(arthur_weasley, mcgonagall).
+witch(molly_weasley).
+taught_by(charlie_weasley, mcgonagall).
+daughter(luna_lovegood, xenophilius_lovegood).

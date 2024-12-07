@@ -1,0 +1,100 @@
+order_of_phoenix(Z).
+mutual_friend(_EX5, _EX4, Z).
+father(_EX3, _EX6).
+mutual_friend(ron_weasley, _EX1, X).
+defeat_voldemort(X).
+taught_by(Z, _EX6).
+defeat_voldemort(_EX3).
+taught_by(_EX6, trelawney).
+ally(_EX5, harry_potter).
+taught_by(_EX0, Z).
+must_find_date_yule_ball(_EX5).
+ally(_EX4, _EX5).
+mutual_friend(_EX0, _EX3, bill_weasley).
+wizard(_EX1).
+mutual_friend(_EX5, hermione_granger, bill_weasley).
+child(Y, james_potter).
+taught_by(_EX1, _EX4).
+sibling(fred_weasley, _EX5).
+casts_spells(Y).
+slytherin_gone_bad(X).
+sibling(_EX6, _EX6).
+son(dudley_dursley, _EX1).
+taught_by(lucius_malfoy, _EX5).
+taught_by(_EX6, Y).
+taught_by(fred_weasley, X).
+mutual_friend(_EX0, ron_weasley, _EX5).
+taught_by(_EX5, lockhart).
+brave(_EX0).
+taught_by(_EX5, umbridge).
+child(_EX1, _EX2).
+mutual_friend(_EX1, _EX3, luna_lovegood).
+mutual_friend(_EX0, fred_weasley, bill_weasley).
+taught_by(peter_pettigrew, Y).
+taught_by(Y, _EX5).
+taught_by(fred_weasley, dumbledore).
+defeat_voldemort(_EX2).
+ally(_EX5, _EX5).
+son(_EX0, _EX2).
+mutual_friend(Y, _EX6, george_weasley).
+taught_by(neville_longbottom, Y).
+taught_by(lucius_malfoy, Z).
+mutual_friend(_EX4, _EX4, _EX0).
+taught_by(Z, hagrid).
+mutual_friend(george_weasley, Y, _EX1).
+taught_by(_EX4, _EX0).
+mutual_friend(_EX4, _EX4, crabbe).
+taught_by(_EX1, _EX0).
+ally(dumbledore, ron_weasley).
+sibling(X, _EX3).
+mother(molly_weasley, george_weasley).
+must_find_date_yule_ball(_EX0).
+taught_by(draco_malfoy, _EX5).
+sibling(george_weasley, ron_weasley).
+brave(Y).
+love(_EX1, madame_maxime).
+sibling(_EX2, _EX2).
+taught_by(_EX2, remus_lupin).
+wizard(_EX4).
+must_be_asked_yule_ball(Z).
+ally(X, _EX2).
+witch(_EX4).
+mutual_friend(_EX0, _EX0, luna_lovegood).
+casts_spells(Z).
+brave(hermione_granger).
+ally(_EX2, Z).
+taught_by(_EX4, _EX3).
+taught_by(_EX6, _EX4).
+taught_by(_EX4, Z).
+taught_by(arthur_weasley, _EX6).
+mutual_friend(_EX0, _EX0, neville_longbottom).
+taught_by(_EX1, _EX5).
+must_be_asked_yule_ball(Y).
+mutual_friend(hermione_granger, george_weasley, _EX1).
+ally(_EX4, _EX2).
+friend(ron_weasley, neville_longbottom).
+taught_by(peter_pettigrew, slughorn).
+mutual_friend(ron_weasley, fred_weasley, neville_longbottom).
+taught_by(Y, trelawney).
+mutual_friend(_EX2, _EX2, _EX5).
+unforgivable_curses(crucio, Y, imperio).
+mutual_friend(ron_weasley, Z, _EX0).
+mutual_friend(_EX0, Y, X).
+mutual_friend(Y, fred_weasley, _EX3).
+must_find_date_yule_ball(ron_weasley).
+casts_spells(lucius_malfoy).
+mutual_friend(_EX3, _EX0, neville_longbottom).
+taught_by(cedric_diggory, _EX1).
+mutual_friend(ron_weasley, luna_lovegood, _EX2).
+taught_by(_EX4, lockhart).
+taught_by(_EX3, quirrell).
+must_be_asked_yule_ball(_EX6).
+mutual_friend(george_weasley, _EX5, neville_longbottom).
+mutual_friend(_EX1, hermione_granger, _EX2).
+wizard(_EX5).
+unforgivable_curses(_EX4, Z, _EX5).
+child(X, _EX3).
+ally(Z, Z).
+taught_by(Y, _EX6).
+job_terminated(quirrell).
+defeat_voldemort(Z).

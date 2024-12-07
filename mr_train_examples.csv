@@ -1,0 +1,3225 @@
+goal	rule	score
+parent(X, harry_potter)	parent(james_potter, harry_potter)	1
+friend(hermione_granger, Y)	friend(hermione_granger, fred_weasley)	1
+friend(X, _EX4)	friend(hermione_granger, dumbledore)	1
+friend(_EX2, X)	friend(ron_weasley, fred_weasley)	1
+teacher(_EX4, X)	teacher(trelawney, divination)	1
+house(Z, gryffindor)	house(ginny_weasley, gryffindor)	1
+house(_EX0, X)	house(ginny_weasley, gryffindor)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, mcgonagall)	1
+male(_EX6)	male(harry_potter)	1
+house(Z, X)	house(cho_chang, ravenclaw)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, severus_snape)	1
+house(Z, gryffindor)	house(bill_weasley, gryffindor)	1
+at(X, _EX6)	at(restricted_section, book_of_monsters)	1
+teacher(_EX6, X)	teacher(mcgonagall, transfiguration)	1
+house(_EX6, X)	house(voldemort, slytherin)	1
+teacher(_EX5, X)	teacher(lockhart, defense_dark_arts)	1
+height(Y, tall)	height(madame_maxime, tall)	1
+must_find_date_yule_ball(Y)	must_find_date_yule_ball(X) :- at(Y, X), male(X)	1
+friend(fred_weasley, _EX2)	friend(fred_weasley, luna_lovegood)	1
+friend(X, _EX5)	friend(draco_malfoy, crabbe)	1
+enemy(_EX1, draco_malfoy)	enemy(neville_longbottom, draco_malfoy)	1
+wizard(Z)	wizard(X) :- house(X, Y), male(X)	1
+taught_by(_EX2, X)	taught_by(harry_potter, remus_lupin)	1
+friend(ron_weasley, dumbledore)	friend(ron_weasley, dumbledore)	1
+friend(_EX3, Z)	friend(draco_malfoy, goyle)	1
+friend(X, george_weasley)	friend(fred_weasley, george_weasley)	1
+taught_by(_EX1, _EX2)	taught_by(ron_weasley, slughorn)	1
+parent(Y, X)	parent(vernon_dursley, dudley_dursley)	1
+teacher(umbridge, X)	teacher(umbridge, defense_dark_arts)	1
+friend(_EX4, X)	friend(hermione_granger, remus_lupin)	1
+house(X, Y)	house(hermione_granger, gryffindor)	1
+house(Z, gryffindor)	house(arthur_weasley, gryffindor)	1
+taught_by(_EX2, X)	taught_by(harry_potter, flitwick)	1
+parent(_EX4, X)	parent(lily_potter, harry_potter)	1
+taught_by(_EX1, _EX2)	taught_by(ron_weasley, remus_lupin)	1
+friend(hermione_granger, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+male(Y)	male(voldemort)	1
+teacher(_EX4, X)	teacher(lockhart, defense_dark_arts)	1
+parent(X, Z)	parent(arthur_weasley, ginny_weasley)	1
+house(_EX6, X)	house(luna_lovegood, ravenclaw)	1
+friend(X, _EX5)	friend(fred_weasley, luna_lovegood)	1
+male(_EX3)	male(hagrid)	1
+teacher(_EX6, X)	teacher(trelawney, divination)	1
+taught_by(_EX0, X)	taught_by(harry_potter, mcgonagall)	1
+at(X, _EX6)	at(hogwarts, harry_potter)	1
+friend(_EX6, X)	friend(ron_weasley, remus_lupin)	1
+enemy(_EX6, peter_pettigrew)	enemy(harry_potter, peter_pettigrew)	1
+friend(X, _EX2)	friend(sirius_black, remus_lupin)	1
+friend(Z, X)	friend(hermione_granger, dumbledore)	1
+friend(george_weasley, Z)	friend(george_weasley, bill_weasley)	1
+friend(_EX2, X)	friend(fred_weasley, luna_lovegood)	1
+house(Z, X)	house(george_weasley, gryffindor)	1
+teacher(_EX1, X)	teacher(trelawney, divination)	1
+friend(_EX3, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+house(_EX0, X)	house(neville_longbottom, gryffindor)	1
+male(_EX2)	male(victor_krum)	1
+taught_by(ron_weasley, Z)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+enemy(_EX1, draco_malfoy)	enemy(hermione_granger, draco_malfoy)	1
+parent(X, _EX4)	parent(molly_weasley, ron_weasley)	1
+enemy(_EX6, lucius_malfoy)	enemy(sirius_black, lucius_malfoy)	1
+male(_EX3)	male(dumbledore)	1
+friend(_EX6, X)	friend(fred_weasley, bill_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, slughorn)	1
+mutual_friend(fred_weasley, fred_weasley, Z)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+friend(Y, X)	friend(ron_weasley, fred_weasley)	1
+ally(_EX6, Y)	ally(harry_potter, dumbledore)	1
+teacher(_EX2, X)	teacher(trelawney, divination)	1
+friend(_EX6, X)	friend(george_weasley, luna_lovegood)	1
+male(X)	male(ron_weasley)	1
+male(_EX2)	male(james_potter)	1
+parent(X, _EX2)	parent(petunia_dursley, dudley_dursley)	1
+friend(_EX3, _EX4)	friend(hermione_granger, dumbledore)	1
+friend(X, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(X, Z)	friend(fred_weasley, luna_lovegood)	1
+teacher(_EX3, X)	teacher(lockhart, defense_dark_arts)	1
+friend(_EX0, X)	friend(hermione_granger, neville_longbottom)	1
+friend(_EX3, X)	friend(sirius_black, remus_lupin)	1
+parent(molly_weasley, _EX5)	parent(molly_weasley, fred_weasley)	1
+sibling(dudley_dursley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+teacher(X, Y)	teacher(mcgonagall, transfiguration)	1
+house(goyle, X)	house(goyle, slytherin)	1
+male(_EX6)	male(remus_lupin)	1
+parent(X, _EX2)	parent(arthur_weasley, fred_weasley)	1
+taught_by(_EX0, X)	taught_by(harry_potter, severus_snape)	1
+parent(Y, X)	parent(molly_weasley, fred_weasley)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, trelawney)	1
+parent(X, _EX3)	parent(molly_weasley, ginny_weasley)	1
+male(_EX3)	male(draco_malfoy)	1
+house(X, Y)	house(bellatrix_lestrange, slytherin)	1
+friend(_EX3, Z)	friend(fred_weasley, luna_lovegood)	1
+house(Z, X)	house(ginny_weasley, gryffindor)	1
+taught_by(_EX2, _EX3)	taught_by(ginny_weasley, remus_lupin)	1
+taught_by(_EX2, X)	taught_by(ron_weasley, slughorn)	1
+taught_by(X, _EX5)	taught_by(ginny_weasley, remus_lupin)	1
+friend(_EX1, remus_lupin)	friend(sirius_black, remus_lupin)	1
+enemy(_EX4, voldemort)	enemy(hermione_granger, voldemort)	1
+male(_EX3)	male(fred_weasley)	1
+teacher(_EX1, X)	teacher(lockhart, defense_dark_arts)	1
+mother(_EX5, _EX2)	mother(X, Y) :- female(X), parent(X, Y)	1
+enemy(Y, X)	enemy(harry_potter, draco_malfoy)	1
+friend(Y, X)	friend(hermione_granger, remus_lupin)	1
+friend(X, _EX5)	friend(fred_weasley, george_weasley)	1
+house(molly_weasley, X)	house(molly_weasley, gryffindor)	1
+ally(_EX1, Y)	ally(lucius_malfoy, voldemort)	1
+friend(hermione_granger, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+enemy(ron_weasley, X)	enemy(ron_weasley, voldemort)	1
+parent(_EX4, X)	parent(molly_weasley, ginny_weasley)	1
+height(hagrid, tall)	height(hagrid, tall)	1
+female(hermione_granger)	female(hermione_granger)	1
+house(_EX0, X)	house(fred_weasley, gryffindor)	1
+friend(X, _EX2)	friend(hermione_granger, remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(ginny_weasley, dumbledore)	1
+male(_EX3)	male(dudley_dursley)	1
+taught_by(_EX5, _EX3)	taught_by(ginny_weasley, severus_snape)	1
+teacher(X, Y)	teacher(trelawney, divination)	1
+friend(_EX0, X)	friend(fred_weasley, luna_lovegood)	1
+parent(_EX5, X)	parent(molly_weasley, ginny_weasley)	1
+male(_EX6)	male(goyle)	1
+ally(_EX0, dumbledore)	ally(ron_weasley, dumbledore)	1
+male(_EX3)	male(george_weasley)	1
+friend(hermione_granger, X)	friend(hermione_granger, dumbledore)	1
+taught_by(X, _EX5)	taught_by(ron_weasley, slughorn)	1
+friend(fred_weasley, _EX4)	friend(fred_weasley, bill_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, severus_snape)	1
+taught_by(_EX6, _EX0)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX0, X)	taught_by(harry_potter, remus_lupin)	1
+friend(ron_weasley, X)	friend(ron_weasley, george_weasley)	1
+male(X)	male(neville_longbottom)	1
+friend(X, Y)	friend(hermione_granger, george_weasley)	1
+male(_EX0)	male(dumbledore)	1
+ally(_EX6, Y)	ally(severus_snape, dumbledore)	1
+taught_by(draco_malfoy, _EX0)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+wizard(_EX0)	wizard(X) :- house(X, Y), male(X)	1
+parent(_EX5, X)	parent(molly_weasley, fred_weasley)	1
+teacher(_EX6, X)	teacher(remus_lupin, defense_dark_arts)	1
+parent(X, _EX5)	parent(arthur_weasley, ginny_weasley)	1
+taught_by(Z, slughorn)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, remus_lupin)	1
+friend(X, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, remus_lupin)	1
+male(_EX2)	male(voldemort)	1
+parent(X, _EX3)	parent(arthur_weasley, ron_weasley)	1
+parent(arthur_weasley, X)	parent(arthur_weasley, fred_weasley)	1
+friend(X, Y)	friend(draco_malfoy, goyle)	1
+teacher(mcgonagall, X)	teacher(mcgonagall, transfiguration)	1
+ally(_EX4, _EX1)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+male(_EX2)	male(hagrid)	1
+enemy(Y, X)	enemy(ron_weasley, voldemort)	1
+taught_by(george_weasley, _EX4)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(george_weasley, bill_weasley)	friend(george_weasley, bill_weasley)	1
+friend(_EX3, X)	friend(hermione_granger, george_weasley)	1
+parent(_EX1, fred_weasley)	parent(arthur_weasley, fred_weasley)	1
+brothers(X, _EX5)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+parent(X, _EX3)	parent(vernon_dursley, dudley_dursley)	1
+mutual_friend(X, hermione_granger, luna_lovegood)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, mcgonagall)	1
+house(_EX6, X)	house(ginny_weasley, gryffindor)	1
+friend(Z, george_weasley)	friend(fred_weasley, george_weasley)	1
+parent(X, ginny_weasley)	parent(arthur_weasley, ginny_weasley)	1
+parent(_EX5, X)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(X, Y)	friend(ron_weasley, fred_weasley)	1
+friend(hermione_granger, Y)	friend(hermione_granger, neville_longbottom)	1
+friend(X, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+enemy(_EX4, voldemort)	enemy(ron_weasley, voldemort)	1
+house(Z, X)	house(neville_longbottom, gryffindor)	1
+teacher(X, Y)	teacher(lockhart, defense_dark_arts)	1
+parent(X, _EX3)	parent(arthur_weasley, fred_weasley)	1
+house(_EX6, X)	house(lucius_malfoy, slytherin)	1
+friend(X, _EX5)	friend(ron_weasley, dumbledore)	1
+friend(Z, X)	friend(ron_weasley, dumbledore)	1
+friend(_EX3, Z)	friend(fred_weasley, george_weasley)	1
+teacher(_EX2, X)	teacher(remus_lupin, defense_dark_arts)	1
+friend(hermione_granger, Y)	friend(hermione_granger, dumbledore)	1
+ally(_EX1, Y)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+friend(Z, george_weasley)	friend(ron_weasley, george_weasley)	1
+parent(X, _EX5)	parent(molly_weasley, ron_weasley)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, mcgonagall)	1
+friend(X, _EX2)	friend(hermione_granger, fred_weasley)	1
+at(X, _EX6)	at(hogwarts, mcgonagall)	1
+male(_EX5)	male(peter_pettigrew)	1
+house(X, Y)	house(cedric_diggory, hufflepuff)	1
+brothers(X, fred_weasley)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+male(Y)	male(hagrid)	1
+male(Y)	male(bill_weasley)	1
+parent(_EX5, X)	parent(lily_potter, harry_potter)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, mcgonagall)	1
+friend(_EX0, X)	friend(george_weasley, bill_weasley)	1
+enemy(_EX6, umbridge)	enemy(ron_weasley, umbridge)	1
+female(_EX5)	female(mcgonagall)	1
+enemy(Y, X)	enemy(harry_potter, voldemort)	1
+enemy(dumbledore, X)	enemy(dumbledore, voldemort)	1
+parent(X, harry_potter)	parent(lily_potter, harry_potter)	1
+male(_EX0)	male(george_weasley)	1
+witch(X)	witch(X) :- house(X, Y), female(X)	1
+parent(X, _EX5)	parent(arthur_weasley, george_weasley)	1
+at(X, sirius_black)	at(azkaban, sirius_black)	1
+friend(X, Y)	friend(draco_malfoy, crabbe)	1
+male(draco_malfoy)	male(draco_malfoy)	1
+taught_by(X, _EX5)	taught_by(harry_potter, flitwick)	1
+taught_by(_EX1, remus_lupin)	taught_by(harry_potter, remus_lupin)	1
+house(X, Y)	house(crabbe, slytherin)	1
+enemy(_EX1, bellatrix_lestrange)	enemy(harry_potter, bellatrix_lestrange)	1
+teacher(lockhart, X)	teacher(lockhart, defense_dark_arts)	1
+male(peter_pettigrew)	male(peter_pettigrew)	1
+taught_by(_EX1, _EX2)	taught_by(ginny_weasley, slughorn)	1
+parent(petunia_dursley, _EX2)	parent(petunia_dursley, dudley_dursley)	1
+friend(_EX6, _EX4)	friend(fred_weasley, george_weasley)	1
+friend(_EX0, bill_weasley)	friend(george_weasley, bill_weasley)	1
+friend(_EX4, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+male(_EX2)	male(draco_malfoy)	1
+friend(_EX4, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(X, Z)	friend(george_weasley, luna_lovegood)	1
+taught_by(_EX2, _EX4)	taught_by(ron_weasley, remus_lupin)	1
+male(Y)	male(peter_pettigrew)	1
+parent(X, Z)	parent(vernon_dursley, dudley_dursley)	1
+friend(sirius_black, remus_lupin)	friend(sirius_black, remus_lupin)	1
+teacher(_EX0, X)	teacher(remus_lupin, defense_dark_arts)	1
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+male(_EX2)	male(fred_weasley)	1
+mutual_friend(_EX6, _EX6, _EX4)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+at(X, dumbledore)	at(hogwarts, dumbledore)	1
+parent(X, dudley_dursley)	parent(petunia_dursley, dudley_dursley)	1
+enemy(_EX1, X)	enemy(harry_potter, voldemort)	1
+friend(_EX4, X)	friend(hermione_granger, fred_weasley)	1
+friend(X, _EX6)	friend(ron_weasley, fred_weasley)	1
+witch(_EX0)	witch(X) :- house(X, Y), female(X)	1
+house(_EX6, X)	house(neville_longbottom, gryffindor)	1
+friend(Z, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+sibling(harry_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+teacher(Z, X)	teacher(severus_snape, potions)	1
+at(X, _EX6)	at(hogwarts, ron_weasley)	1
+friend(X, _EX4)	friend(hermione_granger, george_weasley)	1
+friend(X, Z)	friend(ron_weasley, george_weasley)	1
+parent(Y, X)	parent(petunia_dursley, dudley_dursley)	1
+friend(_EX4, X)	friend(george_weasley, bill_weasley)	1
+friend(_EX3, Z)	friend(george_weasley, luna_lovegood)	1
+enemy(_EX4, bellatrix_lestrange)	enemy(harry_potter, bellatrix_lestrange)	1
+enemy(ron_weasley, X)	enemy(ron_weasley, draco_malfoy)	1
+friend(_EX4, X)	friend(fred_weasley, george_weasley)	1
+friend(_EX4, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+friend(luna_lovegood, X)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX6, _EX4)	friend(luna_lovegood, neville_longbottom)	1
+parent(arthur_weasley, ginny_weasley)	parent(arthur_weasley, ginny_weasley)	1
+male(_EX2)	male(arthur_weasley)	1
+friend(_EX6, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+taught_by(_EX5, _EX3)	taught_by(ron_weasley, slughorn)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, slughorn)	1
+friend(X, _EX4)	friend(fred_weasley, bill_weasley)	1
+friend(Z, X)	friend(ron_weasley, fred_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+male(_EX3)	male(harry_potter)	1
+taught_by(_EX2, _EX3)	taught_by(ron_weasley, severus_snape)	1
+friend(X, _EX4)	friend(george_weasley, luna_lovegood)	1
+parent(X, _EX1)	parent(draco_malfoy, lucius_malfoy)	1
+male(Y)	male(harry_potter)	1
+taught_by(X, _EX5)	taught_by(ron_weasley, severus_snape)	1
+house(_EX2, X)	house(neville_longbottom, gryffindor)	1
+parent(X, ron_weasley)	parent(molly_weasley, ron_weasley)	1
+friend(hermione_granger, _EX6)	friend(hermione_granger, remus_lupin)	1
+friend(X, _EX6)	friend(draco_malfoy, crabbe)	1
+male(_EX0)	male(crabbe)	1
+male(Y)	male(dudley_dursley)	1
+mutual_friend(_EX1, _EX6, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+friend(X, _EX6)	friend(ron_weasley, remus_lupin)	1
+sibling(george_weasley, george_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+friend(fred_weasley, _EX5)	friend(fred_weasley, bill_weasley)	1
+house(_EX2, X)	house(cedric_diggory, hufflepuff)	1
+taught_by(_EX2, X)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+teacher(_EX1, X)	teacher(hagrid, magical_creatures)	1
+male(_EX6)	male(voldemort)	1
+mutual_friend(george_weasley, luna_lovegood, Z)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+house(_EX1, X)	house(cedric_diggory, hufflepuff)	1
+teacher(Z, X)	teacher(remus_lupin, defense_dark_arts)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, mcgonagall)	1
+male(Y)	male(george_weasley)	1
+enemy(_EX1, X)	enemy(sirius_black, lucius_malfoy)	1
+friend(_EX2, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+friend(_EX4, X)	friend(luna_lovegood, neville_longbottom)	1
+parent(petunia_dursley, _EX5)	parent(petunia_dursley, dudley_dursley)	1
+male(_EX6)	male(hagrid)	1
+parent(vernon_dursley, dudley_dursley)	parent(vernon_dursley, dudley_dursley)	1
+friend(_EX0, X)	friend(ron_weasley, george_weasley)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, remus_lupin)	1
+house(cedric_diggory, X)	house(cedric_diggory, hufflepuff)	1
+friend(Y, george_weasley)	friend(hermione_granger, george_weasley)	1
+house(Z, X)	house(charlie_weasley, gryffindor)	1
+teacher(_EX6, X)	teacher(umbridge, defense_dark_arts)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, trelawney)	1
+parent(molly_weasley, _EX2)	parent(molly_weasley, ron_weasley)	1
+house(_EX6, X)	house(fred_weasley, gryffindor)	1
+wizard(_EX5)	wizard(X) :- house(X, Y), male(X)	1
+taught_by(_EX2, X)	taught_by(ginny_weasley, slughorn)	1
+brothers(_EX1, _EX1)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+friend(_EX0, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(Z, X)	friend(draco_malfoy, crabbe)	1
+female(luna_lovegood)	female(luna_lovegood)	1
+house(X, Y)	house(charlie_weasley, gryffindor)	1
+ally(_EX4, _EX1)	ally(harry_potter, dumbledore)	1
+friend(X, _EX5)	friend(ron_weasley, remus_lupin)	1
+teacher(quirrell, X)	teacher(quirrell, defense_dark_arts)	1
+friend(X, _EX6)	friend(fred_weasley, luna_lovegood)	1
+male(_EX5)	male(sirius_black)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, flitwick)	1
+friend(george_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+ally(_EX6, Y)	ally(lucius_malfoy, voldemort)	1
+parent(X, _EX1)	parent(james_potter, harry_potter)	1
+house(Z, X)	house(molly_weasley, gryffindor)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, dumbledore)	1
+friend(ron_weasley, X)	friend(ron_weasley, remus_lupin)	1
+friend(luna_lovegood, _EX6)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX2, X)	friend(ron_weasley, remus_lupin)	1
+house(X, Y)	house(molly_weasley, gryffindor)	1
+house(X, Y)	house(voldemort, slytherin)	1
+taught_by(X, _EX5)	taught_by(ginny_weasley, slughorn)	1
+parent(arthur_weasley, _EX5)	parent(arthur_weasley, george_weasley)	1
+friend(_EX4, X)	friend(hermione_granger, george_weasley)	1
+teacher(_EX2, X)	teacher(umbridge, defense_dark_arts)	1
+friend(fred_weasley, _EX6)	friend(fred_weasley, luna_lovegood)	1
+friend(X, bill_weasley)	friend(george_weasley, bill_weasley)	1
+friend(Z, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+sibling(Z, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+friend(X, _EX5)	friend(fred_weasley, bill_weasley)	1
+friend(Z, X)	friend(fred_weasley, bill_weasley)	1
+friend(_EX3, _EX4)	friend(hermione_granger, remus_lupin)	1
+friend(X, remus_lupin)	friend(sirius_black, remus_lupin)	1
+friend(X, _EX5)	friend(george_weasley, luna_lovegood)	1
+parent(X, _EX5)	parent(molly_weasley, fred_weasley)	1
+teacher(Z, X)	teacher(slughorn, potions)	1
+friend(Z, X)	friend(george_weasley, luna_lovegood)	1
+friend(Y, X)	friend(sirius_black, remus_lupin)	1
+friend(_EX4, X)	friend(draco_malfoy, goyle)	1
+friend(_EX3, george_weasley)	friend(fred_weasley, george_weasley)	1
+friend(_EX0, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+teacher(_EX0, X)	teacher(severus_snape, potions)	1
+male(_EX2)	male(peter_pettigrew)	1
+house(_EX2, X)	house(bellatrix_lestrange, slytherin)	1
+friend(george_weasley, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, dumbledore)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, remus_lupin)	1
+friend(_EX0, X)	friend(hermione_granger, remus_lupin)	1
+ally(_EX1, Y)	ally(mcgonagall, dumbledore)	1
+friend(george_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX2, X)	friend(george_weasley, luna_lovegood)	1
+friend(X, Z)	friend(hermione_granger, george_weasley)	1
+taught_by(_EX0, X)	taught_by(harry_potter, dumbledore)	1
+house(Z, gryffindor)	house(hermione_granger, gryffindor)	1
+house(_EX0, X)	house(hermione_granger, gryffindor)	1
+male(_EX3)	male(vernon_dursley)	1
+teacher(_EX4, X)	teacher(dumbledore, headmaster)	1
+male(Y)	male(crabbe)	1
+friend(george_weasley, _EX4)	friend(george_weasley, bill_weasley)	1
+male(Y)	male(vernon_dursley)	1
+taught_by(crabbe, X)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+house(_EX0, X)	house(cedric_diggory, hufflepuff)	1
+house(bellatrix_lestrange, X)	house(bellatrix_lestrange, slytherin)	1
+friend(_EX6, X)	friend(hermione_granger, fred_weasley)	1
+friend(X, Z)	friend(draco_malfoy, goyle)	1
+son(Z, arthur_weasley)	son(X, Y) :- male(X), parent(Y, X)	1
+taught_by(_EX2, _EX0)	taught_by(ron_weasley, severus_snape)	1
+male(_EX5)	male(goyle)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, slughorn)	1
+male(_EX6)	male(dudley_dursley)	1
+male(X)	male(lucius_malfoy)	1
+male(X)	male(dumbledore)	1
+ally(_EX6, Y)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+house(_EX6, X)	house(molly_weasley, gryffindor)	1
+parent(X, Z)	parent(petunia_dursley, dudley_dursley)	1
+friend(Y, X)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX6, X)	friend(george_weasley, bill_weasley)	1
+friend(_EX3, Z)	friend(hermione_granger, george_weasley)	1
+house(X, Y)	house(cho_chang, ravenclaw)	1
+enemy(_EX1, peter_pettigrew)	enemy(harry_potter, peter_pettigrew)	1
+friend(_EX6, X)	friend(fred_weasley, george_weasley)	1
+friend(X, Y)	friend(ron_weasley, dumbledore)	1
+male(_EX6)	male(george_weasley)	1
+teacher(X, Y)	teacher(umbridge, defense_dark_arts)	1
+friend(_EX2, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+parent(X, _EX4)	parent(arthur_weasley, fred_weasley)	1
+taught_by(_EX2, quirrell)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+male(_EX2)	male(harry_potter)	1
+friend(_EX4, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+ally(_EX4, _EX1)	ally(lucius_malfoy, voldemort)	1
+friend(hermione_granger, X)	friend(hermione_granger, george_weasley)	1
+friend(_EX6, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, mcgonagall)	1
+friend(_EX2, X)	friend(draco_malfoy, crabbe)	1
+friend(X, Y)	friend(fred_weasley, luna_lovegood)	1
+male(_EX2)	male(dudley_dursley)	1
+parent(X, Z)	parent(arthur_weasley, fred_weasley)	1
+taught_by(ron_weasley, Z)	taught_by(ron_weasley, severus_snape)	1
+taught_by(_EX0, X)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+parent(Y, X)	parent(lily_potter, harry_potter)	1
+male(_EX3)	male(goyle)	1
+male(_EX3)	male(voldemort)	1
+enemy(_EX4, lucius_malfoy)	enemy(sirius_black, lucius_malfoy)	1
+taught_by(X, _EX5)	taught_by(ron_weasley, dumbledore)	1
+male(Y)	male(goyle)	1
+enemy(_EX0, voldemort)	enemy(ron_weasley, voldemort)	1
+house(_EX2, X)	house(molly_weasley, gryffindor)	1
+male(_EX0)	male(hagrid)	1
+house(_EX2, X)	house(voldemort, slytherin)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, flitwick)	1
+parent(X, _EX4)	parent(draco_malfoy, lucius_malfoy)	1
+at(X, _EX6)	at(hogwarts, ginny_weasley)	1
+house(_EX1, X)	house(voldemort, slytherin)	1
+friend(_EX3, X)	friend(hermione_granger, neville_longbottom)	1
+friend(_EX3, _EX6)	friend(sirius_black, remus_lupin)	1
+friend(X, _EX4)	friend(draco_malfoy, goyle)	1
+taught_by(_EX1, _EX2)	taught_by(ron_weasley, severus_snape)	1
+friend(_EX6, X)	friend(luna_lovegood, neville_longbottom)	1
+enemy(Y, X)	enemy(dumbledore, voldemort)	1
+teacher(_EX2, X)	teacher(lockhart, defense_dark_arts)	1
+friend(_EX4, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+teacher(_EX1, X)	teacher(quirrell, defense_dark_arts)	1
+parent(_EX4, X)	parent(molly_weasley, george_weasley)	1
+mutual_friend(fred_weasley, _EX0, Z)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+love(Y, madame_maxime)	love(X, Y) :- height(X, tall), height(Y, tall)	1
+female(molly_weasley)	female(molly_weasley)	1
+parent(_EX4, X)	parent(vernon_dursley, dudley_dursley)	1
+friend(_EX3, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(_EX2, X)	friend(hermione_granger, remus_lupin)	1
+friend(_EX3, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+enemy(_EX4, voldemort)	enemy(dumbledore, voldemort)	1
+friend(_EX4, X)	friend(hermione_granger, dumbledore)	1
+taught_by(_EX1, remus_lupin)	taught_by(ron_weasley, remus_lupin)	1
+house(X, Y)	house(george_weasley, gryffindor)	1
+friend(fred_weasley, _EX5)	friend(fred_weasley, luna_lovegood)	1
+friend(fred_weasley, _EX4)	friend(fred_weasley, george_weasley)	1
+must_find_date_yule_ball(sirius_black)	must_find_date_yule_ball(X) :- at(Y, X), male(X)	1
+teacher(_EX5, X)	teacher(mcgonagall, transfiguration)	1
+taught_by(_EX2, _EX4)	taught_by(ginny_weasley, remus_lupin)	1
+male(X)	male(arthur_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, flitwick)	1
+male(_EX6)	male(bill_weasley)	1
+friend(luna_lovegood, _EX5)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX3, _EX6)	friend(hermione_granger, neville_longbottom)	1
+friend(fred_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+enemy(_EX1, voldemort)	enemy(hermione_granger, voldemort)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, severus_snape)	1
+taught_by(X, _EX5)	taught_by(harry_potter, severus_snape)	1
+friend(_EX6, X)	friend(hermione_granger, remus_lupin)	1
+parent(X, _EX4)	parent(james_potter, harry_potter)	1
+taught_by(_EX2, _EX4)	taught_by(ginny_weasley, dumbledore)	1
+friend(fred_weasley, _EX2)	friend(fred_weasley, george_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(ginny_weasley, slughorn)	1
+house(_EX2, X)	house(crabbe, slytherin)	1
+male(_EX6)	male(james_potter)	1
+house(Z, X)	house(peter_pettigrew, gryffindor)	1
+house(_EX1, X)	house(crabbe, slytherin)	1
+male(_EX2)	male(sirius_black)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, severus_snape)	1
+taught_by(_EX6, _EX0)	taught_by(ginny_weasley, remus_lupin)	1
+friend(luna_lovegood, neville_longbottom)	friend(luna_lovegood, neville_longbottom)	1
+house(Z, X)	house(ron_weasley, gryffindor)	1
+friend(fred_weasley, _EX6)	friend(fred_weasley, bill_weasley)	1
+friend(X, Y)	friend(george_weasley, bill_weasley)	1
+house(_EX1, X)	house(cho_chang, ravenclaw)	1
+friend(X, neville_longbottom)	friend(luna_lovegood, neville_longbottom)	1
+house(X, Y)	house(peter_pettigrew, gryffindor)	1
+enemy(_EX6, voldemort)	enemy(ron_weasley, voldemort)	1
+male(_EX0)	male(draco_malfoy)	1
+taught_by(_EX6, _EX0)	taught_by(ron_weasley, severus_snape)	1
+male(X)	male(cedric_diggory)	1
+house(Z, X)	house(hermione_granger, gryffindor)	1
+teacher(_EX4, X)	teacher(mcgonagall, transfiguration)	1
+house(X, Y)	house(ron_weasley, gryffindor)	1
+child(X, _EX4)	child(X, Y) :- parent(Y, X)	1
+ally(_EX1, Y)	ally(severus_snape, dumbledore)	1
+male(_EX2)	male(crabbe)	1
+male(_EX2)	male(vernon_dursley)	1
+female(_EX3)	female(petunia_dursley)	1
+friend(Y, X)	friend(hermione_granger, fred_weasley)	1
+taught_by(_EX1, remus_lupin)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+parent(X, _EX5)	parent(petunia_dursley, dudley_dursley)	1
+male(james_potter)	male(james_potter)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, remus_lupin)	1
+parent(lily_potter, _EX2)	parent(lily_potter, harry_potter)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, dumbledore)	1
+parent(xenophilius_lovegood, X)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(Z, X)	friend(fred_weasley, luna_lovegood)	1
+enemy(Y, X)	enemy(harry_potter, peter_pettigrew)	1
+male(X)	male(sirius_black)	1
+friend(Y, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+sibling(fred_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+female(_EX5)	female(hermione_granger)	1
+male(charlie_weasley)	male(charlie_weasley)	1
+house(luna_lovegood, X)	house(luna_lovegood, ravenclaw)	1
+teacher(X, Y)	teacher(dumbledore, headmaster)	1
+friend(_EX6, george_weasley)	friend(ron_weasley, george_weasley)	1
+house(Z, X)	house(draco_malfoy, slytherin)	1
+female(_EX3)	female(ginny_weasley)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, remus_lupin)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, slughorn)	1
+taught_by(_EX0, X)	taught_by(ron_weasley, dumbledore)	1
+mutual_friend(hermione_granger, george_weasley, Y)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+friend(_EX3, X)	friend(ron_weasley, george_weasley)	1
+male(_EX2)	male(charlie_weasley)	1
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX2, _EX0)	taught_by(ron_weasley, dumbledore)	1
+enemy(_EX1, umbridge)	enemy(ron_weasley, umbridge)	1
+parent(X, _EX5)	parent(arthur_weasley, fred_weasley)	1
+male(bill_weasley)	male(bill_weasley)	1
+parent(_EX4, X)	parent(molly_weasley, fred_weasley)	1
+friend(hermione_granger, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX2, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+parent(X, _EX3)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(_EX1, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+female(_EX5)	female(bellatrix_lestrange)	1
+casts_spells(draco_malfoy)	casts_spells(X) :- wizard(X)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, mcgonagall)	1
+house(_EX6, X)	house(peter_pettigrew, gryffindor)	1
+house(Z, gryffindor)	house(fred_weasley, gryffindor)	1
+house(Z, X)	house(arthur_weasley, gryffindor)	1
+male(_EX2)	male(goyle)	1
+enemy(_EX6, draco_malfoy)	enemy(harry_potter, draco_malfoy)	1
+house(_EX2, X)	house(george_weasley, gryffindor)	1
+male(_EX5)	male(voldemort)	1
+friend(X, crabbe)	friend(draco_malfoy, crabbe)	1
+friend(X, Z)	friend(fred_weasley, george_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, remus_lupin)	1
+friend(hermione_granger, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+friend(ron_weasley, _EX4)	friend(ron_weasley, dumbledore)	1
+taught_by(_EX2, X)	taught_by(harry_potter, dumbledore)	1
+house(_EX1, X)	house(george_weasley, gryffindor)	1
+friend(george_weasley, Z)	friend(george_weasley, luna_lovegood)	1
+house(_EX6, X)	house(ron_weasley, gryffindor)	1
+male(_EX5)	male(hagrid)	1
+friend(george_weasley, _EX2)	friend(george_weasley, bill_weasley)	1
+friend(X, Y)	friend(fred_weasley, bill_weasley)	1
+friend(hermione_granger, george_weasley)	friend(hermione_granger, george_weasley)	1
+friend(hermione_granger, _EX6)	friend(hermione_granger, neville_longbottom)	1
+teacher(_EX0, X)	teacher(umbridge, defense_dark_arts)	1
+house(_EX6, X)	house(hermione_granger, gryffindor)	1
+house(_EX0, X)	house(crabbe, slytherin)	1
+parent(X, _EX2)	parent(james_potter, harry_potter)	1
+friend(X, Y)	friend(george_weasley, luna_lovegood)	1
+parent(Y, X)	parent(arthur_weasley, ron_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(ron_weasley, dumbledore)	1
+parent(molly_weasley, _EX2)	parent(molly_weasley, ginny_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, mcgonagall)	1
+ally(_EX6, Y)	ally(mcgonagall, dumbledore)	1
+friend(fred_weasley, Z)	friend(fred_weasley, bill_weasley)	1
+house(_EX6, X)	house(cedric_diggory, hufflepuff)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, flitwick)	1
+teacher(_EX1, X)	teacher(umbridge, defense_dark_arts)	1
+male(_EX3)	male(ron_weasley)	1
+must_find_date_yule_ball(_EX6)	must_find_date_yule_ball(X) :- at(Y, X), male(X)	1
+friend(_EX6, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+teacher(_EX1, X)	teacher(mcgonagall, transfiguration)	1
+enemy(_EX1, draco_malfoy)	enemy(ron_weasley, draco_malfoy)	1
+teacher(_EX3, X)	teacher(trelawney, divination)	1
+male(fred_weasley)	male(fred_weasley)	1
+friend(_EX6, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX6, X)	friend(hermione_granger, neville_longbottom)	1
+male(remus_lupin)	male(remus_lupin)	1
+house(Z, gryffindor)	house(harry_potter, gryffindor)	1
+friend(_EX6, _EX4)	friend(hermione_granger, dumbledore)	1
+taught_by(_EX2, _EX0)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(X, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+friend(_EX0, X)	friend(hermione_granger, fred_weasley)	1
+friend(_EX2, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+teacher(_EX6, X)	teacher(hagrid, magical_creatures)	1
+male(_EX5)	male(dumbledore)	1
+friend(X, Y)	friend(ron_weasley, george_weasley)	1
+parent(Y, X)	parent(arthur_weasley, fred_weasley)	1
+friend(X, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(_EX4, X)	friend(ron_weasley, dumbledore)	1
+friend(_EX2, X)	friend(ron_weasley, dumbledore)	1
+male(_EX0)	male(bill_weasley)	1
+house(_EX2, X)	house(ron_weasley, gryffindor)	1
+friend(_EX6, X)	friend(hermione_granger, dumbledore)	1
+ally(_EX0, dumbledore)	ally(hermione_granger, dumbledore)	1
+house(_EX1, X)	house(ron_weasley, gryffindor)	1
+wizard(harry_potter)	wizard(X) :- house(X, Y), male(X)	1
+house(Z, X)	house(goyle, slytherin)	1
+female(_EX3)	female(molly_weasley)	1
+parent(X, ron_weasley)	parent(arthur_weasley, ron_weasley)	1
+friend(_EX0, X)	friend(fred_weasley, george_weasley)	1
+house(_EX2, X)	house(ginny_weasley, gryffindor)	1
+teacher(_EX0, X)	teacher(trelawney, divination)	1
+friend(_EX4, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+house(X, Y)	house(goyle, slytherin)	1
+teacher(_EX2, X)	teacher(quirrell, defense_dark_arts)	1
+female(_EX3)	female(fleur_delacour)	1
+friend(Y, X)	friend(draco_malfoy, goyle)	1
+parent(_EX5, X)	parent(arthur_weasley, ron_weasley)	1
+friend(X, _EX2)	friend(draco_malfoy, goyle)	1
+parent(_EX5, X)	parent(molly_weasley, george_weasley)	1
+friend(X, Z)	friend(ron_weasley, dumbledore)	1
+friend(_EX3, _EX4)	friend(hermione_granger, neville_longbottom)	1
+friend(_EX6, _EX4)	friend(sirius_black, remus_lupin)	1
+teacher(_EX2, X)	teacher(hagrid, magical_creatures)	1
+male(_EX5)	male(draco_malfoy)	1
+enemy(_EX0, voldemort)	enemy(hermione_granger, voldemort)	1
+enemy(dumbledore, voldemort)	enemy(dumbledore, voldemort)	1
+wizard(_EX3)	wizard(X) :- house(X, Y), male(X)	1
+friend(_EX2, george_weasley)	friend(hermione_granger, george_weasley)	1
+parent(arthur_weasley, _EX5)	parent(arthur_weasley, ron_weasley)	1
+taught_by(_EX1, _EX2)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+male(_EX5)	male(fred_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(ron_weasley, severus_snape)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, severus_snape)	1
+wizard(Y)	wizard(X) :- house(X, Y), male(X)	1
+height(madame_maxime, tall)	height(madame_maxime, tall)	1
+male(_EX6)	male(vernon_dursley)	1
+friend(_EX0, X)	friend(luna_lovegood, neville_longbottom)	1
+enemy(_EX4, umbridge)	enemy(ron_weasley, umbridge)	1
+taught_by(_EX0, X)	taught_by(harry_potter, slughorn)	1
+male(_EX5)	male(dudley_dursley)	1
+sibling(_EX1, _EX1)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+friend(_EX3, Z)	friend(ron_weasley, dumbledore)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, flitwick)	1
+male(Y)	male(neville_longbottom)	1
+house(_EX2, X)	house(cho_chang, ravenclaw)	1
+mutual_friend(hermione_granger, fred_weasley, _EX6)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+enemy(_EX4, draco_malfoy)	enemy(harry_potter, draco_malfoy)	1
+house(_EX2, X)	house(arthur_weasley, gryffindor)	1
+male(_EX5)	male(george_weasley)	1
+friend(_EX4, X)	friend(sirius_black, remus_lupin)	1
+friend(fred_weasley, X)	friend(fred_weasley, bill_weasley)	1
+parent(X, _EX2)	parent(molly_weasley, george_weasley)	1
+parent(arthur_weasley, _EX5)	parent(arthur_weasley, fred_weasley)	1
+friend(_EX3, X)	friend(draco_malfoy, goyle)	1
+house(Z, gryffindor)	house(charlie_weasley, gryffindor)	1
+sibling(dudley_dursley, dudley_dursley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+enemy(_EX6, umbridge)	enemy(hermione_granger, umbridge)	1
+friend(X, _EX5)	friend(hermione_granger, fred_weasley)	1
+friend(X, _EX6)	friend(ron_weasley, george_weasley)	1
+parent(molly_weasley, _EX6)	parent(molly_weasley, george_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, trelawney)	1
+male(_EX5)	male(arthur_weasley)	1
+mutual_friend(ron_weasley, Z, _EX2)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(arthur_weasley, X)	parent(arthur_weasley, george_weasley)	1
+friend(Y, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+friend(X, _EX4)	friend(ron_weasley, dumbledore)	1
+male(_EX0)	male(harry_potter)	1
+parent(molly_weasley, fred_weasley)	parent(molly_weasley, fred_weasley)	1
+friend(_EX3, X)	friend(ron_weasley, fred_weasley)	1
+friend(X, _EX5)	friend(george_weasley, bill_weasley)	1
+male(Y)	male(fred_weasley)	1
+friend(_EX2, X)	friend(hermione_granger, fred_weasley)	1
+teacher(X, Y)	teacher(hagrid, magical_creatures)	1
+parent(arthur_weasley, Z)	parent(arthur_weasley, george_weasley)	1
+teacher(_EX4, X)	teacher(quirrell, defense_dark_arts)	1
+parent(james_potter, _EX6)	parent(james_potter, harry_potter)	1
+house(_EX0, X)	house(voldemort, slytherin)	1
+taught_by(_EX2, X)	taught_by(ron_weasley, remus_lupin)	1
+house(Z, X)	house(bill_weasley, gryffindor)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, slughorn)	1
+house(_EX1, X)	house(neville_longbottom, gryffindor)	1
+friend(_EX0, X)	friend(hermione_granger, george_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, severus_snape)	1
+friend(_EX4, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+parent(_EX4, X)	parent(molly_weasley, ron_weasley)	1
+friend(george_weasley, _EX5)	friend(george_weasley, luna_lovegood)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, trelawney)	1
+friend(_EX2, X)	friend(george_weasley, bill_weasley)	1
+friend(_EX2, X)	friend(fred_weasley, george_weasley)	1
+taught_by(_EX1, remus_lupin)	taught_by(ginny_weasley, remus_lupin)	1
+friend(X, _EX5)	friend(ron_weasley, george_weasley)	1
+friend(Z, X)	friend(ron_weasley, george_weasley)	1
+teacher(_EX3, X)	teacher(remus_lupin, defense_dark_arts)	1
+friend(_EX3, _EX4)	friend(ron_weasley, fred_weasley)	1
+at(X, ron_weasley)	at(hogwarts, ron_weasley)	1
+friend(_EX0, X)	friend(draco_malfoy, goyle)	1
+sibling(ron_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+male(_EX3)	male(remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, dumbledore)	1
+friend(ron_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, dumbledore)	1
+house(_EX2, X)	house(goyle, slytherin)	1
+friend(ron_weasley, _EX2)	friend(ron_weasley, fred_weasley)	1
+enemy(_EX0, voldemort)	enemy(dumbledore, voldemort)	1
+male(_EX2)	male(ron_weasley)	1
+parent(lily_potter, harry_potter)	parent(lily_potter, harry_potter)	1
+house(_EX1, X)	house(goyle, slytherin)	1
+mutual_friend(fred_weasley, ron_weasley, _EX2)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(_EX4, X)	parent(arthur_weasley, george_weasley)	1
+friend(_EX3, _EX6)	friend(ron_weasley, fred_weasley)	1
+friend(hermione_granger, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+parent(molly_weasley, X)	parent(molly_weasley, george_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(ginny_weasley, slughorn)	1
+taught_by(_EX0, X)	taught_by(harry_potter, flitwick)	1
+friend(Y, X)	friend(hermione_granger, dumbledore)	1
+friend(X, Z)	friend(george_weasley, bill_weasley)	1
+house(_EX0, X)	house(draco_malfoy, slytherin)	1
+friend(_EX3, X)	friend(draco_malfoy, crabbe)	1
+friend(X, _EX5)	friend(luna_lovegood, neville_longbottom)	1
+brave(Z)	brave(X) :- house(X, gryffindor)	1
+parent(_EX5, X)	parent(arthur_weasley, george_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, remus_lupin)	1
+house(Z, X)	house(severus_snape, slytherin)	1
+teacher(_EX3, X)	teacher(quirrell, defense_dark_arts)	1
+friend(X, _EX6)	friend(hermione_granger, remus_lupin)	1
+parent(X, _EX2)	parent(molly_weasley, ginny_weasley)	1
+parent(draco_malfoy, _EX6)	parent(draco_malfoy, lucius_malfoy)	1
+enemy(Y, X)	enemy(hermione_granger, umbridge)	1
+friend(_EX4, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+friend(_EX3, Z)	friend(hermione_granger, fred_weasley)	1
+friend(_EX2, X)	friend(luna_lovegood, neville_longbottom)	1
+parent(molly_weasley, _EX6)	parent(molly_weasley, ginny_weasley)	1
+teacher(Z, X)	teacher(hagrid, magical_creatures)	1
+friend(fred_weasley, Z)	friend(fred_weasley, luna_lovegood)	1
+female(_EX5)	female(umbridge)	1
+house(_EX0, X)	house(cho_chang, ravenclaw)	1
+at(X, _EX6)	at(hogwarts, slughorn)	1
+wizard(voldemort)	wizard(X) :- house(X, Y), male(X)	1
+friend(X, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX6, neville_longbottom)	friend(luna_lovegood, neville_longbottom)	1
+teacher(_EX6, X)	teacher(quirrell, defense_dark_arts)	1
+enemy(_EX6, draco_malfoy)	enemy(neville_longbottom, draco_malfoy)	1
+friend(_EX3, Z)	friend(george_weasley, bill_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, dumbledore)	1
+taught_by(X, _EX5)	taught_by(harry_potter, dumbledore)	1
+male(Y)	male(ron_weasley)	1
+friend(hermione_granger, X)	friend(hermione_granger, fred_weasley)	1
+house(_EX6, X)	house(bill_weasley, gryffindor)	1
+friend(_EX3, X)	friend(fred_weasley, luna_lovegood)	1
+teacher(_EX6, X)	teacher(dumbledore, headmaster)	1
+male(_EX2)	male(dumbledore)	1
+friend(X, _EX5)	friend(hermione_granger, remus_lupin)	1
+friend(Z, X)	friend(hermione_granger, remus_lupin)	1
+male(goyle)	male(goyle)	1
+house(_EX6, X)	house(crabbe, slytherin)	1
+friend(X, Z)	friend(ron_weasley, remus_lupin)	1
+friend(_EX4, X)	friend(fred_weasley, bill_weasley)	1
+wizard(crabbe)	wizard(X) :- house(X, Y), male(X)	1
+friend(_EX3, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+brothers(_EX4, _EX4)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+mutual_friend(_EX2, hermione_granger, neville_longbottom)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+friend(_EX3, Z)	friend(ron_weasley, george_weasley)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, slughorn)	1
+house(_EX1, X)	house(bellatrix_lestrange, slytherin)	1
+friend(_EX4, X)	friend(george_weasley, luna_lovegood)	1
+male(hagrid)	male(hagrid)	1
+female(_EX3)	female(mcgonagall)	1
+friend(_EX3, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX3, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, mcgonagall)	1
+order_of_phoenix(_EX0)	order_of_phoenix(X) :- ally(X, dumbledore), wizard(X)	1
+sibling(_EX6, _EX3)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+house(ron_weasley, X)	house(ron_weasley, gryffindor)	1
+parent(Y, X)	parent(arthur_weasley, ginny_weasley)	1
+male(_EX3)	male(crabbe)	1
+enemy(_EX6, voldemort)	enemy(dumbledore, voldemort)	1
+friend(_EX6, _EX4)	friend(hermione_granger, fred_weasley)	1
+ally(_EX0, dumbledore)	ally(mcgonagall, dumbledore)	1
+parent(X, _EX3)	parent(draco_malfoy, lucius_malfoy)	1
+parent(X, _EX2)	parent(xenophilius_lovegood, luna_lovegood)	1
+parent(arthur_weasley, _EX6)	parent(arthur_weasley, george_weasley)	1
+friend(_EX0, george_weasley)	friend(hermione_granger, george_weasley)	1
+wizard(cedric_diggory)	wizard(X) :- house(X, Y), male(X)	1
+friend(ron_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+parent(molly_weasley, X)	parent(molly_weasley, ginny_weasley)	1
+male(_EX0)	male(remus_lupin)	1
+wizard(_EX1)	wizard(X) :- house(X, Y), male(X)	1
+friend(_EX3, Z)	friend(draco_malfoy, crabbe)	1
+friend(Z, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+friend(_EX3, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+enemy(Y, X)	enemy(harry_potter, bellatrix_lestrange)	1
+friend(_EX3, Z)	friend(ron_weasley, remus_lupin)	1
+taught_by(cedric_diggory, severus_snape)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(fred_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(Y, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(X, Z)	friend(fred_weasley, bill_weasley)	1
+teacher(_EX2, X)	teacher(dumbledore, headmaster)	1
+house(ginny_weasley, X)	house(ginny_weasley, gryffindor)	1
+brothers(X, X)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, mcgonagall)	1
+friend(_EX6, X)	friend(sirius_black, remus_lupin)	1
+friend(ron_weasley, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(_EX3, _EX6)	friend(hermione_granger, dumbledore)	1
+taught_by(_EX2, _EX3)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX0, X)	taught_by(ron_weasley, slughorn)	1
+house(Z, X)	house(luna_lovegood, ravenclaw)	1
+parent(molly_weasley, ginny_weasley)	parent(molly_weasley, ginny_weasley)	1
+enemy(_EX6, draco_malfoy)	enemy(hermione_granger, draco_malfoy)	1
+taught_by(_EX2, _EX0)	taught_by(ron_weasley, slughorn)	1
+friend(_EX0, X)	friend(hermione_granger, dumbledore)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, flitwick)	1
+male(_EX5)	male(harry_potter)	1
+female(_EX3)	female(madame_maxime)	1
+house(_EX0, X)	house(george_weasley, gryffindor)	1
+friend(_EX0, X)	friend(ron_weasley, remus_lupin)	1
+friend(hermione_granger, dumbledore)	friend(hermione_granger, dumbledore)	1
+male(george_weasley)	male(george_weasley)	1
+taught_by(_EX0, X)	taught_by(ron_weasley, remus_lupin)	1
+taught_by(charlie_weasley, Z)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, dumbledore)	1
+friend(_EX0, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+teacher(_EX4, X)	teacher(umbridge, defense_dark_arts)	1
+taught_by(_EX2, _EX0)	taught_by(ron_weasley, remus_lupin)	1
+friend(_EX3, Z)	friend(fred_weasley, bill_weasley)	1
+parent(_EX1, fred_weasley)	parent(molly_weasley, fred_weasley)	1
+parent(X, _EX3)	parent(james_potter, harry_potter)	1
+male(_EX2)	male(george_weasley)	1
+male(_EX0)	male(voldemort)	1
+male(lucius_malfoy)	male(lucius_malfoy)	1
+friend(_EX2, george_weasley)	friend(fred_weasley, george_weasley)	1
+friend(fred_weasley, _EX6)	friend(fred_weasley, george_weasley)	1
+house(lucius_malfoy, X)	house(lucius_malfoy, slytherin)	1
+taught_by(_EX1, _EX2)	taught_by(ginny_weasley, remus_lupin)	1
+house(_EX2, X)	house(severus_snape, slytherin)	1
+friend(fred_weasley, X)	friend(fred_weasley, luna_lovegood)	1
+friend(_EX6, george_weasley)	friend(fred_weasley, george_weasley)	1
+friend(_EX6, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+enemy(ron_weasley, X)	enemy(ron_weasley, snape)	1
+teacher(_EX0, X)	teacher(quirrell, defense_dark_arts)	1
+ally(_EX0, dumbledore)	ally(harry_potter, dumbledore)	1
+male(X)	male(fred_weasley)	1
+taught_by(_EX2, X)	taught_by(harry_potter, slughorn)	1
+taught_by(_EX2, X)	taught_by(ginny_weasley, severus_snape)	1
+friend(X, _EX6)	friend(hermione_granger, neville_longbottom)	1
+house(harry_potter, X)	house(harry_potter, gryffindor)	1
+taught_by(_EX1, _EX2)	taught_by(ginny_weasley, dumbledore)	1
+taught_by(_EX1, umbridge)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(X, _EX4)	friend(fred_weasley, luna_lovegood)	1
+friend(hermione_granger, X)	friend(hermione_granger, remus_lupin)	1
+parent(arthur_weasley, _EX5)	parent(arthur_weasley, ginny_weasley)	1
+friend(X, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+witch(cho_chang)	witch(X) :- house(X, Y), female(X)	1
+house(bill_weasley, X)	house(bill_weasley, gryffindor)	1
+teacher(_EX0, X)	teacher(hagrid, magical_creatures)	1
+enemy(_EX4, draco_malfoy)	enemy(neville_longbottom, draco_malfoy)	1
+male(_EX6)	male(ron_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(ron_weasley, remus_lupin)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, dumbledore)	1
+teacher(_EX0, X)	teacher(slughorn, potions)	1
+teacher(_EX3, X)	teacher(umbridge, defense_dark_arts)	1
+male(harry_potter)	male(harry_potter)	1
+friend(_EX2, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+wizard(ron_weasley)	wizard(X) :- house(X, Y), male(X)	1
+taught_by(X, _EX5)	taught_by(ginny_weasley, severus_snape)	1
+friend(Y, X)	friend(george_weasley, luna_lovegood)	1
+witch(_EX3)	witch(X) :- house(X, Y), female(X)	1
+taught_by(voldemort, Z)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+enemy(Y, X)	enemy(harry_potter, severus_snape)	1
+friend(_EX6, _EX4)	friend(hermione_granger, remus_lupin)	1
+friend(draco_malfoy, X)	friend(draco_malfoy, goyle)	1
+friend(X, _EX5)	friend(hermione_granger, neville_longbottom)	1
+enemy(Y, X)	enemy(neville_longbottom, draco_malfoy)	1
+ally(_EX4, _EX1)	ally(bellatrix_lestrange, voldemort)	1
+teacher(dumbledore, X)	teacher(dumbledore, headmaster)	1
+house(_EX0, X)	house(bill_weasley, gryffindor)	1
+parent(vernon_dursley, _EX5)	parent(vernon_dursley, dudley_dursley)	1
+friend(_EX6, X)	friend(hermione_granger, george_weasley)	1
+friend(X, _EX5)	friend(hermione_granger, dumbledore)	1
+friend(X, Y)	friend(hermione_granger, fred_weasley)	1
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(ron_weasley, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+parent(X, Z)	parent(james_potter, harry_potter)	1
+friend(_EX6, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX0, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+friend(_EX6, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, slughorn)	1
+friend(hermione_granger, _EX6)	friend(hermione_granger, dumbledore)	1
+wizard(_EX6)	wizard(X) :- house(X, Y), male(X)	1
+teacher(Z, X)	teacher(quirrell, defense_dark_arts)	1
+friend(X, Y)	friend(fred_weasley, george_weasley)	1
+parent(arthur_weasley, fred_weasley)	parent(arthur_weasley, fred_weasley)	1
+friend(_EX2, X)	friend(hermione_granger, dumbledore)	1
+taught_by(_EX5, _EX3)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+male(_EX6)	male(sirius_black)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, flitwick)	1
+friend(_EX3, X)	friend(ron_weasley, dumbledore)	1
+friend(george_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, dumbledore)	1
+male(_EX5)	male(crabbe)	1
+male(_EX5)	male(vernon_dursley)	1
+enemy(_EX4, draco_malfoy)	enemy(hermione_granger, draco_malfoy)	1
+parent(X, _EX1)	parent(molly_weasley, fred_weasley)	1
+enemy(_EX1, X)	enemy(neville_longbottom, draco_malfoy)	1
+parent(james_potter, _EX5)	parent(james_potter, harry_potter)	1
+ally(_EX0, dumbledore)	ally(severus_snape, dumbledore)	1
+mutual_friend(george_weasley, _EX3, _EX4)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, mcgonagall)	1
+parent(Y, X)	parent(molly_weasley, ginny_weasley)	1
+male(_EX6)	male(neville_longbottom)	1
+taught_by(_EX2, X)	taught_by(ginny_weasley, remus_lupin)	1
+mutual_friend(luna_lovegood, fred_weasley, Y)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, dumbledore)	1
+house(charlie_weasley, X)	house(charlie_weasley, gryffindor)	1
+friend(_EX3, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+taught_by(Z, slughorn)	taught_by(ron_weasley, slughorn)	1
+taught_by(_EX2, X)	taught_by(ron_weasley, severus_snape)	1
+enemy(Y, X)	enemy(hermione_granger, draco_malfoy)	1
+parent(X, _EX1)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(ron_weasley, _EX2)	friend(ron_weasley, dumbledore)	1
+male(_EX5)	male(charlie_weasley)	1
+friend(X, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, flitwick)	1
+friend(X, Y)	friend(luna_lovegood, neville_longbottom)	1
+house(_EX6, X)	house(cho_chang, ravenclaw)	1
+friend(_EX3, Z)	friend(hermione_granger, neville_longbottom)	1
+friend(_EX3, _EX6)	friend(ron_weasley, dumbledore)	1
+house(X, Y)	house(draco_malfoy, slytherin)	1
+teacher(_EX6, X)	teacher(severus_snape, potions)	1
+at(X, _EX6)	at(hogwarts, cho_chang)	1
+friend(_EX0, X)	friend(ron_weasley, dumbledore)	1
+friend(_EX3, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(neville_longbottom, _EX6)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+at(X, _EX6)	at(azkaban, sirius_black)	1
+friend(draco_malfoy, crabbe)	friend(draco_malfoy, crabbe)	1
+friend(_EX3, Z)	friend(hermione_granger, dumbledore)	1
+house(Z, X)	house(lucius_malfoy, slytherin)	1
+taught_by(_EX1, remus_lupin)	taught_by(hermione_granger, remus_lupin)	1
+friend(X, _EX6)	friend(hermione_granger, fred_weasley)	1
+taught_by(X, _EX5)	taught_by(ginny_weasley, dumbledore)	1
+parent(Y, X)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(X, Z)	friend(sirius_black, remus_lupin)	1
+friend(_EX2, neville_longbottom)	friend(luna_lovegood, neville_longbottom)	1
+house(_EX0, X)	house(goyle, slytherin)	1
+house(X, Y)	house(arthur_weasley, gryffindor)	1
+parent(X, _EX1)	parent(lily_potter, harry_potter)	1
+parent(X, _EX5)	parent(draco_malfoy, lucius_malfoy)	1
+friend(_EX0, george_weasley)	friend(fred_weasley, george_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, dumbledore)	1
+friend(X, _EX6)	friend(george_weasley, bill_weasley)	1
+friend(X, _EX6)	friend(fred_weasley, george_weasley)	1
+parent(X, _EX4)	parent(molly_weasley, george_weasley)	1
+male(X)	male(victor_krum)	1
+friend(_EX6, bill_weasley)	friend(george_weasley, bill_weasley)	1
+teacher(_EX2, X)	teacher(severus_snape, potions)	1
+friend(_EX0, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+male(_EX3)	male(arthur_weasley)	1
+male(_EX0)	male(ron_weasley)	1
+male(Y)	male(arthur_weasley)	1
+male(_EX0)	male(lucius_malfoy)	1
+parent(X, Z)	parent(molly_weasley, george_weasley)	1
+at(X, _EX6)	at(ministry_of_magic, umbridge)	1
+parent(xenophilius_lovegood, luna_lovegood)	parent(xenophilius_lovegood, luna_lovegood)	1
+friend(_EX4, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+female(_EX3)	female(cho_chang)	1
+ally(ron_weasley, _EX6)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+friend(Z, X)	friend(fred_weasley, george_weasley)	1
+at(X, _EX6)	at(hogwarts, remus_lupin)	1
+house(_EX1, X)	house(molly_weasley, gryffindor)	1
+house(_EX6, X)	house(george_weasley, gryffindor)	1
+friend(Y, X)	friend(hermione_granger, george_weasley)	1
+wizard(X)	wizard(X) :- house(X, Y), male(X)	1
+house(_EX2, X)	house(hermione_granger, gryffindor)	1
+female(_EX5)	female(luna_lovegood)	1
+house(_EX1, X)	house(hermione_granger, gryffindor)	1
+friend(_EX0, X)	friend(sirius_black, remus_lupin)	1
+male(_EX3)	male(cedric_diggory)	1
+taught_by(_EX0, X)	taught_by(ginny_weasley, slughorn)	1
+parent(X, _EX5)	parent(james_potter, harry_potter)	1
+parent(molly_weasley, george_weasley)	parent(molly_weasley, george_weasley)	1
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX2, _EX0)	taught_by(ginny_weasley, slughorn)	1
+parent(_EX4, X)	parent(arthur_weasley, ron_weasley)	1
+teacher(_EX5, X)	teacher(severus_snape, potions)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, flitwick)	1
+friend(X, _EX6)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX4, X)	friend(hermione_granger, neville_longbottom)	1
+ally(_EX4, _EX1)	ally(ron_weasley, dumbledore)	1
+enemy(Y, X)	enemy(sirius_black, lucius_malfoy)	1
+friend(_EX6, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+teacher(_EX1, X)	teacher(dumbledore, headmaster)	1
+teacher(Z, X)	teacher(umbridge, defense_dark_arts)	1
+teacher(Z, X)	teacher(mcgonagall, transfiguration)	1
+male(_EX3)	male(sirius_black)	1
+teacher(X, Y)	teacher(severus_snape, potions)	1
+male(vernon_dursley)	male(vernon_dursley)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, trelawney)	1
+friend(_EX2, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+parent(_EX5, X)	parent(vernon_dursley, dudley_dursley)	1
+male(X)	male(remus_lupin)	1
+house(_EX2, X)	house(draco_malfoy, slytherin)	1
+parent(_EX4, X)	parent(arthur_weasley, fred_weasley)	1
+friend(Z, X)	friend(hermione_granger, neville_longbottom)	1
+house(_EX1, X)	house(draco_malfoy, slytherin)	1
+friend(_EX3, X)	friend(ron_weasley, remus_lupin)	1
+friend(_EX6, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+at(X, neville_longbottom)	at(hogwarts, neville_longbottom)	1
+male(_EX0)	male(neville_longbottom)	1
+friend(_EX4, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+taught_by(ron_weasley, Z)	taught_by(ron_weasley, dumbledore)	1
+friend(_EX2, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+house(_EX2, X)	house(lucius_malfoy, slytherin)	1
+parent(X, _EX4)	parent(molly_weasley, fred_weasley)	1
+house(_EX1, X)	house(arthur_weasley, gryffindor)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, slughorn)	1
+teacher(_EX0, X)	teacher(lockhart, defense_dark_arts)	1
+taught_by(_EX2, _EX0)	taught_by(ginny_weasley, dumbledore)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, dumbledore)	1
+house(_EX0, X)	house(charlie_weasley, gryffindor)	1
+teacher(Z, X)	teacher(trelawney, divination)	1
+parent(molly_weasley, _EX5)	parent(molly_weasley, ginny_weasley)	1
+friend(_EX0, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+friend(_EX3, X)	friend(fred_weasley, bill_weasley)	1
+friend(X, _EX6)	friend(draco_malfoy, goyle)	1
+parent(Y, X)	parent(james_potter, harry_potter)	1
+male(Y)	male(dumbledore)	1
+male(X)	male(goyle)	1
+teacher(severus_snape, X)	teacher(severus_snape, potions)	1
+friend(ron_weasley, _EX2)	friend(ron_weasley, remus_lupin)	1
+parent(X, Z)	parent(molly_weasley, fred_weasley)	1
+friend(_EX3, X)	friend(george_weasley, luna_lovegood)	1
+teacher(X, Y)	teacher(remus_lupin, defense_dark_arts)	1
+mutual_friend(_EX2, george_weasley, _EX5)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(arthur_weasley, _EX6)	parent(arthur_weasley, ron_weasley)	1
+male(victor_krum)	male(victor_krum)	1
+friend(Y, george_weasley)	friend(ron_weasley, george_weasley)	1
+house(Z, X)	house(fred_weasley, gryffindor)	1
+house(voldemort, X)	house(voldemort, slytherin)	1
+friend(_EX3, _EX6)	friend(hermione_granger, george_weasley)	1
+male(_EX3)	male(bill_weasley)	1
+friend(X, Y)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+female(_EX3)	female(hermione_granger)	1
+friend(X, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX5, _EX3)	taught_by(ginny_weasley, remus_lupin)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, remus_lupin)	1
+house(X, Y)	house(fred_weasley, gryffindor)	1
+house(peter_pettigrew, gryffindor)	house(peter_pettigrew, gryffindor)	1
+height(_EX0, tall)	height(hagrid, tall)	1
+house(X, Y)	house(bill_weasley, gryffindor)	1
+friend(_EX4, george_weasley)	friend(fred_weasley, george_weasley)	1
+house(neville_longbottom, X)	house(neville_longbottom, gryffindor)	1
+friend(X, Y)	friend(hermione_granger, dumbledore)	1
+male(_EX3)	male(james_potter)	1
+friend(_EX2, X)	friend(sirius_black, remus_lupin)	1
+teacher(_EX4, X)	teacher(hagrid, magical_creatures)	1
+at(X, _EX6)	at(hogwarts, hermione_granger)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, flitwick)	1
+enemy(_EX1, bellatrix_lestrange)	enemy(hermione_granger, bellatrix_lestrange)	1
+parent(arthur_weasley, _EX6)	parent(arthur_weasley, fred_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(ginny_weasley, dumbledore)	1
+friend(fred_weasley, george_weasley)	friend(fred_weasley, george_weasley)	1
+friend(X, Y)	friend(ron_weasley, remus_lupin)	1
+friend(_EX3, neville_longbottom)	friend(luna_lovegood, neville_longbottom)	1
+male(X)	male(crabbe)	1
+friend(_EX3, _EX6)	friend(fred_weasley, bill_weasley)	1
+mutual_friend(_EX4, _EX4, luna_lovegood)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, dumbledore)	1
+friend(X, Z)	friend(hermione_granger, fred_weasley)	1
+friend(_EX0, X)	friend(fred_weasley, bill_weasley)	1
+enemy(_EX1, voldemort)	enemy(ron_weasley, voldemort)	1
+male(_EX5)	male(ron_weasley)	1
+male(arthur_weasley)	male(arthur_weasley)	1
+friend(_EX4, X)	friend(ron_weasley, george_weasley)	1
+friend(X, _EX5)	friend(ron_weasley, fred_weasley)	1
+female(_EX3)	female(bellatrix_lestrange)	1
+friend(george_weasley, _EX6)	friend(george_weasley, bill_weasley)	1
+friend(_EX0, X)	friend(george_weasley, luna_lovegood)	1
+enemy(_EX1, X)	enemy(harry_potter, draco_malfoy)	1
+house(Z, X)	house(harry_potter, gryffindor)	1
+parent(X, _EX4)	parent(lily_potter, harry_potter)	1
+friend(fred_weasley, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+parent(james_potter, harry_potter)	parent(james_potter, harry_potter)	1
+friend(ron_weasley, X)	friend(ron_weasley, fred_weasley)	1
+friend(Y, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+taught_by(_EX2, X)	taught_by(harry_potter, trelawney)	1
+teacher(slughorn, X)	teacher(slughorn, potions)	1
+wizard(charlie_weasley)	wizard(X) :- house(X, Y), male(X)	1
+teacher(Z, X)	teacher(lockhart, defense_dark_arts)	1
+house(X, Y)	house(harry_potter, gryffindor)	1
+taught_by(_EX6, _EX0)	taught_by(ron_weasley, dumbledore)	1
+parent(X, Z)	parent(lily_potter, harry_potter)	1
+friend(_EX0, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+friend(fred_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX2, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+male(X)	male(charlie_weasley)	1
+enemy(_EX4, bellatrix_lestrange)	enemy(hermione_granger, bellatrix_lestrange)	1
+house(X, Y)	house(severus_snape, slytherin)	1
+taught_by(Z, slughorn)	taught_by(ginny_weasley, slughorn)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, mcgonagall)	1
+male(_EX2)	male(cedric_diggory)	1
+parent(lily_potter, _EX5)	parent(lily_potter, harry_potter)	1
+friend(_EX0, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+taught_by(crabbe, _EX2)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(george_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(Z, george_weasley)	friend(hermione_granger, george_weasley)	1
+male(crabbe)	male(crabbe)	1
+parent(X, fred_weasley)	parent(molly_weasley, fred_weasley)	1
+house(_EX0, X)	house(lucius_malfoy, slytherin)	1
+teacher(_EX3, X)	teacher(hagrid, magical_creatures)	1
+wizard(draco_malfoy)	wizard(X) :- house(X, Y), male(X)	1
+taught_by(X, _EX5)	taught_by(harry_potter, trelawney)	1
+parent(arthur_weasley, Z)	parent(arthur_weasley, ron_weasley)	1
+parent(arthur_weasley, ron_weasley)	parent(arthur_weasley, ron_weasley)	1
+mutual_friend(_EX4, _EX4, remus_lupin)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+enemy(_EX1, voldemort)	enemy(harry_potter, voldemort)	1
+house(_EX2, X)	house(peter_pettigrew, gryffindor)	1
+female(_EX3)	female(tonks)	1
+friend(X, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+house(_EX1, X)	house(peter_pettigrew, gryffindor)	1
+ally(_EX0, dumbledore)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+friend(X, _EX4)	friend(hermione_granger, fred_weasley)	1
+male(_EX0)	male(victor_krum)	1
+friend(_EX3, X)	friend(hermione_granger, remus_lupin)	1
+friend(Z, X)	friend(george_weasley, bill_weasley)	1
+friend(X, Z)	friend(luna_lovegood, neville_longbottom)	1
+taught_by(george_weasley, mcgonagall)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(X, luna_lovegood)	friend(george_weasley, luna_lovegood)	1
+male(_EX6)	male(lucius_malfoy)	1
+friend(X, _EX6)	friend(hermione_granger, dumbledore)	1
+male(_EX6)	male(dumbledore)	1
+parent(X, _EX5)	parent(molly_weasley, ginny_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, mcgonagall)	1
+parent(arthur_weasley, Z)	parent(arthur_weasley, fred_weasley)	1
+female(_EX3)	female(luna_lovegood)	1
+friend(_EX0, remus_lupin)	friend(sirius_black, remus_lupin)	1
+enemy(_EX1, severus_snape)	enemy(harry_potter, severus_snape)	1
+house(_EX1, X)	house(ginny_weasley, gryffindor)	1
+son(X, _EX5)	son(X, Y) :- male(X), parent(Y, X)	1
+friend(hermione_granger, _EX6)	friend(hermione_granger, george_weasley)	1
+male(Y)	male(cedric_diggory)	1
+male(_EX0)	male(james_potter)	1
+friend(_EX2, X)	friend(hermione_granger, george_weasley)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(ron_weasley, slughorn)	1
+friend(_EX4, george_weasley)	friend(hermione_granger, george_weasley)	1
+friend(_EX3, Z)	friend(ron_weasley, fred_weasley)	1
+house(_EX2, X)	house(fred_weasley, gryffindor)	1
+parent(arthur_weasley, Z)	parent(arthur_weasley, ginny_weasley)	1
+at(X, _EX6)	at(azkaban, dementors)	1
+taught_by(Z, slughorn)	taught_by(hermione_granger, slughorn)	1
+house(arthur_weasley, X)	house(arthur_weasley, gryffindor)	1
+at(X, _EX6)	at(hogsmeade, butterbeer)	1
+house(_EX2, X)	house(bill_weasley, gryffindor)	1
+house(_EX1, X)	house(fred_weasley, gryffindor)	1
+parent(_EX5, X)	parent(petunia_dursley, dudley_dursley)	1
+friend(X, _EX4)	friend(ron_weasley, george_weasley)	1
+friend(_EX3, Z)	friend(luna_lovegood, neville_longbottom)	1
+taught_by(_EX2, _EX3)	taught_by(ron_weasley, remus_lupin)	1
+house(_EX1, X)	house(bill_weasley, gryffindor)	1
+parent(X, ginny_weasley)	parent(molly_weasley, ginny_weasley)	1
+female(cho_chang)	female(cho_chang)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, severus_snape)	1
+friend(X, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+house(crabbe, X)	house(crabbe, slytherin)	1
+male(Y)	male(sirius_black)	1
+friend(_EX2, X)	friend(fred_weasley, bill_weasley)	1
+friend(X, Z)	friend(hermione_granger, remus_lupin)	1
+friend(Z, X)	friend(ron_weasley, remus_lupin)	1
+enemy(_EX6, bellatrix_lestrange)	enemy(hermione_granger, bellatrix_lestrange)	1
+casts_spells(fred_weasley)	casts_spells(X) :- wizard(X)	1
+male(cedric_diggory)	male(cedric_diggory)	1
+wizard(fred_weasley)	wizard(X) :- house(X, Y), male(X)	1
+friend(_EX6, _EX4)	friend(draco_malfoy, goyle)	1
+parent(_EX5, X)	parent(arthur_weasley, fred_weasley)	1
+male(_EX2)	male(bill_weasley)	1
+parent(_EX4, X)	parent(arthur_weasley, ginny_weasley)	1
+parent(X, _EX5)	parent(xenophilius_lovegood, luna_lovegood)	1
+teacher(_EX5, X)	teacher(umbridge, defense_dark_arts)	1
+male(_EX6)	male(fred_weasley)	1
+friend(X, dumbledore)	friend(hermione_granger, dumbledore)	1
+brave(peter_pettigrew)	brave(X) :- house(X, gryffindor)	1
+sibling(ron_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+taught_by(_EX2, _EX3)	taught_by(ginny_weasley, slughorn)	1
+house(_EX2, X)	house(harry_potter, gryffindor)	1
+friend(_EX6, _EX4)	friend(ron_weasley, fred_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(ginny_weasley, severus_snape)	1
+teacher(remus_lupin, X)	teacher(remus_lupin, defense_dark_arts)	1
+parent(X, _EX2)	parent(arthur_weasley, ron_weasley)	1
+house(_EX1, X)	house(harry_potter, gryffindor)	1
+friend(fred_weasley, Z)	friend(fred_weasley, george_weasley)	1
+parent(vernon_dursley, _EX6)	parent(vernon_dursley, dudley_dursley)	1
+parent(_EX5, X)	parent(arthur_weasley, ginny_weasley)	1
+friend(_EX3, Z)	friend(hermione_granger, remus_lupin)	1
+taught_by(_EX2, X)	taught_by(harry_potter, mcgonagall)	1
+friend(draco_malfoy, goyle)	friend(draco_malfoy, goyle)	1
+taught_by(_EX2, _EX4)	taught_by(harry_potter, severus_snape)	1
+house(_EX1, X)	house(severus_snape, slytherin)	1
+male(_EX5)	male(remus_lupin)	1
+parent(X, _EX2)	parent(vernon_dursley, dudley_dursley)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, remus_lupin)	1
+parent(molly_weasley, ron_weasley)	parent(molly_weasley, ron_weasley)	1
+friend(_EX3, _EX4)	friend(hermione_granger, george_weasley)	1
+friend(_EX4, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+house(_EX0, X)	house(peter_pettigrew, gryffindor)	1
+friend(Z, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+male(X)	male(hagrid)	1
+taught_by(_EX6, _EX0)	taught_by(harry_potter, slughorn)	1
+taught_by(_EX6, _EX0)	taught_by(ginny_weasley, severus_snape)	1
+teacher(_EX6, X)	teacher(lockhart, defense_dark_arts)	1
+enemy(Y, X)	enemy(hermione_granger, voldemort)	1
+male(Y)	male(charlie_weasley)	1
+male(_EX6)	male(arthur_weasley)	1
+at(X, _EX6)	at(hogwarts, neville_longbottom)	1
+parent(X, _EX5)	parent(lily_potter, harry_potter)	1
+friend(_EX3, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX6, X)	friend(ron_weasley, george_weasley)	1
+taught_by(X, _EX5)	taught_by(harry_potter, mcgonagall)	1
+friend(X, _EX4)	friend(hermione_granger, remus_lupin)	1
+friend(X, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+friend(_EX4, X)	friend(ron_weasley, fred_weasley)	1
+friend(Y, X)	friend(ron_weasley, dumbledore)	1
+friend(Z, luna_lovegood)	friend(fred_weasley, luna_lovegood)	1
+teacher(_EX5, X)	teacher(trelawney, divination)	1
+friend(Z, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+mutual_friend(_EX6, george_weasley, _EX5)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+house(_EX6, X)	house(charlie_weasley, gryffindor)	1
+taught_by(_EX5, _EX3)	taught_by(ron_weasley, severus_snape)	1
+taught_by(_EX2, _EX4)	taught_by(ginny_weasley, slughorn)	1
+friend(_EX6, _EX4)	friend(draco_malfoy, crabbe)	1
+female(_EX5)	female(cho_chang)	1
+male(Y)	male(james_potter)	1
+parent(_EX5, X)	parent(molly_weasley, ron_weasley)	1
+at(X, victor_krum)	at(durmstrang, victor_krum)	1
+taught_by(Y, lockhart)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, slughorn)	1
+parent(james_potter, X)	parent(james_potter, harry_potter)	1
+male(Y)	male(remus_lupin)	1
+male(sirius_black)	male(sirius_black)	1
+female(_EX5)	female(molly_weasley)	1
+male(_EX6)	male(cedric_diggory)	1
+mutual_friend(Z, Z, fred_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(arthur_weasley, _EX6)	parent(arthur_weasley, ginny_weasley)	1
+enemy(_EX1, X)	enemy(hermione_granger, voldemort)	1
+friend(_EX4, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+house(_EX0, X)	house(bellatrix_lestrange, slytherin)	1
+parent(arthur_weasley, X)	parent(arthur_weasley, ron_weasley)	1
+ally(ron_weasley, _EX6)	ally(ron_weasley, dumbledore)	1
+parent(vernon_dursley, X)	parent(vernon_dursley, dudley_dursley)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, trelawney)	1
+friend(_EX6, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+mutual_friend(george_weasley, _EX4, Z)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+friend(george_weasley, _EX4)	friend(george_weasley, luna_lovegood)	1
+house(_EX2, X)	house(charlie_weasley, gryffindor)	1
+friend(_EX2, dumbledore)	friend(ron_weasley, dumbledore)	1
+ally(_EX1, Y)	ally(bellatrix_lestrange, voldemort)	1
+friend(_EX4, X)	friend(draco_malfoy, crabbe)	1
+friend(X, Y)	friend(sirius_black, remus_lupin)	1
+friend(hermione_granger, Y)	friend(hermione_granger, remus_lupin)	1
+house(_EX1, X)	house(charlie_weasley, gryffindor)	1
+taught_by(_EX2, X)	taught_by(hermione_granger, severus_snape)	1
+enemy(_EX1, X)	enemy(harry_potter, severus_snape)	1
+parent(xenophilius_lovegood, _EX6)	parent(xenophilius_lovegood, luna_lovegood)	1
+wizard(_EX2)	wizard(X) :- house(X, Y), male(X)	1
+teacher(_EX3, X)	teacher(dumbledore, headmaster)	1
+brothers(_EX5, _EX5)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+friend(X, _EX6)	friend(ron_weasley, dumbledore)	1
+parent(X, Z)	parent(molly_weasley, ron_weasley)	1
+female(_EX3)	female(umbridge)	1
+friend(_EX3, _EX4)	friend(draco_malfoy, crabbe)	1
+parent(molly_weasley, _EX6)	parent(molly_weasley, ron_weasley)	1
+house(_EX0, X)	house(arthur_weasley, gryffindor)	1
+friend(fred_weasley, X)	friend(fred_weasley, george_weasley)	1
+male(X)	male(draco_malfoy)	1
+friend(X, Z)	friend(hermione_granger, neville_longbottom)	1
+taught_by(_EX2, _EX3)	taught_by(ron_weasley, dumbledore)	1
+enemy(_EX4, peter_pettigrew)	enemy(harry_potter, peter_pettigrew)	1
+enemy(_EX0, voldemort)	enemy(harry_potter, voldemort)	1
+teacher(_EX2, X)	teacher(mcgonagall, transfiguration)	1
+parent(X, _EX3)	parent(molly_weasley, george_weasley)	1
+enemy(_EX1, X)	enemy(ron_weasley, snape)	1
+taught_by(ron_weasley, Z)	taught_by(ron_weasley, slughorn)	1
+sibling(X, X)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+parent(X, fred_weasley)	parent(arthur_weasley, fred_weasley)	1
+friend(X, Z)	friend(hermione_granger, dumbledore)	1
+brothers(_EX0, _EX0)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, severus_snape)	1
+house(hermione_granger, X)	house(hermione_granger, gryffindor)	1
+enemy(_EX6, draco_malfoy)	enemy(ron_weasley, draco_malfoy)	1
+mutual_friend(_EX4, _EX4, neville_longbottom)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(arthur_weasley, george_weasley)	parent(arthur_weasley, george_weasley)	1
+taught_by(ron_weasley, Z)	taught_by(ron_weasley, remus_lupin)	1
+wizard(george_weasley)	wizard(X) :- house(X, Y), male(X)	1
+friend(_EX4, X)	friend(fred_weasley, luna_lovegood)	1
+male(X)	male(dudley_dursley)	1
+taught_by(_EX2, X)	taught_by(ginny_weasley, dumbledore)	1
+male(dumbledore)	male(dumbledore)	1
+enemy(_EX1, X)	enemy(hermione_granger, umbridge)	1
+male(X)	male(george_weasley)	1
+house(Z, X)	house(cedric_diggory, hufflepuff)	1
+friend(ron_weasley, X)	friend(ron_weasley, dumbledore)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, remus_lupin)	1
+male(_EX0)	male(fred_weasley)	1
+taught_by(_EX2, _EX3)	taught_by(ginny_weasley, severus_snape)	1
+ally(_EX1, Y)	ally(hermione_granger, dumbledore)	1
+parent(X, george_weasley)	parent(molly_weasley, george_weasley)	1
+house(X, Y)	house(ginny_weasley, gryffindor)	1
+male(_EX6)	male(victor_krum)	1
+height(Y, tall)	height(hagrid, tall)	1
+taught_by(X, _EX5)	taught_by(harry_potter, remus_lupin)	1
+love(_EX0, _EX1)	love(X, Y) :- height(X, tall), height(Y, tall)	1
+sibling(_EX4, _EX4)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+sibling(ron_weasley, ron_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+male(_EX0)	male(dudley_dursley)	1
+friend(X, dumbledore)	friend(ron_weasley, dumbledore)	1
+friend(_EX1, bill_weasley)	friend(george_weasley, bill_weasley)	1
+house(X, Y)	house(lucius_malfoy, slytherin)	1
+friend(X, _EX4)	friend(hermione_granger, neville_longbottom)	1
+female(_EX5)	female(ginny_weasley)	1
+father(_EX1, fred_weasley)	father(X, Y) :- male(X), parent(X, Y)	1
+friend(X, _EX6)	friend(sirius_black, remus_lupin)	1
+house(Z, gryffindor)	house(neville_longbottom, gryffindor)	1
+friend(Y, X)	friend(ron_weasley, george_weasley)	1
+taught_by(_EX2, _EX4)	taught_by(ron_weasley, slughorn)	1
+sibling(X, _EX2)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+male(_EX0)	male(arthur_weasley)	1
+love(_EX1, _EX1)	love(X, Y) :- height(X, tall), height(Y, tall)	1
+house(X, Y)	house(luna_lovegood, ravenclaw)	1
+friend(Y, george_weasley)	friend(fred_weasley, george_weasley)	1
+enemy(_EX6, voldemort)	enemy(harry_potter, voldemort)	1
+sibling(george_weasley, X)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+friend(_EX6, X)	friend(draco_malfoy, goyle)	1
+parent(X, _EX1)	parent(arthur_weasley, ron_weasley)	1
+parent(X, _EX1)	parent(molly_weasley, george_weasley)	1
+friend(fred_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX3, X)	friend(hermione_granger, fred_weasley)	1
+male(_EX3)	male(peter_pettigrew)	1
+parent(molly_weasley, _EX2)	parent(molly_weasley, george_weasley)	1
+enemy(_EX1, voldemort)	enemy(dumbledore, voldemort)	1
+friend(_EX2, crabbe)	friend(draco_malfoy, crabbe)	1
+enemy(_EX1, X)	enemy(harry_potter, bellatrix_lestrange)	1
+friend(Y, X)	friend(draco_malfoy, crabbe)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, mcgonagall)	1
+friend(_EX6, X)	friend(ron_weasley, fred_weasley)	1
+friend(Y, X)	friend(ron_weasley, remus_lupin)	1
+taught_by(_EX6, _EX0)	taught_by(ron_weasley, slughorn)	1
+parent(molly_weasley, _EX5)	parent(molly_weasley, george_weasley)	1
+female(_EX3)	female(lily_potter)	1
+friend(_EX3, X)	friend(george_weasley, bill_weasley)	1
+parent(_EX4, X)	parent(xenophilius_lovegood, luna_lovegood)	1
+male(_EX2)	male(remus_lupin)	1
+at(X, _EX6)	at(ministry_of_magic, tonks)	1
+friend(X, _EX5)	friend(sirius_black, remus_lupin)	1
+friend(_EX3, X)	friend(fred_weasley, george_weasley)	1
+friend(Z, X)	friend(sirius_black, remus_lupin)	1
+parent(X, _EX3)	parent(molly_weasley, fred_weasley)	1
+male(_EX0)	male(cedric_diggory)	1
+parent(X, dudley_dursley)	parent(vernon_dursley, dudley_dursley)	1
+friend(_EX2, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(_EX3, george_weasley)	friend(hermione_granger, george_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(ron_weasley, remus_lupin)	1
+teacher(_EX0, X)	teacher(dumbledore, headmaster)	1
+male(X)	male(bill_weasley)	1
+at(X, remus_lupin)	at(hogwarts, remus_lupin)	1
+friend(_EX4, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+house(Z, X)	house(bellatrix_lestrange, slytherin)	1
+friend(fred_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+at(X, _EX6)	at(ollivanders, wands)	1
+friend(luna_lovegood, _EX4)	friend(luna_lovegood, neville_longbottom)	1
+friend(_EX0, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+brothers(_EX6, _EX3)	brothers(X, Y) :- sibling(X, Y), male(X), male(Y)	1
+friend(_EX3, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, severus_snape)	1
+male(dudley_dursley)	male(dudley_dursley)	1
+friend(_EX3, _EX6)	friend(hermione_granger, fred_weasley)	1
+friend(Y, X)	friend(fred_weasley, bill_weasley)	1
+male(Y)	male(draco_malfoy)	1
+friend(_EX3, _EX4)	friend(fred_weasley, george_weasley)	1
+male(X)	male(james_potter)	1
+house(X, Y)	house(neville_longbottom, gryffindor)	1
+enemy(_EX4, umbridge)	enemy(hermione_granger, umbridge)	1
+friend(Z, remus_lupin)	friend(sirius_black, remus_lupin)	1
+taught_by(_EX2, _EX3)	taught_by(harry_potter, slughorn)	1
+taught_by(_EX1, _EX2)	taught_by(hermione_granger, dumbledore)	1
+taught_by(X, _EX5)	taught_by(harry_potter, slughorn)	1
+female(_EX5)	female(tonks)	1
+teacher(_EX3, X)	teacher(mcgonagall, transfiguration)	1
+male(_EX5)	male(lucius_malfoy)	1
+parent(X, _EX2)	parent(arthur_weasley, ginny_weasley)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, severus_snape)	1
+at(X, _EX6)	at(beauxbatons, madame_maxime)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, severus_snape)	1
+enemy(_EX4, draco_malfoy)	enemy(ron_weasley, draco_malfoy)	1
+enemy(_EX4, snape)	enemy(ron_weasley, snape)	1
+friend(_EX6, X)	friend(draco_malfoy, crabbe)	1
+enemy(_EX1, X)	enemy(harry_potter, peter_pettigrew)	1
+teacher(_EX6, X)	teacher(slughorn, potions)	1
+height(_EX1, tall)	height(madame_maxime, tall)	1
+ally(_EX1, Y)	ally(ron_weasley, dumbledore)	1
+friend(_EX3, X)	friend(luna_lovegood, neville_longbottom)	1
+teacher(_EX4, X)	teacher(severus_snape, potions)	1
+friend(ron_weasley, _EX2)	friend(ron_weasley, george_weasley)	1
+friend(_EX2, X)	friend(hermione_granger, neville_longbottom)	1
+friend(X, _EX6)	friend(hermione_granger, george_weasley)	1
+friend(_EX3, _EX6)	friend(ron_weasley, george_weasley)	1
+friend(george_weasley, X)	friend(george_weasley, bill_weasley)	1
+mutual_friend(_EX0, _EX1, remus_lupin)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+enemy(Y, X)	enemy(ron_weasley, draco_malfoy)	1
+teacher(_EX5, X)	teacher(remus_lupin, defense_dark_arts)	1
+house(george_weasley, X)	house(george_weasley, gryffindor)	1
+female(_EX5)	female(fleur_delacour)	1
+taught_by(voldemort, _EX1)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+house(_EX1, X)	house(lucius_malfoy, slytherin)	1
+parent(petunia_dursley, X)	parent(petunia_dursley, dudley_dursley)	1
+taught_by(_EX0, X)	taught_by(ginny_weasley, dumbledore)	1
+friend(_EX1, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+male(_EX3)	male(lucius_malfoy)	1
+taught_by(_EX1, _EX2)	taught_by(ron_weasley, dumbledore)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, severus_snape)	1
+male(_EX0)	male(peter_pettigrew)	1
+male(Y)	male(lucius_malfoy)	1
+friend(_EX3, Z)	friend(sirius_black, remus_lupin)	1
+enemy(_EX6, snape)	enemy(ron_weasley, snape)	1
+friend(_EX6, X)	friend(fred_weasley, luna_lovegood)	1
+teacher(Z, X)	teacher(dumbledore, headmaster)	1
+house(_EX2, X)	house(luna_lovegood, ravenclaw)	1
+friend(X, _EX6)	friend(fred_weasley, bill_weasley)	1
+male(ron_weasley)	male(ron_weasley)	1
+house(_EX0, X)	house(harry_potter, gryffindor)	1
+friend(george_weasley, _EX2)	friend(george_weasley, luna_lovegood)	1
+teacher(_EX2, X)	teacher(slughorn, potions)	1
+height(_EX1, tall)	height(hagrid, tall)	1
+house(_EX1, X)	house(luna_lovegood, ravenclaw)	1
+parent(molly_weasley, _EX2)	parent(molly_weasley, fred_weasley)	1
+at(X, _EX6)	at(hogwarts, dumbledore)	1
+enemy(_EX1, umbridge)	enemy(hermione_granger, umbridge)	1
+friend(X, _EX6)	friend(george_weasley, luna_lovegood)	1
+house(_EX6, X)	house(bellatrix_lestrange, slytherin)	1
+friend(_EX6, george_weasley)	friend(hermione_granger, george_weasley)	1
+house(_EX6, X)	house(draco_malfoy, slytherin)	1
+parent(petunia_dursley, dudley_dursley)	parent(petunia_dursley, dudley_dursley)	1
+male(_EX3)	male(victor_krum)	1
+mutual_friend(ron_weasley, ron_weasley, _EX4)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+house(_EX0, X)	house(severus_snape, slytherin)	1
+male(_EX6)	male(crabbe)	1
+teacher(_EX5, X)	teacher(quirrell, defense_dark_arts)	1
+taught_by(X, _EX5)	taught_by(hermione_granger, flitwick)	1
+friend(X, _EX4)	friend(george_weasley, bill_weasley)	1
+taught_by(_EX6, _EX0)	taught_by(hermione_granger, slughorn)	1
+male(X)	male(harry_potter)	1
+teacher(_EX4, X)	teacher(remus_lupin, defense_dark_arts)	1
+teacher(_EX3, X)	teacher(severus_snape, potions)	1
+parent(arthur_weasley, X)	parent(arthur_weasley, ginny_weasley)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, remus_lupin)	1
+female(bellatrix_lestrange)	female(bellatrix_lestrange)	1
+house(peter_pettigrew, X)	house(peter_pettigrew, gryffindor)	1
+ally(_EX4, _EX1)	ally(mcgonagall, dumbledore)	1
+male(_EX5)	male(neville_longbottom)	1
+friend(george_weasley, _EX5)	friend(george_weasley, bill_weasley)	1
+friend(fred_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+friend(_EX2, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+teacher(_EX5, X)	teacher(hagrid, magical_creatures)	1
+ally(_EX6, Y)	ally(bellatrix_lestrange, voldemort)	1
+house(_EX6, X)	house(arthur_weasley, gryffindor)	1
+friend(X, fred_weasley)	friend(hermione_granger, fred_weasley)	1
+teacher(_EX5, X)	teacher(slughorn, potions)	1
+taught_by(_EX2, _EX3)	taught_by(hermione_granger, mcgonagall)	1
+male(_EX6)	male(charlie_weasley)	1
+house(Z, gryffindor)	house(molly_weasley, gryffindor)	1
+friend(hermione_granger, X)	friend(hermione_granger, neville_longbottom)	1
+house(_EX0, X)	house(molly_weasley, gryffindor)	1
+male(_EX6)	male(draco_malfoy)	1
+mutual_friend(_EX3, _EX2, neville_longbottom)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(molly_weasley, X)	parent(molly_weasley, ron_weasley)	1
+teacher(_EX1, X)	teacher(severus_snape, potions)	1
+friend(george_weasley, X)	friend(george_weasley, luna_lovegood)	1
+enemy(_EX1, draco_malfoy)	enemy(harry_potter, draco_malfoy)	1
+teacher(X, Y)	teacher(slughorn, potions)	1
+house(Z, X)	house(crabbe, slytherin)	1
+friend(X, _EX4)	friend(luna_lovegood, neville_longbottom)	1
+taught_by(_EX0, X)	taught_by(ginny_weasley, severus_snape)	1
+teacher(_EX0, X)	teacher(mcgonagall, transfiguration)	1
+parent(X, _EX4)	parent(arthur_weasley, ron_weasley)	1
+friend(_EX2, bill_weasley)	friend(george_weasley, bill_weasley)	1
+male(_EX3)	male(neville_longbottom)	1
+taught_by(_EX2, _EX0)	taught_by(harry_potter, slughorn)	1
+taught_by(_EX2, _EX0)	taught_by(ginny_weasley, severus_snape)	1
+friend(fred_weasley, _EX4)	friend(fred_weasley, luna_lovegood)	1
+male(_EX5)	male(cedric_diggory)	1
+taught_by(charlie_weasley, dumbledore)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+friend(X, Y)	friend(hermione_granger, remus_lupin)	1
+sibling(_EX5, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+house(cho_chang, X)	house(cho_chang, ravenclaw)	1
+friend(_EX2, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+friend(Y, X)	friend(hermione_granger, neville_longbottom)	1
+parent(X, Z)	parent(arthur_weasley, ron_weasley)	1
+teacher(_EX4, X)	teacher(slughorn, potions)	1
+friend(_EX0, george_weasley)	friend(ron_weasley, george_weasley)	1
+friend(X, george_weasley)	friend(hermione_granger, george_weasley)	1
+friend(_EX2, X)	friend(ron_weasley, george_weasley)	1
+friend(fred_weasley, _EX2)	friend(fred_weasley, bill_weasley)	1
+friend(Z, X)	friend(hermione_granger, fred_weasley)	1
+sibling(ron_weasley, _EX3)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+wizard(neville_longbottom)	wizard(X) :- house(X, Y), male(X)	1
+friend(X, Z)	friend(ron_weasley, fred_weasley)	1
+ally(_EX6, Y)	ally(hermione_granger, dumbledore)	1
+house(_EX6, X)	house(goyle, slytherin)	1
+ally(dumbledore, dumbledore)	ally(X, Y) :- enemy(X, Z), enemy(Y, Z)	1
+parent(X, _EX3)	parent(molly_weasley, ron_weasley)	1
+taught_by(_EX2, X)	taught_by(ron_weasley, dumbledore)	1
+house(_EX0, X)	house(luna_lovegood, ravenclaw)	1
+enemy(_EX4, severus_snape)	enemy(harry_potter, severus_snape)	1
+friend(_EX6, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, dumbledore)	1
+friend(Y, fred_weasley)	friend(ron_weasley, fred_weasley)	1
+friend(Y, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+teacher(_EX1, X)	teacher(remus_lupin, defense_dark_arts)	1
+son(dudley_dursley, petunia_dursley)	son(X, Y) :- male(X), parent(Y, X)	1
+parent(_EX4, X)	parent(petunia_dursley, dudley_dursley)	1
+parent(X, _EX3)	parent(arthur_weasley, george_weasley)	1
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+enemy(_EX6, voldemort)	enemy(hermione_granger, voldemort)	1
+at(X, harry_potter)	at(hogwarts, harry_potter)	1
+ally(_EX1, Y)	ally(harry_potter, dumbledore)	1
+taught_by(_EX1, _EX2)	taught_by(harry_potter, slughorn)	1
+taught_by(_EX1, _EX2)	taught_by(ginny_weasley, severus_snape)	1
+parent(X, _EX1)	parent(arthur_weasley, ginny_weasley)	1
+male(X)	male(vernon_dursley)	1
+friend(_EX3, _EX4)	friend(george_weasley, bill_weasley)	1
+friend(_EX3, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+house(fred_weasley, X)	house(fred_weasley, gryffindor)	1
+taught_by(X, _EX5)	taught_by(ron_weasley, remus_lupin)	1
+teacher(_EX3, X)	teacher(slughorn, potions)	1
+friend(Y, X)	friend(fred_weasley, luna_lovegood)	1
+male(_EX0)	male(sirius_black)	1
+taught_by(_EX0, X)	taught_by(hermione_granger, flitwick)	1
+male(_EX2)	male(lucius_malfoy)	1
+taught_by(_EX5, _EX3)	taught_by(harry_potter, flitwick)	1
+taught_by(_EX2, _EX0)	taught_by(hermione_granger, flitwick)	1
+friend(X, Z)	friend(draco_malfoy, crabbe)	1
+friend(_EX2, dumbledore)	friend(hermione_granger, dumbledore)	1
+parent(draco_malfoy, lucius_malfoy)	parent(draco_malfoy, lucius_malfoy)	1
+friend(_EX3, X)	friend(hermione_granger, dumbledore)	1
+friend(_EX0, X)	friend(ron_weasley, fred_weasley)	1
+friend(_EX2, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+friend(X, _EX4)	friend(ron_weasley, fred_weasley)	1
+friend(hermione_granger, remus_lupin)	friend(hermione_granger, remus_lupin)	1
+friend(Z, X)	friend(luna_lovegood, neville_longbottom)	1
+house(draco_malfoy, X)	house(draco_malfoy, slytherin)	1
+at(X, _EX6)	at(grimmauld_place, kreacher)	1
+male(_EX5)	male(victor_krum)	1
+friend(_EX6, _EX4)	friend(fred_weasley, bill_weasley)	1
+male(_EX0)	male(vernon_dursley)	1
+male(_EX5)	male(bill_weasley)	1
+taught_by(_EX0, X)	taught_by(ginny_weasley, remus_lupin)	1
+taught_by(_EX2, _EX0)	taught_by(ginny_weasley, remus_lupin)	1
+friend(_EX4, X)	friend(ron_weasley, remus_lupin)	1
+male(neville_longbottom)	male(neville_longbottom)	1
+friend(_EX6, X)	friend(ron_weasley, dumbledore)	1
+taught_by(_EX0, X)	taught_by(ron_weasley, severus_snape)	1
+at(X, _EX6)	at(durmstrang, victor_krum)	1
+male(_EX5)	male(james_potter)	1
+teacher(_EX1, X)	teacher(slughorn, potions)	1
+enemy(_EX4, voldemort)	enemy(harry_potter, voldemort)	1
+friend(_EX3, _EX4)	friend(ron_weasley, remus_lupin)	1
+sibling(fred_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	1
+taught_by(_EX5, _EX3)	taught_by(hermione_granger, flitwick)	1
+parent(_EX4, X)	parent(draco_malfoy, lucius_malfoy)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, slughorn)	1
+ally(_EX4, _EX1)	ally(severus_snape, dumbledore)	1
+parent(X, _EX2)	parent(molly_weasley, fred_weasley)	1
+male(X)	male(voldemort)	1
+male(voldemort)	male(voldemort)	1
+ally(_EX4, _EX1)	ally(hermione_granger, dumbledore)	1
+taught_by(X, _EX5)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+mother(X, ginny_weasley)	mother(X, Y) :- female(X), parent(X, Y)	1
+friend(_EX3, _EX6)	friend(draco_malfoy, crabbe)	1
+parent(molly_weasley, _EX5)	parent(molly_weasley, ron_weasley)	1
+male(_EX0)	male(charlie_weasley)	1
+parent(molly_weasley, _EX6)	parent(molly_weasley, fred_weasley)	1
+parent(_EX5, X)	parent(draco_malfoy, lucius_malfoy)	1
+friend(draco_malfoy, X)	friend(draco_malfoy, crabbe)	1
+male(_EX3)	male(charlie_weasley)	1
+house(Z, gryffindor)	house(george_weasley, gryffindor)	1
+friend(X, neville_longbottom)	friend(hermione_granger, neville_longbottom)	1
+friend(_EX0, X)	friend(draco_malfoy, crabbe)	1
+casts_spells(_EX2)	casts_spells(X) :- wizard(X)	1
+female(_EX5)	female(madame_maxime)	1
+enemy(_EX6, bellatrix_lestrange)	enemy(harry_potter, bellatrix_lestrange)	1
+friend(X, _EX5)	friend(hermione_granger, george_weasley)	1
+house(Z, X)	house(voldemort, slytherin)	1
+female(ginny_weasley)	female(ginny_weasley)	1
+at(X, _EX6)	at(hogwarts, trelawney)	1
+friend(Z, X)	friend(hermione_granger, george_weasley)	1
+ally(_EX6, Y)	ally(ron_weasley, dumbledore)	1
+parent(X, _EX1)	parent(arthur_weasley, george_weasley)	1
+male(Y)	male(victor_krum)	1
+taught_by(_EX0, X)	taught_by(harry_potter, trelawney)	1
+friend(X, Y)	friend(hermione_granger, neville_longbottom)	1
+parent(Y, X)	parent(molly_weasley, ron_weasley)	1
+male(_EX6)	male(peter_pettigrew)	1
+taught_by(_EX6, _EX0)	taught_by(ginny_weasley, dumbledore)	1
+friend(_EX3, _EX4)	friend(fred_weasley, bill_weasley)	1
+friend(luna_lovegood, Y)	friend(luna_lovegood, neville_longbottom)	1
+taught_by(Z, slughorn)	taught_by(harry_potter, slughorn)	1
+male(_EX0)	male(goyle)	1
+friend(_EX4, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	1
+female(_EX5)	female(petunia_dursley)	1
+male(_EX2)	male(neville_longbottom)	1
+teacher(_EX5, X)	teacher(dumbledore, headmaster)	1
+friend(X, _EX5)	friend(draco_malfoy, goyle)	1
+friend(Z, X)	friend(draco_malfoy, goyle)	1
+friend(luna_lovegood, Z)	friend(luna_lovegood, neville_longbottom)	1
+parent(X, _EX5)	parent(arthur_weasley, ron_weasley)	1
+enemy(Y, X)	enemy(hermione_granger, bellatrix_lestrange)	1
+mutual_friend(_EX2, _EX3, _EX6)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+house(_EX6, X)	house(harry_potter, gryffindor)	1
+friend(ron_weasley, remus_lupin)	friend(ron_weasley, remus_lupin)	1
+parent(X, _EX5)	parent(molly_weasley, george_weasley)	1
+female(_EX5)	female(lily_potter)	1
+taught_by(_EX2, _EX4)	taught_by(ron_weasley, dumbledore)	1
+teacher(X, Y)	teacher(quirrell, defense_dark_arts)	1
+friend(fred_weasley, bill_weasley)	friend(fred_weasley, bill_weasley)	1
+friend(Y, X)	friend(george_weasley, bill_weasley)	1
+friend(_EX3, _EX6)	friend(fred_weasley, luna_lovegood)	1
+at(X, _EX6)	at(azkaban, bellatrix_lestrange)	1
+friend(_EX2, remus_lupin)	friend(sirius_black, remus_lupin)	1
+friend(Y, X)	friend(fred_weasley, george_weasley)	1
+parent(_EX4, X)	parent(james_potter, harry_potter)	1
+parent(X, _EX5)	parent(vernon_dursley, dudley_dursley)	1
+house(_EX6, X)	house(severus_snape, slytherin)	1
+house(Z, gryffindor)	house(peter_pettigrew, gryffindor)	1
+enemy(Y, X)	enemy(ron_weasley, umbridge)	1
+friend(_EX2, X)	friend(draco_malfoy, goyle)	1
+mutual_friend(Y, _EX4, luna_lovegood)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+taught_by(_EX5, quirrell)	taught_by(X, Y) :- teacher(Y, Z), wizard(X)	1
+taught_by(_EX2, _EX4)	taught_by(hermione_granger, severus_snape)	1
+house(Z, gryffindor)	house(ron_weasley, gryffindor)	1
+parent(_EX5, X)	parent(james_potter, harry_potter)	1
+taught_by(_EX2, X)	taught_by(harry_potter, severus_snape)	1
+mutual_friend(ron_weasley, _EX2, neville_longbottom)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	1
+parent(molly_weasley, X)	parent(molly_weasley, fred_weasley)	1
+house(_EX0, X)	house(ron_weasley, gryffindor)	1
+friend(george_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(bellatrix_lestrange)	0
+friend(goyle, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(vernon_dursley, Y2)	0
+friend(X, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(james_potter, Y1)	0
+male(X2)	male(bellatrix_lestrange)	0
+friend(neville_longbottom, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, sirius_black)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, bill_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, victor_krum)	0
+friend(_EX2, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(lily_potter, fred_weasley)	0
+sibling(dumbledore, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Y, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(slughorn)	0
+at(Y0, X0)	at(Y0, draco_malfoy)	0
+friend(luna_lovegood, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, neville_longbottom)	0
+friend(bill_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, goyle)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(james_potter, fred_weasley)	0
+friend(bill_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dudley_dursley, Y1)	0
+female(X0)	female(george_weasley)	0
+friend(bill_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(severus_snape)	wizard(X) :- house(X, Y), male(X)	0
+female(X0)	female(crabbe)	0
+friend(remus_lupin, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(sirius_black, Y1)	0
+parent(Z2, X2)	parent(arthur_weasley, harry_potter)	0
+male(X2)	male(severus_snape)	0
+friend(_EX4, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dudley_dursley, Y2)	0
+male(_EX1)	male(ginny_weasley)	0
+friend(george_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(madame_maxime, Y0)	0
+sibling(cedric_diggory, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(hermione_granger, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Z, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(hagrid, Y2)	0
+friend(bill_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X0)	male(cho_chang)	0
+friend(_EX6, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(luna_lovegood)	0
+friend(sirius_black, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, bill_weasley)	0
+parent(Z2, X2)	parent(arthur_weasley, lucius_malfoy)	0
+sibling(james_potter, james_potter)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(remus_lupin, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(mcgonagall)	0
+sibling(harry_potter, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, hagrid)	0
+friend(luna_lovegood, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(petunia_dursley, neville_longbottom)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, lucius_malfoy)	0
+friend(dumbledore, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, sirius_black)	0
+friend(X, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(X0)	male(umbridge)	0
+friend(goyle, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, harry_potter)	0
+friend(crabbe, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(crabbe, crabbe)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(cedric_diggory, cedric_diggory)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dumbledore, Y1)	0
+sibling(crabbe, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X1)	male(molly_weasley)	0
+male(X0)	male(wands)	0
+friend(goyle, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(_EX6)	male(luna_lovegood)	0
+friend(crabbe, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(lily_potter, george_weasley)	0
+friend(remus_lupin, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(dudley_dursley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(neville_longbottom, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, bill_weasley)	0
+sibling(harry_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, dudley_dursley)	0
+male(X1)	male(bellatrix_lestrange)	0
+friend(crabbe, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(mcgonagall, Y0)	0
+parent(X0, Y0)	parent(bellatrix_lestrange, _EX2)	0
+friend(ron_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+house(X1, Y1)	house(victor_krum, Y1)	0
+friend(goyle, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(luna_lovegood, _EX2)	0
+sibling(vernon_dursley, vernon_dursley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, voldemort)	0
+friend(crabbe, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, goyle)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X4)	male(hermione_granger)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, george_weasley)	0
+parent(X0, Y0)	parent(ginny_weasley, _EX2)	0
+friend(remus_lupin, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(fleur_delacour, _EX2)	0
+male(X1)	male(severus_snape)	0
+friend(remus_lupin, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, ron_weasley)	0
+friend(fred_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, lucius_malfoy)	0
+friend(remus_lupin, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, voldemort)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, george_weasley)	0
+friend(dumbledore, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, voldemort)	0
+parent(Z2, X2)	parent(arthur_weasley, cedric_diggory)	0
+friend(Z, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X1)	male(luna_lovegood)	0
+sibling(peter_pettigrew, peter_pettigrew)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, peter_pettigrew)	0
+friend(fred_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, fred_weasley)	0
+male(X0)	male(hermione_granger)	0
+sibling(crabbe, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X2)	male(hermione_granger)	0
+house(X2, Y2)	house(james_potter, Y2)	0
+friend(fred_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, goyle)	0
+friend(_EX3, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(trelawney)	0
+male(X1)	male(hermione_granger)	0
+male(X0)	male(dementors)	0
+friend(_EX6, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(victor_krum, Y2)	0
+house(X0, Y0)	house(james_potter, Y0)	0
+friend(_EX4, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, george_weasley)	0
+friend(george_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(remus_lupin, Y0)	0
+parent(X0, Y0)	parent(hermione_granger, _EX2)	0
+parent(X0, Y0)	parent(cho_chang, _EX2)	0
+house(X2, Y2)	house(remus_lupin, Y2)	0
+parent(Z0, X0)	parent(xenophilius_lovegood, ron_weasley)	0
+sibling(victor_krum, victor_krum)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, sirius_black)	0
+male(X1)	male(ginny_weasley)	0
+friend(bill_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, cedric_diggory)	0
+friend(hermione_granger, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(arthur_weasley)	0
+friend(dumbledore, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(james_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dumbledore, Y0)	0
+parent(Z2, X2)	parent(arthur_weasley, charlie_weasley)	0
+friend(remus_lupin, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, hagrid)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(vernon_dursley, fred_weasley)	0
+parent(Z2, X2)	parent(vernon_dursley, harry_potter)	0
+friend(george_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, charlie_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(vernon_dursley, Y1)	0
+friend(george_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, bill_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(cedric_diggory, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, neville_longbottom)	0
+male(X0)	male(butterbeer)	0
+friend(_EX4, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, remus_lupin)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, charlie_weasley)	0
+friend(luna_lovegood, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(hermione_granger)	wizard(X) :- house(X, Y), male(X)	0
+friend(fred_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(umbridge, Y0)	0
+female(X0)	female(lucius_malfoy)	0
+friend(hermione_granger, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, crabbe)	0
+friend(dumbledore, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(hagrid, Y1)	0
+friend(dumbledore, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, cedric_diggory)	0
+friend(X, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, neville_longbottom)	0
+female(X0)	female(neville_longbottom)	0
+friend(bill_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, lucius_malfoy)	0
+friend(X, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(cho_chang)	0
+friend(crabbe, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(lily_potter, Y0)	0
+female(X0)	female(voldemort)	0
+parent(Z2, X2)	parent(petunia_dursley, fred_weasley)	0
+friend(george_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(sirius_black, Y2)	0
+friend(bill_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, sirius_black)	0
+friend(george_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, cedric_diggory)	0
+friend(_EX6, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(ron_weasley)	0
+friend(Z, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX1)	male(luna_lovegood)	0
+friend(_EX3, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, neville_longbottom)	0
+friend(_EX0, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(umbridge, _EX2)	0
+sibling(neville_longbottom, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(fred_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(molly_weasley)	0
+parent(Z2, X2)	parent(draco_malfoy, harry_potter)	0
+friend(_EX6, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(goyle)	0
+friend(bill_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(cedric_diggory)	0
+friend(_EX3, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, dudley_dursley)	0
+friend(remus_lupin, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(ginny_weasley)	0
+sibling(bill_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(X0, Y0)	parent(mcgonagall, _EX2)	0
+at(Y0, X0)	at(Y0, arthur_weasley)	0
+friend(X, Y)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(draco_malfoy)	0
+female(X0)	female(harry_potter)	0
+friend(Y, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(charlie_weasley)	0
+friend(_EX6, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(fleur_delacour, Y0)	0
+house(X0, Y0)	house(hagrid, Y0)	0
+parent(Z2, X2)	parent(molly_weasley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, sirius_black)	0
+friend(dumbledore, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(petunia_dursley, Y0)	0
+friend(neville_longbottom, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(tonks)	0
+friend(_EX6, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, draco_malfoy)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+wizard(mcgonagall)	wizard(X) :- house(X, Y), male(X)	0
+friend(crabbe, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, cedric_diggory)	0
+house(X0, Y0)	house(sirius_black, Y0)	0
+friend(Z, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, voldemort)	0
+male(X0)	male(madame_maxime)	0
+friend(crabbe, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, arthur_weasley)	0
+male(X0)	male(book_of_monsters)	0
+friend(_EX4, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, arthur_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(lily_potter, sirius_black)	0
+female(X0)	female(bill_weasley)	0
+house(X0, Y0)	house(victor_krum, Y0)	0
+male(_EX6)	male(ginny_weasley)	0
+parent(X0, Y0)	parent(madame_maxime, _EX2)	0
+wizard(dumbledore)	wizard(X) :- house(X, Y), male(X)	0
+friend(hermione_granger, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, dudley_dursley)	0
+friend(hermione_granger, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(ginny_weasley)	male(ginny_weasley)	0
+friend(george_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, harry_potter)	0
+friend(fred_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(luna_lovegood)	0
+friend(goyle, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dumbledore, Y2)	0
+male(X1)	male(cho_chang)	0
+friend(george_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(severus_snape)	0
+female(X0)	female(peter_pettigrew)	0
+friend(dumbledore, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(kreacher)	0
+friend(goyle, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(luna_lovegood)	0
+sibling(voldemort, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, harry_potter)	0
+friend(bill_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(fred_weasley)	0
+friend(fred_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, ron_weasley)	0
+friend(luna_lovegood, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(vernon_dursley, Y0)	0
+friend(fred_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(tonks, Y0)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, neville_longbottom)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX3, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, james_potter)	0
+friend(dumbledore, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(ginny_weasley)	0
+friend(crabbe, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, vernon_dursley)	0
+male(X2)	male(molly_weasley)	0
+friend(_EX0, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(remus_lupin, Y1)	0
+friend(goyle, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, arthur_weasley)	0
+sibling(dumbledore, dumbledore)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(ginny_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, charlie_weasley)	0
+friend(george_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(bellatrix_lestrange)	0
+friend(goyle, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(vernon_dursley, Y2)	0
+friend(X, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(james_potter, Y1)	0
+male(X2)	male(bellatrix_lestrange)	0
+friend(neville_longbottom, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, sirius_black)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, bill_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, victor_krum)	0
+friend(_EX2, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(lily_potter, fred_weasley)	0
+sibling(dumbledore, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Y, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(slughorn)	0
+at(Y0, X0)	at(Y0, draco_malfoy)	0
+friend(luna_lovegood, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, neville_longbottom)	0
+friend(bill_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, goyle)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(james_potter, fred_weasley)	0
+friend(bill_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dudley_dursley, Y1)	0
+female(X0)	female(george_weasley)	0
+friend(bill_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(severus_snape)	wizard(X) :- house(X, Y), male(X)	0
+female(X0)	female(crabbe)	0
+friend(remus_lupin, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(sirius_black, Y1)	0
+parent(Z2, X2)	parent(arthur_weasley, harry_potter)	0
+male(X2)	male(severus_snape)	0
+friend(_EX4, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dudley_dursley, Y2)	0
+male(_EX1)	male(ginny_weasley)	0
+friend(george_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(madame_maxime, Y0)	0
+sibling(cedric_diggory, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(hermione_granger, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Z, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(hagrid, Y2)	0
+friend(bill_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X0)	male(cho_chang)	0
+friend(_EX6, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(luna_lovegood)	0
+friend(sirius_black, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, bill_weasley)	0
+parent(Z2, X2)	parent(arthur_weasley, lucius_malfoy)	0
+sibling(james_potter, james_potter)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(remus_lupin, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(mcgonagall)	0
+sibling(harry_potter, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, hagrid)	0
+friend(luna_lovegood, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(petunia_dursley, neville_longbottom)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, lucius_malfoy)	0
+friend(dumbledore, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, sirius_black)	0
+friend(X, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(X0)	male(umbridge)	0
+friend(goyle, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, harry_potter)	0
+friend(crabbe, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(crabbe, crabbe)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(cedric_diggory, cedric_diggory)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dumbledore, Y1)	0
+sibling(crabbe, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X1)	male(molly_weasley)	0
+male(X0)	male(wands)	0
+friend(goyle, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(_EX6)	male(luna_lovegood)	0
+friend(crabbe, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(lily_potter, george_weasley)	0
+friend(remus_lupin, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(dudley_dursley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(neville_longbottom, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, bill_weasley)	0
+sibling(harry_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, dudley_dursley)	0
+male(X1)	male(bellatrix_lestrange)	0
+friend(crabbe, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(mcgonagall, Y0)	0
+parent(X0, Y0)	parent(bellatrix_lestrange, _EX2)	0
+friend(ron_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+house(X1, Y1)	house(victor_krum, Y1)	0
+friend(goyle, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(luna_lovegood, _EX2)	0
+sibling(vernon_dursley, vernon_dursley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, voldemort)	0
+friend(crabbe, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, goyle)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X4)	male(hermione_granger)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, george_weasley)	0
+parent(X0, Y0)	parent(ginny_weasley, _EX2)	0
+friend(remus_lupin, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(fleur_delacour, _EX2)	0
+male(X1)	male(severus_snape)	0
+friend(remus_lupin, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, ron_weasley)	0
+friend(fred_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, lucius_malfoy)	0
+friend(remus_lupin, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, voldemort)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, george_weasley)	0
+friend(dumbledore, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, voldemort)	0
+parent(Z2, X2)	parent(arthur_weasley, cedric_diggory)	0
+friend(Z, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X1)	male(luna_lovegood)	0
+sibling(peter_pettigrew, peter_pettigrew)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, peter_pettigrew)	0
+friend(fred_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, fred_weasley)	0
+male(X0)	male(hermione_granger)	0
+sibling(crabbe, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X2)	male(hermione_granger)	0
+house(X2, Y2)	house(james_potter, Y2)	0
+friend(fred_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, goyle)	0
+friend(_EX3, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(trelawney)	0
+male(X1)	male(hermione_granger)	0
+male(X0)	male(dementors)	0
+friend(_EX6, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(victor_krum, Y2)	0
+house(X0, Y0)	house(james_potter, Y0)	0
+friend(_EX4, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, george_weasley)	0
+friend(george_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(remus_lupin, Y0)	0
+parent(X0, Y0)	parent(hermione_granger, _EX2)	0
+parent(X0, Y0)	parent(cho_chang, _EX2)	0
+house(X2, Y2)	house(remus_lupin, Y2)	0
+parent(Z0, X0)	parent(xenophilius_lovegood, ron_weasley)	0
+sibling(victor_krum, victor_krum)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, sirius_black)	0
+male(X1)	male(ginny_weasley)	0
+friend(bill_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, cedric_diggory)	0
+friend(hermione_granger, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(arthur_weasley)	0
+friend(dumbledore, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(james_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dumbledore, Y0)	0
+parent(Z2, X2)	parent(arthur_weasley, charlie_weasley)	0
+friend(remus_lupin, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, hagrid)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(vernon_dursley, fred_weasley)	0
+parent(Z2, X2)	parent(vernon_dursley, harry_potter)	0
+friend(george_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, charlie_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(vernon_dursley, Y1)	0
+friend(george_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, bill_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(cedric_diggory, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, neville_longbottom)	0
+male(X0)	male(butterbeer)	0
+friend(_EX4, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, remus_lupin)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, charlie_weasley)	0
+friend(luna_lovegood, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(hermione_granger)	wizard(X) :- house(X, Y), male(X)	0
+friend(fred_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(umbridge, Y0)	0
+female(X0)	female(lucius_malfoy)	0
+friend(hermione_granger, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, crabbe)	0
+friend(dumbledore, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(hagrid, Y1)	0
+friend(dumbledore, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, cedric_diggory)	0
+friend(X, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, neville_longbottom)	0
+female(X0)	female(neville_longbottom)	0
+friend(bill_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, lucius_malfoy)	0
+friend(X, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(cho_chang)	0
+friend(crabbe, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(lily_potter, Y0)	0
+female(X0)	female(voldemort)	0
+parent(Z2, X2)	parent(petunia_dursley, fred_weasley)	0
+friend(george_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(sirius_black, Y2)	0
+friend(bill_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, sirius_black)	0
+friend(george_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, cedric_diggory)	0
+friend(_EX6, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(ron_weasley)	0
+friend(Z, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX1)	male(luna_lovegood)	0
+friend(_EX3, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, neville_longbottom)	0
+friend(_EX0, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(umbridge, _EX2)	0
+sibling(neville_longbottom, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(fred_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(molly_weasley)	0
+parent(Z2, X2)	parent(draco_malfoy, harry_potter)	0
+friend(_EX6, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(goyle)	0
+friend(bill_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(cedric_diggory)	0
+friend(_EX3, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, dudley_dursley)	0
+friend(remus_lupin, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(ginny_weasley)	0
+sibling(bill_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(X0, Y0)	parent(mcgonagall, _EX2)	0
+at(Y0, X0)	at(Y0, arthur_weasley)	0
+friend(X, Y)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(draco_malfoy)	0
+female(X0)	female(harry_potter)	0
+friend(Y, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(charlie_weasley)	0
+friend(_EX6, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(fleur_delacour, Y0)	0
+house(X0, Y0)	house(hagrid, Y0)	0
+parent(Z2, X2)	parent(molly_weasley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, sirius_black)	0
+friend(dumbledore, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(petunia_dursley, Y0)	0
+friend(neville_longbottom, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(tonks)	0
+friend(_EX6, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, draco_malfoy)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+wizard(mcgonagall)	wizard(X) :- house(X, Y), male(X)	0
+friend(crabbe, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, cedric_diggory)	0
+house(X0, Y0)	house(sirius_black, Y0)	0
+friend(Z, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, voldemort)	0
+male(X0)	male(madame_maxime)	0
+friend(crabbe, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, arthur_weasley)	0
+male(X0)	male(book_of_monsters)	0
+friend(_EX4, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, arthur_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(lily_potter, sirius_black)	0
+female(X0)	female(bill_weasley)	0
+house(X0, Y0)	house(victor_krum, Y0)	0
+male(_EX6)	male(ginny_weasley)	0
+parent(X0, Y0)	parent(madame_maxime, _EX2)	0
+wizard(dumbledore)	wizard(X) :- house(X, Y), male(X)	0
+friend(hermione_granger, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, dudley_dursley)	0
+friend(hermione_granger, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(ginny_weasley)	male(ginny_weasley)	0
+friend(george_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, harry_potter)	0
+friend(fred_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(luna_lovegood)	0
+friend(goyle, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dumbledore, Y2)	0
+male(X1)	male(cho_chang)	0
+friend(george_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(severus_snape)	0
+female(X0)	female(peter_pettigrew)	0
+friend(dumbledore, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(kreacher)	0
+friend(goyle, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(luna_lovegood)	0
+sibling(voldemort, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, harry_potter)	0
+friend(bill_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(fred_weasley)	0
+friend(fred_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, ron_weasley)	0
+friend(luna_lovegood, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(vernon_dursley, Y0)	0
+friend(fred_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(tonks, Y0)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, neville_longbottom)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX3, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, james_potter)	0
+friend(dumbledore, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(ginny_weasley)	0
+friend(crabbe, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, vernon_dursley)	0
+male(X2)	male(molly_weasley)	0
+friend(_EX0, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(remus_lupin, Y1)	0
+friend(goyle, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, arthur_weasley)	0
+sibling(dumbledore, dumbledore)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(ginny_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, charlie_weasley)	0
+friend(george_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(bellatrix_lestrange)	0
+friend(goyle, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(vernon_dursley, Y2)	0
+friend(X, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(james_potter, Y1)	0
+male(X2)	male(bellatrix_lestrange)	0
+friend(neville_longbottom, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, sirius_black)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, bill_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, victor_krum)	0
+friend(_EX2, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(lily_potter, fred_weasley)	0
+sibling(dumbledore, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Y, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(slughorn)	0
+at(Y0, X0)	at(Y0, draco_malfoy)	0
+friend(luna_lovegood, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, neville_longbottom)	0
+friend(bill_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, goyle)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, Y2)	parent(james_potter, fred_weasley)	0
+friend(bill_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dudley_dursley, Y1)	0
+female(X0)	female(george_weasley)	0
+friend(bill_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(severus_snape)	wizard(X) :- house(X, Y), male(X)	0
+female(X0)	female(crabbe)	0
+friend(remus_lupin, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(sirius_black, Y1)	0
+parent(Z2, X2)	parent(arthur_weasley, harry_potter)	0
+male(X2)	male(severus_snape)	0
+friend(_EX4, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dudley_dursley, Y2)	0
+male(_EX1)	male(ginny_weasley)	0
+friend(george_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(madame_maxime, Y0)	0
+sibling(cedric_diggory, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(hermione_granger, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Z, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(hagrid, Y2)	0
+friend(bill_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X0)	male(cho_chang)	0
+friend(_EX6, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(luna_lovegood)	0
+friend(sirius_black, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, bill_weasley)	0
+parent(Z2, X2)	parent(arthur_weasley, lucius_malfoy)	0
+sibling(james_potter, james_potter)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(remus_lupin, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(mcgonagall)	0
+sibling(harry_potter, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, hagrid)	0
+friend(luna_lovegood, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(petunia_dursley, neville_longbottom)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, lucius_malfoy)	0
+friend(dumbledore, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(sirius_black, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, sirius_black)	0
+friend(X, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(X0)	male(umbridge)	0
+friend(goyle, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, harry_potter)	0
+friend(crabbe, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(crabbe, crabbe)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(cedric_diggory, cedric_diggory)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(dumbledore, Y1)	0
+sibling(crabbe, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X1)	male(molly_weasley)	0
+male(X0)	male(wands)	0
+friend(goyle, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(_EX6)	male(luna_lovegood)	0
+friend(crabbe, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(lily_potter, george_weasley)	0
+friend(remus_lupin, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(dudley_dursley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(neville_longbottom, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, bill_weasley)	0
+sibling(harry_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(arthur_weasley, dudley_dursley)	0
+male(X1)	male(bellatrix_lestrange)	0
+friend(crabbe, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(mcgonagall, Y0)	0
+parent(X0, Y0)	parent(bellatrix_lestrange, _EX2)	0
+friend(ron_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+house(X1, Y1)	house(victor_krum, Y1)	0
+friend(goyle, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(luna_lovegood, _EX2)	0
+sibling(vernon_dursley, vernon_dursley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, voldemort)	0
+friend(crabbe, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, goyle)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X4)	male(hermione_granger)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, george_weasley)	0
+parent(X0, Y0)	parent(ginny_weasley, _EX2)	0
+friend(remus_lupin, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(fleur_delacour, _EX2)	0
+male(X1)	male(severus_snape)	0
+friend(remus_lupin, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, ron_weasley)	0
+friend(fred_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, lucius_malfoy)	0
+friend(remus_lupin, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, voldemort)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, george_weasley)	0
+friend(dumbledore, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, voldemort)	0
+parent(Z2, X2)	parent(arthur_weasley, cedric_diggory)	0
+friend(Z, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X1)	male(luna_lovegood)	0
+sibling(peter_pettigrew, peter_pettigrew)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, peter_pettigrew)	0
+friend(fred_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, fred_weasley)	0
+male(X0)	male(hermione_granger)	0
+sibling(crabbe, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X2)	male(hermione_granger)	0
+house(X2, Y2)	house(james_potter, Y2)	0
+friend(fred_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, goyle)	0
+friend(_EX3, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(trelawney)	0
+male(X1)	male(hermione_granger)	0
+male(X0)	male(dementors)	0
+friend(_EX6, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(victor_krum, Y2)	0
+house(X0, Y0)	house(james_potter, Y0)	0
+friend(_EX4, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z0, X0)	parent(james_potter, george_weasley)	0
+friend(george_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(remus_lupin, Y0)	0
+parent(X0, Y0)	parent(hermione_granger, _EX2)	0
+parent(X0, Y0)	parent(cho_chang, _EX2)	0
+house(X2, Y2)	house(remus_lupin, Y2)	0
+parent(Z0, X0)	parent(xenophilius_lovegood, ron_weasley)	0
+sibling(victor_krum, victor_krum)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, sirius_black)	0
+male(X1)	male(ginny_weasley)	0
+friend(bill_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, cedric_diggory)	0
+friend(hermione_granger, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(arthur_weasley)	0
+friend(dumbledore, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(james_potter, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dumbledore, Y0)	0
+parent(Z2, X2)	parent(arthur_weasley, charlie_weasley)	0
+friend(remus_lupin, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, hagrid)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(goyle, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(vernon_dursley, fred_weasley)	0
+parent(Z2, X2)	parent(vernon_dursley, harry_potter)	0
+friend(george_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(charlie_weasley, charlie_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(vernon_dursley, Y1)	0
+friend(george_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, bill_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(ron_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(cedric_diggory, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, neville_longbottom)	0
+male(X0)	male(butterbeer)	0
+friend(_EX4, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(remus_lupin, remus_lupin)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, charlie_weasley)	0
+friend(luna_lovegood, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+wizard(hermione_granger)	wizard(X) :- house(X, Y), male(X)	0
+friend(fred_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(umbridge, Y0)	0
+female(X0)	female(lucius_malfoy)	0
+friend(hermione_granger, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, crabbe)	0
+friend(dumbledore, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(hagrid, Y1)	0
+friend(dumbledore, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, cedric_diggory)	0
+friend(X, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, neville_longbottom)	0
+female(X0)	female(neville_longbottom)	0
+friend(bill_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, lucius_malfoy)	0
+friend(X, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(cho_chang)	0
+friend(crabbe, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(lily_potter, Y0)	0
+female(X0)	female(voldemort)	0
+parent(Z2, X2)	parent(petunia_dursley, fred_weasley)	0
+friend(george_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(sirius_black, Y2)	0
+friend(bill_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, sirius_black)	0
+friend(george_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, cedric_diggory)	0
+friend(_EX6, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(ron_weasley)	0
+friend(Z, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX1)	male(luna_lovegood)	0
+friend(_EX3, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(lucius_malfoy, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, neville_longbottom)	0
+friend(_EX0, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(umbridge, _EX2)	0
+sibling(neville_longbottom, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(fred_weasley, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(hermione_granger, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(molly_weasley)	0
+parent(Z2, X2)	parent(draco_malfoy, harry_potter)	0
+friend(_EX6, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(goyle)	0
+friend(bill_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(cedric_diggory)	0
+friend(_EX3, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, dudley_dursley)	0
+friend(remus_lupin, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(ginny_weasley)	0
+sibling(bill_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(X0, Y0)	parent(mcgonagall, _EX2)	0
+at(Y0, X0)	at(Y0, arthur_weasley)	0
+friend(X, Y)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(X, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(draco_malfoy)	0
+female(X0)	female(harry_potter)	0
+friend(Y, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(charlie_weasley)	0
+friend(_EX6, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(fleur_delacour, Y0)	0
+house(X0, Y0)	house(hagrid, Y0)	0
+parent(Z2, X2)	parent(molly_weasley, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, sirius_black)	0
+friend(dumbledore, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, _EX4)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(petunia_dursley, Y0)	0
+friend(neville_longbottom, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(tonks)	0
+friend(_EX6, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(draco_malfoy, draco_malfoy)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+wizard(mcgonagall)	wizard(X) :- house(X, Y), male(X)	0
+friend(crabbe, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, cedric_diggory)	0
+house(X0, Y0)	house(sirius_black, Y0)	0
+friend(Z, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, voldemort)	0
+male(X0)	male(madame_maxime)	0
+friend(crabbe, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Z, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, arthur_weasley)	0
+male(X0)	male(book_of_monsters)	0
+friend(_EX4, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, arthur_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(lily_potter, sirius_black)	0
+female(X0)	female(bill_weasley)	0
+house(X0, Y0)	house(victor_krum, Y0)	0
+male(_EX6)	male(ginny_weasley)	0
+parent(X0, Y0)	parent(madame_maxime, _EX2)	0
+wizard(dumbledore)	wizard(X) :- house(X, Y), male(X)	0
+friend(hermione_granger, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, dudley_dursley)	0
+friend(hermione_granger, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(ginny_weasley)	male(ginny_weasley)	0
+friend(george_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, harry_potter)	0
+friend(fred_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(luna_lovegood)	0
+friend(goyle, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(dumbledore, Y2)	0
+male(X1)	male(cho_chang)	0
+friend(george_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(severus_snape)	0
+female(X0)	female(peter_pettigrew)	0
+friend(dumbledore, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(kreacher)	0
+friend(goyle, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(luna_lovegood)	0
+sibling(voldemort, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, harry_potter)	0
+friend(bill_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(fred_weasley)	0
+friend(fred_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(vernon_dursley, ron_weasley)	0
+friend(luna_lovegood, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(vernon_dursley, Y0)	0
+friend(fred_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(tonks, Y0)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, neville_longbottom)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX3, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, james_potter)	0
+friend(dumbledore, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(ginny_weasley)	0
+friend(crabbe, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, vernon_dursley)	0
+male(X2)	male(molly_weasley)	0
+friend(_EX0, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(remus_lupin, Y1)	0
+friend(goyle, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, sirius_black)	0
+parent(Z2, X2)	parent(arthur_weasley, arthur_weasley)	0
+sibling(dumbledore, dumbledore)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(bill_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, _EX6)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(victor_krum, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(dumbledore, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX5)	male(ginny_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, charlie_weasley)	0
+friend(fred_weasley, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(mcgonagall)	0
+friend(dumbledore, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, james_potter)	0
+friend(crabbe, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(charlie_weasley)	0
+friend(X, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(neville_longbottom, neville_longbottom)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX2, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(arthur_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(vernon_dursley, harry_potter)	0
+male(X0)	male(kreacher)	0
+friend(_EX6, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(ginny_weasley, _EX2)	0
+friend(hermione_granger, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(harry_potter, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(X1)	male(luna_lovegood)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, victor_krum)	0
+friend(fred_weasley, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(lily_potter, george_weasley)	0
+friend(ron_weasley, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(crabbe, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(voldemort, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(george_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(butterbeer)	0
+male(X1)	male(molly_weasley)	0
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(james_potter, lucius_malfoy)	0
+friend(Z, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(tonks, Y0)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(petunia_dursley, Y0)	0
+friend(remus_lupin, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(severus_snape)	0
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, cedric_diggory)	0
+friend(X, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(luna_lovegood)	0
+friend(fred_weasley, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X2)	male(ginny_weasley)	0
+friend(_EX0, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(vernon_dursley, vernon_dursley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+male(X2)	male(severus_snape)	0
+friend(hermione_granger, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(bill_weasley, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Y, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(hagrid, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(Z, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, goyle)	0
+sibling(bill_weasley, bill_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(_EX6)	male(luna_lovegood)	0
+friend(_EX6, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, dudley_dursley)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+male(X0)	male(cho_chang)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(kreacher)	0
+sibling(voldemort, voldemort)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+female(X0)	female(cedric_diggory)	0
+friend(george_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(draco_malfoy, sirius_black)	0
+male(X0)	male(trelawney)	0
+friend(neville_longbottom, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+house(X1, Y1)	house(dudley_dursley, Y1)	0
+male(_EX6)	male(luna_lovegood)	0
+male(X0)	male(slughorn)	0
+friend(_EX0, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+sibling(goyle, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(luna_lovegood, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+female(X0)	female(fred_weasley)	0
+friend(george_weasley, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, lucius_malfoy)	0
+friend(neville_longbottom, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+mutual_friend(_EX2, _EX2, bill_weasley)	mutual_friend(X, Y, Z) :- friend(X, Z), friend(Y, Z)	0
+friend(fred_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX4, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(ron_weasley, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(petunia_dursley, sirius_black)	0
+friend(_EX2, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X1)	male(luna_lovegood)	0
+sibling(draco_malfoy, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, Y)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X1)	male(severus_snape)	0
+house(X2, Y2)	house(vernon_dursley, Y2)	0
+parent(X0, Y0)	parent(bellatrix_lestrange, _EX2)	0
+friend(hermione_granger, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(vernon_dursley, Y1)	0
+friend(X, crabbe)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+at(Y0, X0)	at(Y0, crabbe)	0
+friend(Y, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(crabbe, dumbledore)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX0, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(goyle, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, sirius_black)	0
+friend(george_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, neville_longbottom)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(molly_weasley, harry_potter)	0
+parent(Z2, X2)	parent(arthur_weasley, arthur_weasley)	0
+parent(Z2, X2)	parent(arthur_weasley, charlie_weasley)	0
+male(X0)	male(tonks)	0
+friend(remus_lupin, _EX5)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(bill_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(Y, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(remus_lupin, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(hagrid, Y2)	0
+friend(remus_lupin, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(neville_longbottom, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+male(X1)	male(molly_weasley)	0
+male(X0)	male(dementors)	0
+parent(X0, Y0)	parent(tonks, _EX2)	0
+friend(_EX4, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, Z)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X0, Y0)	house(dudley_dursley, Y0)	0
+friend(_EX3, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(draco_malfoy, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(luna_lovegood, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(hermione_granger)	0
+friend(george_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X2, Y2)	house(hagrid, Y2)	0
+friend(_EX3, ron_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z0, X0)	parent(xenophilius_lovegood, ron_weasley)	0
+parent(Z2, X2)	parent(molly_weasley, voldemort)	0
+sibling(dumbledore, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+at(Y0, X0)	at(Y0, goyle)	0
+friend(draco_malfoy, goyle)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(dumbledore, luna_lovegood)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX1)	male(ginny_weasley)	0
+sibling(hagrid, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+sibling(arthur_weasley, _EX5)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+house(X0, Y0)	house(victor_krum, Y0)	0
+friend(ron_weasley, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX2, X)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, george_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX6, sirius_black)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(_EX3, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(_EX1)	male(luna_lovegood)	0
+friend(goyle, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(X0, Y0)	parent(fleur_delacour, _EX2)	0
+house(X1, Y1)	house(dumbledore, Y1)	0
+friend(crabbe, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+male(X0)	male(dementors)	0
+friend(dumbledore, _EX2)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(X, hermione_granger)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(fred_weasley, draco_malfoy)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+parent(Z2, X2)	parent(arthur_weasley, charlie_weasley)	0
+male(X0)	male(butterbeer)	0
+at(Y0, X0)	at(Y0, james_potter)	0
+friend(_EX6, fred_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+house(X1, Y1)	house(hagrid, Y1)	0
+sibling(neville_longbottom, fred_weasley)	sibling(X, Y) :- parent(Z, X), parent(Z, Y)	0
+parent(Z2, X2)	parent(xenophilius_lovegood, cedric_diggory)	0
+friend(remus_lupin, remus_lupin)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
+friend(george_weasley, bill_weasley)	friend(X, Z) :- friend(X, Y), friend(Y, Z)	0
