@@ -330,6 +330,17 @@ if __name__ == "__main__":
                          help="Embed size. Defaults to 50")
     aparser.add_argument("--embed_model_path", default="rKB_model.pth",
                          help="Path to read a trained embedding model from")
+    aparser.add_argument(
+    "--train_scoring_model",
+    action="store_true",
+    help="Flag to enable training the scoring model"
+    )
+
+    aparser.add_argument(
+    "--kb_path",
+    type=str,
+    help="Path to the knowledge base file"
+    ) 
 
     args = aparser.parse_args()
 
