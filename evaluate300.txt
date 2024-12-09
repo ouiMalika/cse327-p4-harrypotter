@@ -1,0 +1,412 @@
+using cpu device
+UNITY: ming
+        Embedding Model: new_model_100.pth
+        Scoring Model: scoring_model_100.pt
+
+        Control: mingoal
+        Rule Eval: Max Rule
+/opt/anaconda3/lib/python3.11/site-packages/torch/nn/modules/lazy.py:181: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+Query 1: order_of_phoenix(Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (2074 nps)
+
+Query 2: mutual_friend(_EX5, _EX4, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (3636 nps)
+
+Query 3: father(_EX3, _EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (5681 nps)
+
+Query 4: mutual_friend(ron_weasley, _EX1, X)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (7633 nps)
+
+Query 5: defeat_voldemort(X)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11363 nps)
+
+Query 6: taught_by(Z, _EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12048 nps)
+
+Query 7: defeat_voldemort(_EX3)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8130 nps)
+
+Query 8: taught_by(_EX6, trelawney)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (5319 nps)
+
+Query 9: ally(_EX5, harry_potter)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12499 nps)
+
+Query 10: taught_by(_EX0, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (13888 nps)
+
+Query 11: must_find_date_yule_ball(_EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10416 nps)
+
+Query 12: ally(_EX4, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (7874 nps)
+
+Query 13: mutual_friend(_EX0, _EX3, bill_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8474 nps)
+
+Query 14: wizard(_EX1)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8403 nps)
+
+Query 15: mutual_friend(_EX5, hermione_granger, bill_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (7575 nps)
+
+Query 16: child(Y, james_potter)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8196 nps)
+
+Query 17: taught_by(_EX1, _EX4)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8264 nps)
+
+Query 18: sibling(fred_weasley, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (13513 nps)
+
+Query 19: casts_spells(Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12345 nps)
+
+Query 20: slytherin_gone_bad(X)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10526 nps)
+
+Query 21: sibling(_EX6, _EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10101 nps)
+
+Query 22: son(dudley_dursley, _EX1)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12499 nps)
+
+Query 23: taught_by(lucius_malfoy, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10989 nps)
+
+Query 24: taught_by(_EX6, Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11627 nps)
+
+Query 25: taught_by(fred_weasley, X)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11494 nps)
+
+Query 26: mutual_friend(_EX0, ron_weasley, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12987 nps)
+
+Query 27: taught_by(_EX5, lockhart)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (14705 nps)
+
+Query 28: brave(_EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (14925 nps)
+
+Query 29: taught_by(_EX5, umbridge)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8474 nps)
+
+Query 30: child(_EX1, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8695 nps)
+
+Query 31: mutual_friend(_EX1, _EX3, luna_lovegood)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11764 nps)
+
+Query 32: mutual_friend(_EX0, fred_weasley, bill_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (13157 nps)
+
+Query 33: taught_by(peter_pettigrew, Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (16666 nps)
+
+Query 34: taught_by(Y, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (16949 nps)
+
+Query 35: taught_by(fred_weasley, dumbledore)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9523 nps)
+
+Query 36: defeat_voldemort(_EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10638 nps)
+
+Query 37: ally(_EX5, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11363 nps)
+
+Query 38: son(_EX0, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (15624 nps)
+
+Query 39: mutual_friend(Y, _EX6, george_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (4166 nps)
+
+Query 40: taught_by(neville_longbottom, Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8264 nps)
+
+Query 41: taught_by(lucius_malfoy, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8000 nps)
+
+Query 42: mutual_friend(_EX4, _EX4, _EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (7042 nps)
+
+Query 43: taught_by(Z, hagrid)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12345 nps)
+
+Query 44: mutual_friend(george_weasley, Y, _EX1)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9345 nps)
+
+Query 45: taught_by(_EX4, _EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10752 nps)
+
+Query 46: mutual_friend(_EX4, _EX4, crabbe)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9345 nps)
+
+Query 47: taught_by(_EX1, _EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9259 nps)
+
+Query 48: ally(dumbledore, ron_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10204 nps)
+
+Query 49: sibling(X, _EX3)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9523 nps)
+
+Query 50: mother(molly_weasley, george_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10204 nps)
+
+Query 51: must_find_date_yule_ball(_EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11494 nps)
+
+Query 52: taught_by(draco_malfoy, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11111 nps)
+
+Query 53: sibling(george_weasley, ron_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9433 nps)
+
+Query 54: brave(Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9009 nps)
+
+Query 55: love(_EX1, madame_maxime)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9345 nps)
+
+Query 56: sibling(_EX2, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9259 nps)
+
+Query 57: taught_by(_EX2, remus_lupin)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8620 nps)
+
+Query 58: wizard(_EX4)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9259 nps)
+
+Query 59: must_be_asked_yule_ball(Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10101 nps)
+
+Query 60: ally(X, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9174 nps)
+
+Query 61: witch(_EX4)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9999 nps)
+
+Query 62: mutual_friend(_EX0, _EX0, luna_lovegood)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9523 nps)
+
+Query 63: casts_spells(Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10416 nps)
+
+Query 64: brave(hermione_granger)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (14705 nps)
+
+Query 65: ally(_EX2, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11627 nps)
+
+Query 66: taught_by(_EX4, _EX3)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11764 nps)
+
+Query 67: taught_by(_EX6, _EX4)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11627 nps)
+
+Query 68: taught_by(_EX4, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11627 nps)
+
+Query 69: taught_by(arthur_weasley, _EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12048 nps)
+
+Query 70: mutual_friend(_EX0, _EX0, neville_longbottom)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (7407 nps)
+
+Query 71: taught_by(_EX1, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8333 nps)
+
+Query 72: must_be_asked_yule_ball(Y)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11494 nps)
+
+Query 73: mutual_friend(hermione_granger, george_weasley, _EX1)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8928 nps)
+
+Query 74: ally(_EX4, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8403 nps)
+
+Query 75: friend(ron_weasley, neville_longbottom)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9523 nps)
+
+Query 76: taught_by(peter_pettigrew, slughorn)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10989 nps)
+
+Query 77: mutual_friend(ron_weasley, fred_weasley, neville_longbottom)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10204 nps)
+
+Query 78: taught_by(Y, trelawney)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9523 nps)
+
+Query 79: mutual_friend(_EX2, _EX2, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9009 nps)
+
+Query 80: unforgivable_curses(crucio, Y, imperio)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9615 nps)
+
+Query 81: mutual_friend(ron_weasley, Z, _EX0)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8695 nps)
+
+Query 82: mutual_friend(_EX0, Y, X)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9708 nps)
+
+Query 83: mutual_friend(Y, fred_weasley, _EX3)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9009 nps)
+
+Query 84: must_find_date_yule_ball(ron_weasley)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10204 nps)
+
+Query 85: casts_spells(lucius_malfoy)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11764 nps)
+
+Query 86: mutual_friend(_EX3, _EX0, neville_longbottom)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8196 nps)
+
+Query 87: taught_by(cedric_diggory, _EX1)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8547 nps)
+
+Query 88: mutual_friend(ron_weasley, luna_lovegood, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9615 nps)
+
+Query 89: taught_by(_EX4, lockhart)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10309 nps)
+
+Query 90: taught_by(_EX3, quirrell)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10204 nps)
+
+Query 91: must_be_asked_yule_ball(_EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (10638 nps)
+
+Query 92: mutual_friend(george_weasley, _EX5, neville_longbottom)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9345 nps)
+
+Query 93: mutual_friend(_EX1, hermione_granger, _EX2)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8771 nps)
+
+Query 94: wizard(_EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9900 nps)
+
+Query 95: unforgivable_curses(_EX4, Z, _EX5)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (8771 nps)
+
+Query 96: child(X, _EX3)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (9615 nps)
+
+Query 97: ally(Z, Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (11363 nps)
+
+Query 98: taught_by(Y, _EX6)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12658 nps)
+
+Query 99: job_terminated(quirrell)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (13513 nps)
+
+Query 100: defeat_voldemort(Z)
+Query failed!!!                                                                                     
+1 :: 0 - 00:00:00 (12048 nps)
+
+ming: 1.0 nodes/query
+100 queries failed
+Time to run all queries: 0.010758000000001822
