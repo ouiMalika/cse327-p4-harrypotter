@@ -1,0 +1,7 @@
+using cpu device
+UNITY: ming
+	Embedding Model: rKB_model.pth
+	Scoring Model: 7_8_outputs/modified_model_harrypotter.pt
+
+	Control: mingoal
+	Rule Eval: Max Rule
