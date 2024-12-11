@@ -1,1 +1,8 @@
 using cpu device
+UNITY: ming
+	Embedding Model: rKB_model.pth
+	Scoring Model: 7_8_outputs/modified_model_400.pt
+
+	Control: mingoal
+	Rule Eval: Max Rule
+Query 1: p4(a3, X7)

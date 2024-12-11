@@ -5,3 +5,2320 @@ UNITY: ming
 
 	Control: mingoal
 	Rule Eval: Max Rule
+Query 1: order_of_phoenix(Z)
+(0) Call: order_of_phoenix(Z) (one of 1 subgoals)
+	Rule:order_of_phoenix(X0) :- ally(X0, dumbledore), wizard(X0) [Score: 0.9994020462036133, 0 of 1 matches]
+(1) Call: wizard(Z) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9729581475257874, 0 of 1 matches]
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.99428790807724, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: ally(fred_weasley, dumbledore) (one of 1 subgoals)
+	Rule:ally(X4, Y4) :- enemy(X4, Z4), enemy(Y4, Z4) [Score: 0.9999839067459106, 0 of 1 matches]
+(5) Call: enemy(dumbledore, Z4) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(arthur_weasley) [Score: 0.9916463494300842, 1 of 23 matches]
+(3) Call: house(arthur_weasley, Y1) (one of 2 subgoals)
+	Rule:house(arthur_weasley, gryffindor) [Score: 0.9994000196456909, 0 of 1 matches]
+(4) Call: ally(arthur_weasley, dumbledore) (one of 1 subgoals)
+	Rule:ally(X4, Y4) :- enemy(X4, Z4), enemy(Y4, Z4) [Score: 0.9999583959579468, 0 of 1 matches]
+(5) Call: enemy(dumbledore, Z4) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(goyle) [Score: 0.9901658892631531, 2 of 23 matches]
+(3) Call: house(goyle, Y1) (one of 2 subgoals)
+	Rule:house(goyle, slytherin) [Score: 0.9905099272727966, 0 of 1 matches]
+(4) Call: ally(goyle, dumbledore) (one of 1 subgoals)
+	Rule:ally(X4, Y4) :- enemy(X4, Z4), enemy(Y4, Z4) [Score: 0.9997891783714294, 0 of 1 matches]
+(5) Call: enemy(dumbledore, Z4) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(hagrid) [Score: 0.9891296625137329, 3 of 23 matches]
+(3) Call: ally(hagrid, dumbledore) (one of 2 subgoals)
+	Rule:ally(X3, Y3) :- enemy(X3, Z3), enemy(Y3, Z3) [Score: 0.9999479055404663, 0 of 1 matches]
+(4) Call: enemy(dumbledore, Z3) (one of 3 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(victor_krum) [Score: 0.9889377355575562, 4 of 23 matches]
+(3) Call: ally(victor_krum, dumbledore) (one of 2 subgoals)
+	Rule:ally(X3, Y3) :- enemy(X3, Z3), enemy(Y3, Z3) [Score: 0.9999339580535889, 0 of 1 matches]
+(4) Call: enemy(dumbledore, Z3) (one of 3 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(draco_malfoy) [Score: 0.9867566823959351, 5 of 23 matches]
+(3) Call: house(draco_malfoy, Y1) (one of 2 subgoals)
+	Rule:house(draco_malfoy, slytherin) [Score: 0.9904348850250244, 0 of 1 matches]
+(4) Call: ally(draco_malfoy, dumbledore) (one of 1 subgoals)
+	Rule:ally(X4, Y4) :- enemy(X4, Z4), enemy(Y4, Z4) [Score: 0.9997881054878235, 0 of 1 matches]
+(5) Call: enemy(dumbledore, Z4) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(sirius_black) [Score: 0.9865114688873291, 6 of 23 matches]
+(3) Call: ally(sirius_black, dumbledore) (one of 2 subgoals)
+	Rule:ally(X3, Y3) :- enemy(X3, Z3), enemy(Y3, Z3) [Score: 0.999964714050293, 0 of 1 matches]
+(4) Call: enemy(dumbledore, Z3) (one of 3 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(george_weasley) [Score: 0.9860644340515137, 7 of 23 matches]
+(3) Call: house(george_weasley, Y1) (one of 2 subgoals)
+	Rule:house(george_weasley, gryffindor) [Score: 0.9997186064720154, 0 of 1 matches]
+(4) Call: ally(george_weasley, dumbledore) (one of 1 subgoals)
+	Rule:ally(X4, Y4) :- enemy(X4, Z4), enemy(Y4, Z4) [Score: 0.9999877214431763, 0 of 1 matches]
+(5) Call: enemy(dumbledore, Z4) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(harry_potter) [Score: 0.9847670197486877, 8 of 23 matches]
+(3) Call: house(harry_potter, Y1) (one of 2 subgoals)
+	Rule:house(harry_potter, gryffindor) [Score: 0.9995597004890442, 0 of 1 matches]
+(4) Call: ally(harry_potter, dumbledore) (one of 1 subgoals)
+	Rule:ally(harry_potter, dumbledore) [Score: 0.9999960660934448, 0 of 2 matches]
+(4) Exit: {Z: harry_potter}
+(3) Exit: {Z: harry_potter}
+(2) Exit: {Z: harry_potter}
+(1) Exit: {Z: harry_potter}
+(0) Exit: {Z: harry_potter}
+                                                                                                    35 :: 5 - 00:00:00 (1848 nps)
+
+Query 2: mutual_friend(_EX5, _EX4, Z)
+(0) Call: mutual_friend(_EX5, _EX4, Z) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9994214773178101, 0 of 1 matches]
+(1) Call: friend(_EX4, Z) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999990463256836, 0 of 19 matches]
+(2) Call: friend(_EX5, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999998807907104, 0 of 3 matches]
+(2) Exit: {_EX5: fred_weasley, Z: luna_lovegood, _EX4: fred_weasley}
+(1) Exit: {_EX5: fred_weasley, Z: luna_lovegood, _EX4: fred_weasley}
+(0) Exit: {_EX5: fred_weasley, Z: luna_lovegood, _EX4: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (581 nps)
+
+Query 3: father(_EX3, _EX6)
+(0) Call: father(_EX3, _EX6) (one of 1 subgoals)
+	Rule:father(X0, Y0) :- male(X0), parent(X0, Y0) [Score: 1.0, 0 of 1 matches]
+(1) Call: parent(_EX3, _EX6) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9938699007034302, 0 of 14 matches]
+(2) Call: male(arthur_weasley) (one of 1 subgoals)
+	Rule:male(arthur_weasley) [Score: 0.9935844540596008, 0 of 1 matches]
+(2) Exit: {_EX3: arthur_weasley, _EX6: ginny_weasley}
+(1) Exit: {_EX3: arthur_weasley, _EX6: ginny_weasley}
+(0) Exit: {_EX3: arthur_weasley, _EX6: ginny_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (656 nps)
+
+Query 4: mutual_friend(ron_weasley, _EX1, X)
+(0) Call: mutual_friend(ron_weasley, _EX1, X) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9997637867927551, 0 of 1 matches]
+(1) Call: friend(ron_weasley, X) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999555349349976, 0 of 5 matches]
+(2) Call: friend(_EX1, george_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999990463256836, 0 of 4 matches]
+(2) Exit: {_EX1: george_weasley, X: fred_weasley}
+(1) Exit: {_EX1: george_weasley, X: fred_weasley}
+(0) Exit: {_EX1: george_weasley, X: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (813 nps)
+
+Query 5: defeat_voldemort(X)
+(0) Call: defeat_voldemort(X) (one of 1 subgoals)
+	Rule:defeat_voldemort(X0) :- casts_spells(X0), brave(X0) [Score: 0.9181023240089417, 0 of 1 matches]
+(1) Call: casts_spells(X) (one of 2 subgoals)
+	Rule:casts_spells(X1) :- wizard(X1) [Score: 0.9969191551208496, 0 of 1 matches]
+(2) Call: wizard(X) (one of 2 subgoals)
+	Rule:wizard(X2) :- house(X2, Y2), male(X2) [Score: 0.9720044136047363, 0 of 1 matches]
+(3) Call: male(X) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9946237802505493, 0 of 23 matches]
+(4) Call: house(fred_weasley, Y2) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(5) Call: brave(fred_weasley) (one of 1 subgoals)
+	Rule:brave(X5) :- house(X5, gryffindor) [Score: 0.9999675750732422, 0 of 1 matches]
+(6) Call: house(fred_weasley, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9996881484985352, 0 of 1 matches]
+(6) Exit: {X: fred_weasley}
+(5) Exit: {X: fred_weasley}
+(4) Exit: {X: fred_weasley}
+(3) Exit: {X: fred_weasley}
+(2) Exit: {X: fred_weasley}
+(1) Exit: {X: fred_weasley}
+(0) Exit: {X: fred_weasley}
+                                                                                                    8 :: 7 - 00:00:00 (863 nps)
+
+Query 6: taught_by(Z, _EX6)
+(0) Call: taught_by(Z, _EX6) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999995231628418, 0 of 22 matches]
+(1) Call: wizard(Z) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9729581475257874, 0 of 1 matches]
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.99428790807724, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX6, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Z: fred_weasley, _EX6: dumbledore}
+(3) Exit: {Z: fred_weasley, _EX6: dumbledore}
+(2) Exit: {Z: fred_weasley, _EX6: dumbledore}
+(1) Exit: {Z: fred_weasley, _EX6: dumbledore}
+(0) Exit: {Z: fred_weasley, _EX6: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (582 nps)
+
+Query 7: defeat_voldemort(_EX3)
+(0) Call: defeat_voldemort(_EX3) (one of 1 subgoals)
+	Rule:defeat_voldemort(X0) :- casts_spells(X0), brave(X0) [Score: 0.9265494346618652, 0 of 1 matches]
+(1) Call: casts_spells(_EX3) (one of 2 subgoals)
+	Rule:casts_spells(X1) :- wizard(X1) [Score: 0.9976327419281006, 0 of 1 matches]
+(2) Call: wizard(_EX3) (one of 2 subgoals)
+	Rule:wizard(X2) :- house(X2, Y2), male(X2) [Score: 0.9792141318321228, 0 of 1 matches]
+(3) Call: male(_EX3) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953006505966187, 0 of 23 matches]
+(4) Call: house(fred_weasley, Y2) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(5) Call: brave(fred_weasley) (one of 1 subgoals)
+	Rule:brave(X5) :- house(X5, gryffindor) [Score: 0.9999675750732422, 0 of 1 matches]
+(6) Call: house(fred_weasley, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9996881484985352, 0 of 1 matches]
+(6) Exit: {_EX3: fred_weasley}
+(5) Exit: {_EX3: fred_weasley}
+(4) Exit: {_EX3: fred_weasley}
+(3) Exit: {_EX3: fred_weasley}
+(2) Exit: {_EX3: fred_weasley}
+(1) Exit: {_EX3: fred_weasley}
+(0) Exit: {_EX3: fred_weasley}
+                                                                                                    8 :: 7 - 00:00:00 (1012 nps)
+
+Query 8: taught_by(_EX6, trelawney)
+(0) Call: taught_by(_EX6, trelawney) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999991655349731, 0 of 2 matches]
+(1) Call: wizard(_EX6) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9768078327178955, 0 of 1 matches]
+(2) Call: male(_EX6) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9956658482551575, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(trelawney, Z0) (one of 1 subgoals)
+	Rule:teacher(trelawney, divination) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX6: fred_weasley}
+(3) Exit: {_EX6: fred_weasley}
+(2) Exit: {_EX6: fred_weasley}
+(1) Exit: {_EX6: fred_weasley}
+(0) Exit: {_EX6: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (712 nps)
+
+Query 9: ally(_EX5, harry_potter)
+(0) Call: ally(_EX5, harry_potter) (one of 1 subgoals)
+	Rule:ally(X0, Y0) :- enemy(X0, Z0), enemy(Y0, Z0) [Score: 0.9999986886978149, 0 of 1 matches]
+(1) Call: enemy(_EX5, Z0) (one of 2 subgoals)
+	Rule:enemy(harry_potter, bellatrix_lestrange) [Score: 0.9999996423721313, 0 of 17 matches]
+(2) Call: enemy(harry_potter, bellatrix_lestrange) (one of 1 subgoals)
+	Rule:enemy(harry_potter, bellatrix_lestrange) [Score: 0.9999997615814209, 0 of 1 matches]
+(2) Exit: {_EX5: harry_potter}
+(1) Exit: {_EX5: harry_potter}
+(0) Exit: {_EX5: harry_potter}
+                                                                                                    4 :: 3 - 00:00:00 (973 nps)
+
+Query 10: taught_by(_EX0, Z)
+(0) Call: taught_by(_EX0, Z) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999997615814209, 0 of 22 matches]
+(1) Call: wizard(_EX0) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9784502387046814, 0 of 1 matches]
+(2) Call: male(_EX0) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9958904385566711, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(Z, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Z: dumbledore, _EX0: fred_weasley}
+(3) Exit: {Z: dumbledore, _EX0: fred_weasley}
+(2) Exit: {Z: dumbledore, _EX0: fred_weasley}
+(1) Exit: {Z: dumbledore, _EX0: fred_weasley}
+(0) Exit: {Z: dumbledore, _EX0: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (353 nps)
+
+Query 11: must_find_date_yule_ball(_EX5)
+(0) Call: must_find_date_yule_ball(_EX5) (one of 1 subgoals)
+	Rule:must_find_date_yule_ball(X0) :- at(Y0, X0), male(X0) [Score: 0.9999954700469971, 0 of 1 matches]
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953628778457642, 0 of 23 matches]
+(1) Fail
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(arthur_weasley) [Score: 0.9932160973548889, 1 of 23 matches]
+(1) Fail
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(goyle) [Score: 0.9920127987861633, 2 of 23 matches]
+(1) Fail
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(hagrid) [Score: 0.9911679029464722, 3 of 23 matches]
+(1) Fail
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(victor_krum) [Score: 0.99101322889328, 4 of 23 matches]
+(2) Call: at(Y0, victor_krum) (one of 1 subgoals)
+	Rule:at(durmstrang, victor_krum) [Score: 0.9784420132637024, 0 of 1 matches]
+(2) Exit: {_EX5: victor_krum}
+(1) Exit: {_EX5: victor_krum}
+(0) Exit: {_EX5: victor_krum}
+                                                                                                    8 :: 3 - 00:00:00 (1058 nps)
+
+Query 12: ally(_EX4, _EX5)
+(0) Call: ally(_EX4, _EX5) (one of 1 subgoals)
+	Rule:ally(severus_snape, dumbledore) [Score: 0.9999972581863403, 0 of 8 matches]
+(0) Exit: {_EX5: dumbledore, _EX4: severus_snape}
+                                                                                                    2 :: 1 - 00:00:00 (1504 nps)
+
+Query 13: mutual_friend(_EX0, _EX3, bill_weasley)
+(0) Call: mutual_friend(_EX0, _EX3, bill_weasley) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9779112935066223, 0 of 1 matches]
+(1) Call: friend(_EX0, bill_weasley) (one of 2 subgoals)
+	Rule:friend(fred_weasley, bill_weasley) [Score: 0.9999887943267822, 0 of 3 matches]
+(2) Call: friend(_EX3, bill_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, bill_weasley) [Score: 0.9999892711639404, 0 of 3 matches]
+(2) Exit: {_EX0: fred_weasley, _EX3: fred_weasley}
+(1) Exit: {_EX0: fred_weasley, _EX3: fred_weasley}
+(0) Exit: {_EX0: fred_weasley, _EX3: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (1964 nps)
+
+Query 14: wizard(_EX1)
+(0) Call: wizard(_EX1) (one of 1 subgoals)
+	Rule:wizard(X0) :- house(X0, Y0), male(X0) [Score: 0.9699516296386719, 0 of 1 matches]
+(1) Call: male(_EX1) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9943913817405701, 0 of 23 matches]
+(2) Call: house(fred_weasley, Y0) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(2) Exit: {_EX1: fred_weasley}
+(1) Exit: {_EX1: fred_weasley}
+(0) Exit: {_EX1: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (554 nps)
+
+Query 15: mutual_friend(_EX5, hermione_granger, bill_weasley)
+(0) Call: mutual_friend(_EX5, hermione_granger, bill_weasley) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.8329493403434753, 0 of 1 matches]
+(1) Call: friend(hermione_granger, bill_weasley) (one of 2 subgoals)
+	Rule:friend(X1, Z1) :- friend(X1, Y1), friend(Y1, Z1) [Score: 0.5620877742767334, 0 of 1 matches]
+(2) Call: friend(hermione_granger, Y1) (one of 3 subgoals)
+	Rule:friend(hermione_granger, george_weasley) [Score: 0.9999635219573975, 0 of 6 matches]
+(3) Call: friend(_EX5, bill_weasley) (one of 2 subgoals)
+	Rule:friend(fred_weasley, bill_weasley) [Score: 0.9999879598617554, 0 of 3 matches]
+(4) Call: friend(george_weasley, bill_weasley) (one of 1 subgoals)
+	Rule:friend(george_weasley, bill_weasley) [Score: 0.9999915361404419, 0 of 2 matches]
+(4) Exit: {_EX5: fred_weasley}
+(3) Exit: {_EX5: fred_weasley}
+(2) Exit: {_EX5: fred_weasley}
+(1) Exit: {_EX5: fred_weasley}
+(0) Exit: {_EX5: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (1205 nps)
+
+Query 16: child(Y, james_potter)
+(0) Call: child(Y, james_potter) (one of 1 subgoals)
+	Rule:child(X0, Y0) :- parent(Y0, X0) [Score: 0.9776623845100403, 0 of 1 matches]
+(1) Call: parent(james_potter, Y) (one of 1 subgoals)
+	Rule:parent(james_potter, harry_potter) [Score: 0.9810762405395508, 0 of 1 matches]
+(1) Exit: {Y: harry_potter}
+(0) Exit: {Y: harry_potter}
+                                                                                                    3 :: 2 - 00:00:00 (5357 nps)
+
+Query 17: taught_by(_EX1, _EX4)
+(0) Call: taught_by(_EX1, _EX4) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999997615814209, 0 of 22 matches]
+(1) Call: wizard(_EX1) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9699516296386719, 0 of 1 matches]
+(2) Call: male(_EX1) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9943913817405701, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX4, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX1: fred_weasley, _EX4: dumbledore}
+(3) Exit: {_EX1: fred_weasley, _EX4: dumbledore}
+(2) Exit: {_EX1: fred_weasley, _EX4: dumbledore}
+(1) Exit: {_EX1: fred_weasley, _EX4: dumbledore}
+(0) Exit: {_EX1: fred_weasley, _EX4: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (356 nps)
+
+Query 18: sibling(fred_weasley, _EX5)
+(0) Call: sibling(fred_weasley, _EX5) (one of 1 subgoals)
+	Rule:sibling(X0, Y0) :- parent(Z0, X0), parent(Z0, Y0) [Score: 0.7399407029151917, 0 of 1 matches]
+(1) Call: parent(Z0, fred_weasley) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, fred_weasley) [Score: 0.9708014726638794, 0 of 2 matches]
+(2) Call: parent(arthur_weasley, _EX5) (one of 1 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9943390488624573, 0 of 4 matches]
+(2) Exit: {_EX5: ginny_weasley}
+(1) Exit: {_EX5: ginny_weasley}
+(0) Exit: {_EX5: ginny_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (1042 nps)
+
+Query 19: casts_spells(Y)
+(0) Call: casts_spells(Y) (one of 1 subgoals)
+	Rule:casts_spells(X0) :- wizard(X0) [Score: 0.9972702860832214, 0 of 1 matches]
+(1) Call: wizard(Y) (one of 1 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9740062355995178, 0 of 1 matches]
+(2) Call: male(Y) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9946479201316833, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(3) Exit: {Y: fred_weasley}
+(2) Exit: {Y: fred_weasley}
+(1) Exit: {Y: fred_weasley}
+(0) Exit: {Y: fred_weasley}
+                                                                                                    5 :: 4 - 00:00:00 (693 nps)
+
+Query 20: slytherin_gone_bad(X)
+(0) Call: slytherin_gone_bad(X) (one of 1 subgoals)
+	Rule:slytherin_gone_bad(X0) :- death_eater(X0), house(X0, slytherin) [Score: 0.9999943971633911, 0 of 1 matches]
+(1) Call: house(X, slytherin) (one of 2 subgoals)
+	Rule:house(severus_snape, slytherin) [Score: 0.957782506942749, 0 of 7 matches]
+(2) Call: death_eater(severus_snape) (one of 1 subgoals)
+	Rule:death_eater(X2) :- ally(X2, voldemort), wizard(X2) [Score: 0.9999949932098389, 0 of 1 matches]
+(3) Call: wizard(severus_snape) (one of 2 subgoals)
+	Rule:wizard(X3) :- house(X3, Y3), male(X3) [Score: 0.9943773150444031, 0 of 1 matches]
+(4) Call: house(severus_snape, Y3) (one of 3 subgoals)
+	Rule:house(severus_snape, slytherin) [Score: 0.999772846698761, 0 of 1 matches]
+(5) Call: ally(severus_snape, voldemort) (one of 2 subgoals)
+	Rule:ally(X5, Y5) :- enemy(X5, Z5), enemy(Y5, Z5) [Score: 0.9999929666519165, 0 of 1 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(1) Fail
+(1) Call: house(X, slytherin) (one of 2 subgoals)
+	Rule:house(goyle, slytherin) [Score: 0.9244152307510376, 1 of 7 matches]
+(2) Call: death_eater(goyle) (one of 1 subgoals)
+	Rule:death_eater(X2) :- ally(X2, voldemort), wizard(X2) [Score: 0.9998899698257446, 0 of 1 matches]
+(3) Call: wizard(goyle) (one of 2 subgoals)
+	Rule:wizard(X3) :- house(X3, Y3), male(X3) [Score: 0.8871151804924011, 0 of 1 matches]
+(4) Call: male(goyle) (one of 3 subgoals)
+	Rule:male(goyle) [Score: 0.9601151943206787, 0 of 1 matches]
+(5) Call: house(goyle, Y3) (one of 2 subgoals)
+	Rule:house(goyle, slytherin) [Score: 0.9905099272727966, 0 of 1 matches]
+(6) Call: ally(goyle, voldemort) (one of 1 subgoals)
+	Rule:ally(X6, Y6) :- enemy(X6, Z6), enemy(Y6, Z6) [Score: 0.9998515844345093, 0 of 1 matches]
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(1) Fail
+(1) Call: house(X, slytherin) (one of 2 subgoals)
+	Rule:house(bellatrix_lestrange, slytherin) [Score: 0.9192996025085449, 2 of 7 matches]
+(2) Call: death_eater(bellatrix_lestrange) (one of 1 subgoals)
+	Rule:death_eater(X2) :- ally(X2, voldemort), wizard(X2) [Score: 0.9999665021896362, 0 of 1 matches]
+(3) Call: wizard(bellatrix_lestrange) (one of 2 subgoals)
+	Rule:wizard(X3) :- house(X3, Y3), male(X3) [Score: 0.9615442156791687, 0 of 1 matches]
+(4) Call: house(bellatrix_lestrange, Y3) (one of 3 subgoals)
+	Rule:house(bellatrix_lestrange, slytherin) [Score: 0.9966701865196228, 0 of 1 matches]
+(5) Call: ally(bellatrix_lestrange, voldemort) (one of 2 subgoals)
+	Rule:ally(bellatrix_lestrange, voldemort) [Score: 0.9999947547912598, 0 of 2 matches]
+(5) Fail
+(5) Call: ally(bellatrix_lestrange, voldemort) (one of 2 subgoals)
+	Rule:ally(X5, Y5) :- enemy(X5, Z5), enemy(Y5, Z5) [Score: 0.9999504089355469, 1 of 2 matches]
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(1) Fail
+(1) Call: house(X, slytherin) (one of 2 subgoals)
+	Rule:house(draco_malfoy, slytherin) [Score: 0.9132080674171448, 3 of 7 matches]
+(2) Call: death_eater(draco_malfoy) (one of 1 subgoals)
+	Rule:death_eater(X2) :- ally(X2, voldemort), wizard(X2) [Score: 0.9998890161514282, 0 of 1 matches]
+(3) Call: wizard(draco_malfoy) (one of 2 subgoals)
+	Rule:wizard(X3) :- house(X3, Y3), male(X3) [Score: 0.882933497428894, 0 of 1 matches]
+(4) Call: male(draco_malfoy) (one of 3 subgoals)
+	Rule:male(draco_malfoy) [Score: 0.941169798374176, 0 of 1 matches]
+(5) Call: house(draco_malfoy, Y3) (one of 2 subgoals)
+	Rule:house(draco_malfoy, slytherin) [Score: 0.9904348850250244, 0 of 1 matches]
+(6) Call: ally(draco_malfoy, voldemort) (one of 1 subgoals)
+	Rule:ally(X6, Y6) :- enemy(X6, Z6), enemy(Y6, Z6) [Score: 0.999847412109375, 0 of 1 matches]
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(1) Fail
+(1) Call: house(X, slytherin) (one of 2 subgoals)
+	Rule:house(lucius_malfoy, slytherin) [Score: 0.8223280310630798, 4 of 7 matches]
+(2) Call: death_eater(lucius_malfoy) (one of 1 subgoals)
+	Rule:death_eater(X2) :- ally(X2, voldemort), wizard(X2) [Score: 0.9990146160125732, 0 of 1 matches]
+(3) Call: wizard(lucius_malfoy) (one of 2 subgoals)
+	Rule:wizard(X3) :- house(X3, Y3), male(X3) [Score: 0.5800143480300903, 0 of 1 matches]
+(4) Call: male(lucius_malfoy) (one of 3 subgoals)
+	Rule:male(lucius_malfoy) [Score: 0.6267679929733276, 0 of 1 matches]
+(5) Call: house(lucius_malfoy, Y3) (one of 2 subgoals)
+	Rule:house(lucius_malfoy, slytherin) [Score: 0.825499415397644, 0 of 1 matches]
+(6) Call: ally(lucius_malfoy, voldemort) (one of 1 subgoals)
+	Rule:ally(lucius_malfoy, voldemort) [Score: 0.9996756315231323, 0 of 2 matches]
+(6) Exit: {X: lucius_malfoy}
+(5) Exit: {X: lucius_malfoy}
+(4) Exit: {X: lucius_malfoy}
+(3) Exit: {X: lucius_malfoy}
+(2) Exit: {X: lucius_malfoy}
+(1) Exit: {X: lucius_malfoy}
+(0) Exit: {X: lucius_malfoy}
+                                                                                                    31 :: 7 - 00:00:00 (2216 nps)
+
+Query 21: sibling(_EX6, _EX6)
+(0) Call: sibling(_EX6, _EX6) (one of 1 subgoals)
+	Rule:sibling(X0, Y0) :- parent(Z0, X0), parent(Z0, Y0) [Score: 0.555391788482666, 0 of 1 matches]
+(1) Call: parent(Z0, _EX6) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9916125535964966, 0 of 14 matches]
+(1) Exit: {_EX6: ginny_weasley}
+(0) Exit: {_EX6: ginny_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1234 nps)
+
+Query 22: son(dudley_dursley, _EX1)
+(0) Call: son(dudley_dursley, _EX1) (one of 1 subgoals)
+	Rule:son(X0, Y0) :- male(X0), parent(Y0, X0) [Score: 0.999847412109375, 0 of 1 matches]
+(1) Call: male(dudley_dursley) (one of 2 subgoals)
+	Rule:male(dudley_dursley) [Score: 0.9671662449836731, 0 of 1 matches]
+(2) Call: parent(_EX1, dudley_dursley) (one of 1 subgoals)
+	Rule:parent(vernon_dursley, dudley_dursley) [Score: 0.9708017706871033, 0 of 2 matches]
+(2) Exit: {_EX1: vernon_dursley}
+(1) Exit: {_EX1: vernon_dursley}
+(0) Exit: {_EX1: vernon_dursley}
+                                                                                                    4 :: 3 - 00:00:00 (3236 nps)
+
+Query 23: taught_by(lucius_malfoy, _EX5)
+(0) Call: taught_by(lucius_malfoy, _EX5) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999872446060181, 0 of 1 matches]
+(1) Call: wizard(lucius_malfoy) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.5800143480300903, 0 of 1 matches]
+(2) Call: male(lucius_malfoy) (one of 3 subgoals)
+	Rule:male(lucius_malfoy) [Score: 0.6267679929733276, 0 of 1 matches]
+(3) Call: house(lucius_malfoy, Y1) (one of 2 subgoals)
+	Rule:house(lucius_malfoy, slytherin) [Score: 0.825499415397644, 0 of 1 matches]
+(4) Call: teacher(_EX5, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX5: dumbledore}
+(3) Exit: {_EX5: dumbledore}
+(2) Exit: {_EX5: dumbledore}
+(1) Exit: {_EX5: dumbledore}
+(0) Exit: {_EX5: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (792 nps)
+
+Query 24: taught_by(_EX6, Y)
+(0) Call: taught_by(_EX6, Y) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999994039535522, 0 of 22 matches]
+(1) Call: wizard(_EX6) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9768078327178955, 0 of 1 matches]
+(2) Call: male(_EX6) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9956658482551575, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(Y, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Y: dumbledore, _EX6: fred_weasley}
+(3) Exit: {Y: dumbledore, _EX6: fred_weasley}
+(2) Exit: {Y: dumbledore, _EX6: fred_weasley}
+(1) Exit: {Y: dumbledore, _EX6: fred_weasley}
+(0) Exit: {Y: dumbledore, _EX6: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (615 nps)
+
+Query 25: taught_by(fred_weasley, X)
+(0) Call: taught_by(fred_weasley, X) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999998807907104, 0 of 1 matches]
+(1) Call: wizard(fred_weasley) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9908684492111206, 0 of 1 matches]
+(2) Call: male(fred_weasley) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9982098340988159, 0 of 1 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(X, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {X: dumbledore}
+(3) Exit: {X: dumbledore}
+(2) Exit: {X: dumbledore}
+(1) Exit: {X: dumbledore}
+(0) Exit: {X: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (812 nps)
+
+Query 26: mutual_friend(_EX0, ron_weasley, _EX5)
+(0) Call: mutual_friend(_EX0, ron_weasley, _EX5) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9997207522392273, 0 of 1 matches]
+(1) Call: friend(ron_weasley, _EX5) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999657869338989, 0 of 5 matches]
+(2) Call: friend(_EX0, george_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999992847442627, 0 of 4 matches]
+(2) Exit: {_EX5: george_weasley, _EX0: fred_weasley}
+(1) Exit: {_EX5: george_weasley, _EX0: fred_weasley}
+(0) Exit: {_EX5: george_weasley, _EX0: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (800 nps)
+
+Query 27: taught_by(_EX5, lockhart)
+(0) Call: taught_by(_EX5, lockhart) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999994039535522, 0 of 1 matches]
+(1) Call: wizard(_EX5) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9748664498329163, 0 of 1 matches]
+(2) Call: male(_EX5) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953628778457642, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(lockhart, Z0) (one of 1 subgoals)
+	Rule:teacher(lockhart, defense_dark_arts) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX5: fred_weasley}
+(3) Exit: {_EX5: fred_weasley}
+(2) Exit: {_EX5: fred_weasley}
+(1) Exit: {_EX5: fred_weasley}
+(0) Exit: {_EX5: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (740 nps)
+
+Query 28: brave(_EX0)
+(0) Call: brave(_EX0) (one of 1 subgoals)
+	Rule:brave(X0) :- house(X0, gryffindor) [Score: 0.9999197721481323, 0 of 1 matches]
+(1) Call: house(_EX0, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9992347955703735, 0 of 12 matches]
+(1) Exit: {_EX0: fred_weasley}
+(0) Exit: {_EX0: fred_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1431 nps)
+
+Query 29: taught_by(_EX5, umbridge)
+(0) Call: taught_by(_EX5, umbridge) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 1.0, 0 of 1 matches]
+(1) Call: wizard(_EX5) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9748664498329163, 0 of 1 matches]
+(2) Call: male(_EX5) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953628778457642, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(umbridge, Z0) (one of 1 subgoals)
+	Rule:teacher(umbridge, defense_dark_arts) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX5: fred_weasley}
+(3) Exit: {_EX5: fred_weasley}
+(2) Exit: {_EX5: fred_weasley}
+(1) Exit: {_EX5: fred_weasley}
+(0) Exit: {_EX5: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (4597 nps)
+
+Query 30: child(_EX1, _EX2)
+(0) Call: child(_EX1, _EX2) (one of 1 subgoals)
+	Rule:child(X0, Y0) :- parent(Y0, X0) [Score: 0.9950874447822571, 0 of 1 matches]
+(1) Call: parent(_EX2, _EX1) (one of 1 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9915557503700256, 0 of 14 matches]
+(1) Exit: {_EX1: ginny_weasley, _EX2: arthur_weasley}
+(0) Exit: {_EX1: ginny_weasley, _EX2: arthur_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1079 nps)
+
+Query 31: mutual_friend(_EX1, _EX3, luna_lovegood)
+(0) Call: mutual_friend(_EX1, _EX3, luna_lovegood) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9927458167076111, 0 of 1 matches]
+(1) Call: friend(_EX1, luna_lovegood) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999998807907104, 0 of 3 matches]
+(2) Call: friend(_EX3, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999998807907104, 0 of 3 matches]
+(2) Exit: {_EX1: fred_weasley, _EX3: fred_weasley}
+(1) Exit: {_EX1: fred_weasley, _EX3: fred_weasley}
+(0) Exit: {_EX1: fred_weasley, _EX3: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (1785 nps)
+
+Query 32: mutual_friend(_EX0, fred_weasley, bill_weasley)
+(0) Call: mutual_friend(_EX0, fred_weasley, bill_weasley) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9690589904785156, 0 of 1 matches]
+(1) Call: friend(_EX0, bill_weasley) (one of 2 subgoals)
+	Rule:friend(fred_weasley, bill_weasley) [Score: 0.9999887943267822, 0 of 3 matches]
+(2) Call: friend(fred_weasley, bill_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, bill_weasley) [Score: 0.999995231628418, 0 of 2 matches]
+(2) Exit: {_EX0: fred_weasley}
+(1) Exit: {_EX0: fred_weasley}
+(0) Exit: {_EX0: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (3281 nps)
+
+Query 33: taught_by(peter_pettigrew, Y)
+(0) Call: taught_by(peter_pettigrew, Y) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 1 matches]
+(1) Call: wizard(peter_pettigrew) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9842880964279175, 0 of 1 matches]
+(2) Call: male(peter_pettigrew) (one of 3 subgoals)
+	Rule:male(peter_pettigrew) [Score: 0.9449447393417358, 0 of 1 matches]
+(3) Call: house(peter_pettigrew, Y1) (one of 2 subgoals)
+	Rule:house(peter_pettigrew, gryffindor) [Score: 0.995425283908844, 0 of 1 matches]
+(4) Call: teacher(Y, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Y: dumbledore}
+(3) Exit: {Y: dumbledore}
+(2) Exit: {Y: dumbledore}
+(1) Exit: {Y: dumbledore}
+(0) Exit: {Y: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (4322 nps)
+
+Query 34: taught_by(Y, _EX5)
+(0) Call: taught_by(Y, _EX5) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(Y) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9740062355995178, 0 of 1 matches]
+(2) Call: male(Y) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9946479201316833, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX5, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX5: dumbledore, Y: fred_weasley}
+(3) Exit: {_EX5: dumbledore, Y: fred_weasley}
+(2) Exit: {_EX5: dumbledore, Y: fred_weasley}
+(1) Exit: {_EX5: dumbledore, Y: fred_weasley}
+(0) Exit: {_EX5: dumbledore, Y: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (1624 nps)
+
+Query 35: taught_by(fred_weasley, dumbledore)
+(0) Call: taught_by(fred_weasley, dumbledore) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999997615814209, 0 of 1 matches]
+(1) Call: wizard(fred_weasley) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9908684492111206, 0 of 1 matches]
+(2) Call: male(fred_weasley) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9982098340988159, 0 of 1 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(dumbledore, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {}
+(3) Exit: {}
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    6 :: 5 - 00:00:00 (5123 nps)
+
+Query 36: defeat_voldemort(_EX2)
+(0) Call: defeat_voldemort(_EX2) (one of 1 subgoals)
+	Rule:defeat_voldemort(X0) :- casts_spells(X0), brave(X0) [Score: 0.9077328443527222, 0 of 1 matches]
+(1) Call: casts_spells(_EX2) (one of 2 subgoals)
+	Rule:casts_spells(X1) :- wizard(X1) [Score: 0.9969484210014343, 0 of 1 matches]
+(2) Call: wizard(_EX2) (one of 2 subgoals)
+	Rule:wizard(X2) :- house(X2, Y2), male(X2) [Score: 0.9721178412437439, 0 of 1 matches]
+(3) Call: male(_EX2) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9941973686218262, 0 of 23 matches]
+(4) Call: house(fred_weasley, Y2) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(5) Call: brave(fred_weasley) (one of 1 subgoals)
+	Rule:brave(X5) :- house(X5, gryffindor) [Score: 0.9999675750732422, 0 of 1 matches]
+(6) Call: house(fred_weasley, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9996881484985352, 0 of 1 matches]
+(6) Exit: {_EX2: fred_weasley}
+(5) Exit: {_EX2: fred_weasley}
+(4) Exit: {_EX2: fred_weasley}
+(3) Exit: {_EX2: fred_weasley}
+(2) Exit: {_EX2: fred_weasley}
+(1) Exit: {_EX2: fred_weasley}
+(0) Exit: {_EX2: fred_weasley}
+                                                                                                    8 :: 7 - 00:00:00 (1004 nps)
+
+Query 37: ally(_EX5, _EX5)
+(0) Call: ally(_EX5, _EX5) (one of 1 subgoals)
+	Rule:ally(X0, Y0) :- enemy(X0, Z0), enemy(Y0, Z0) [Score: 0.9999758005142212, 0 of 1 matches]
+(1) Call: enemy(_EX5, Z0) (one of 2 subgoals)
+	Rule:enemy(harry_potter, bellatrix_lestrange) [Score: 0.9999996423721313, 0 of 17 matches]
+(1) Exit: {_EX5: harry_potter}
+(0) Exit: {_EX5: harry_potter}
+                                                                                                    3 :: 2 - 00:00:00 (8450 nps)
+
+Query 38: son(_EX0, _EX2)
+(0) Call: son(_EX0, _EX2) (one of 1 subgoals)
+	Rule:son(X0, Y0) :- male(X0), parent(Y0, X0) [Score: 0.9999127388000488, 0 of 1 matches]
+(1) Call: parent(_EX2, _EX0) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9926148653030396, 0 of 14 matches]
+(1) Fail
+(1) Call: parent(_EX2, _EX0) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, george_weasley) [Score: 0.9898545145988464, 1 of 14 matches]
+(2) Call: male(george_weasley) (one of 1 subgoals)
+	Rule:male(george_weasley) [Score: 0.9966238737106323, 0 of 1 matches]
+(2) Exit: {_EX2: arthur_weasley, _EX0: george_weasley}
+(1) Exit: {_EX2: arthur_weasley, _EX0: george_weasley}
+(0) Exit: {_EX2: arthur_weasley, _EX0: george_weasley}
+                                                                                                    5 :: 3 - 00:00:00 (841 nps)
+
+Query 39: mutual_friend(Y, _EX6, george_weasley)
+(0) Call: mutual_friend(Y, _EX6, george_weasley) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9973382353782654, 0 of 1 matches]
+(1) Call: friend(Y, george_weasley) (one of 2 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999991655349731, 0 of 4 matches]
+(2) Call: friend(_EX6, george_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999991655349731, 0 of 4 matches]
+(2) Exit: {Y: fred_weasley, _EX6: fred_weasley}
+(1) Exit: {Y: fred_weasley, _EX6: fred_weasley}
+(0) Exit: {Y: fred_weasley, _EX6: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (1512 nps)
+
+Query 40: taught_by(neville_longbottom, Y)
+(0) Call: taught_by(neville_longbottom, Y) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.999997615814209, 0 of 1 matches]
+(1) Call: wizard(neville_longbottom) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9058548212051392, 0 of 1 matches]
+(2) Call: male(neville_longbottom) (one of 3 subgoals)
+	Rule:male(neville_longbottom) [Score: 0.9115111827850342, 0 of 1 matches]
+(3) Call: house(neville_longbottom, Y1) (one of 2 subgoals)
+	Rule:house(neville_longbottom, gryffindor) [Score: 0.9903894066810608, 0 of 1 matches]
+(4) Call: teacher(Y, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Y: dumbledore}
+(3) Exit: {Y: dumbledore}
+(2) Exit: {Y: dumbledore}
+(1) Exit: {Y: dumbledore}
+(0) Exit: {Y: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (4246 nps)
+
+Query 41: taught_by(lucius_malfoy, Z)
+(0) Call: taught_by(lucius_malfoy, Z) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999850988388062, 0 of 1 matches]
+(1) Call: wizard(lucius_malfoy) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.5800143480300903, 0 of 1 matches]
+(2) Call: male(lucius_malfoy) (one of 3 subgoals)
+	Rule:male(lucius_malfoy) [Score: 0.6267679929733276, 0 of 1 matches]
+(3) Call: house(lucius_malfoy, Y1) (one of 2 subgoals)
+	Rule:house(lucius_malfoy, slytherin) [Score: 0.825499415397644, 0 of 1 matches]
+(4) Call: teacher(Z, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Z: dumbledore}
+(3) Exit: {Z: dumbledore}
+(2) Exit: {Z: dumbledore}
+(1) Exit: {Z: dumbledore}
+(0) Exit: {Z: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (13636 nps)
+
+Query 42: mutual_friend(_EX4, _EX4, _EX0)
+(0) Call: mutual_friend(_EX4, _EX4, _EX0) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9996894598007202, 0 of 1 matches]
+(1) Call: friend(_EX4, _EX0) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999990463256836, 0 of 19 matches]
+(1) Exit: {_EX0: luna_lovegood, _EX4: fred_weasley}
+(0) Exit: {_EX0: luna_lovegood, _EX4: fred_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (936 nps)
+
+Query 43: taught_by(Z, hagrid)
+(0) Call: taught_by(Z, hagrid) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999991655349731, 0 of 1 matches]
+(1) Call: wizard(Z) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9729581475257874, 0 of 1 matches]
+(2) Call: male(Z) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.99428790807724, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(hagrid, Z0) (one of 1 subgoals)
+	Rule:teacher(hagrid, magical_creatures) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {Z: fred_weasley}
+(3) Exit: {Z: fred_weasley}
+(2) Exit: {Z: fred_weasley}
+(1) Exit: {Z: fred_weasley}
+(0) Exit: {Z: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (4971 nps)
+
+Query 44: mutual_friend(george_weasley, Y, _EX1)
+(0) Call: mutual_friend(george_weasley, Y, _EX1) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9982082843780518, 0 of 1 matches]
+(1) Call: friend(Y, _EX1) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999991655349731, 0 of 19 matches]
+(2) Call: friend(george_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(george_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(2) Exit: {_EX1: luna_lovegood, Y: fred_weasley}
+(1) Exit: {_EX1: luna_lovegood, Y: fred_weasley}
+(0) Exit: {_EX1: luna_lovegood, Y: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (911 nps)
+
+Query 45: taught_by(_EX4, _EX0)
+(0) Call: taught_by(_EX4, _EX0) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(_EX4) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9736822843551636, 0 of 1 matches]
+(2) Call: male(_EX4) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9948264956474304, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX0, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX0: dumbledore, _EX4: fred_weasley}
+(3) Exit: {_EX0: dumbledore, _EX4: fred_weasley}
+(2) Exit: {_EX0: dumbledore, _EX4: fred_weasley}
+(1) Exit: {_EX0: dumbledore, _EX4: fred_weasley}
+(0) Exit: {_EX0: dumbledore, _EX4: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (357 nps)
+
+Query 46: mutual_friend(_EX4, _EX4, crabbe)
+(0) Call: mutual_friend(_EX4, _EX4, crabbe) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9877025485038757, 0 of 1 matches]
+(1) Call: friend(_EX4, crabbe) (one of 2 subgoals)
+	Rule:friend(draco_malfoy, crabbe) [Score: 0.9999717473983765, 0 of 2 matches]
+(1) Exit: {_EX4: draco_malfoy}
+(0) Exit: {_EX4: draco_malfoy}
+                                                                                                    3 :: 2 - 00:00:00 (3750 nps)
+
+Query 47: taught_by(_EX1, _EX0)
+(0) Call: taught_by(_EX1, _EX0) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(_EX1) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9699516296386719, 0 of 1 matches]
+(2) Call: male(_EX1) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9943913817405701, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX0, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX1: fred_weasley, _EX0: dumbledore}
+(3) Exit: {_EX1: fred_weasley, _EX0: dumbledore}
+(2) Exit: {_EX1: fred_weasley, _EX0: dumbledore}
+(1) Exit: {_EX1: fred_weasley, _EX0: dumbledore}
+(0) Exit: {_EX1: fred_weasley, _EX0: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (1612 nps)
+
+Query 48: ally(dumbledore, ron_weasley)
+(0) Call: ally(dumbledore, ron_weasley) (one of 1 subgoals)
+	Rule:ally(X0, Y0) :- enemy(X0, Z0), enemy(Y0, Z0) [Score: 0.9998641014099121, 0 of 1 matches]
+(1) Call: enemy(dumbledore, Z0) (one of 2 subgoals)
+	Rule:enemy(dumbledore, voldemort) [Score: 0.9999221563339233, 0 of 1 matches]
+(2) Call: enemy(ron_weasley, voldemort) (one of 1 subgoals)
+	Rule:enemy(ron_weasley, voldemort) [Score: 0.9999872446060181, 0 of 1 matches]
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    4 :: 3 - 00:00:00 (2458 nps)
+
+Query 49: sibling(X, _EX3)
+(0) Call: sibling(X, _EX3) (one of 1 subgoals)
+	Rule:sibling(X0, Y0) :- parent(Z0, X0), parent(Z0, Y0) [Score: 0.503643810749054, 0 of 1 matches]
+(1) Call: parent(Z0, _EX3) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9914211630821228, 0 of 14 matches]
+(2) Call: parent(arthur_weasley, X) (one of 1 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.99310302734375, 0 of 4 matches]
+(2) Exit: {X: ginny_weasley, _EX3: ginny_weasley}
+(1) Exit: {X: ginny_weasley, _EX3: ginny_weasley}
+(0) Exit: {X: ginny_weasley, _EX3: ginny_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (773 nps)
+
+Query 50: mother(molly_weasley, george_weasley)
+(0) Call: mother(molly_weasley, george_weasley) (one of 1 subgoals)
+	Rule:mother(X0, Y0) :- female(X0), parent(X0, Y0) [Score: 0.9999942779541016, 0 of 1 matches]
+(1) Call: female(molly_weasley) (one of 2 subgoals)
+	Rule:female(molly_weasley) [Score: 0.9988766312599182, 0 of 1 matches]
+(2) Call: parent(molly_weasley, george_weasley) (one of 1 subgoals)
+	Rule:parent(molly_weasley, george_weasley) [Score: 0.9999686479568481, 0 of 1 matches]
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    4 :: 3 - 00:00:00 (3875 nps)
+
+Query 51: must_find_date_yule_ball(_EX0)
+(0) Call: must_find_date_yule_ball(_EX0) (one of 1 subgoals)
+	Rule:must_find_date_yule_ball(X0) :- at(Y0, X0), male(X0) [Score: 0.9999961853027344, 0 of 1 matches]
+(1) Call: male(_EX0) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9958904385566711, 0 of 23 matches]
+(1) Fail
+(1) Call: male(_EX0) (one of 2 subgoals)
+	Rule:male(arthur_weasley) [Score: 0.9939870834350586, 1 of 23 matches]
+(1) Fail
+(1) Call: male(_EX0) (one of 2 subgoals)
+	Rule:male(goyle) [Score: 0.9929201006889343, 2 of 23 matches]
+(1) Fail
+(1) Call: male(_EX0) (one of 2 subgoals)
+	Rule:male(hagrid) [Score: 0.9921697974205017, 3 of 23 matches]
+(1) Fail
+(1) Call: male(_EX0) (one of 2 subgoals)
+	Rule:male(victor_krum) [Score: 0.9920333027839661, 4 of 23 matches]
+(2) Call: at(Y0, victor_krum) (one of 1 subgoals)
+	Rule:at(durmstrang, victor_krum) [Score: 0.9784420132637024, 0 of 1 matches]
+(2) Exit: {_EX0: victor_krum}
+(1) Exit: {_EX0: victor_krum}
+(0) Exit: {_EX0: victor_krum}
+                                                                                                    8 :: 3 - 00:00:00 (2100 nps)
+
+Query 52: taught_by(draco_malfoy, _EX5)
+(0) Call: taught_by(draco_malfoy, _EX5) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999984502792358, 0 of 1 matches]
+(1) Call: wizard(draco_malfoy) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.882933497428894, 0 of 1 matches]
+(2) Call: male(draco_malfoy) (one of 3 subgoals)
+	Rule:male(draco_malfoy) [Score: 0.941169798374176, 0 of 1 matches]
+(3) Call: house(draco_malfoy, Y1) (one of 2 subgoals)
+	Rule:house(draco_malfoy, slytherin) [Score: 0.9904348850250244, 0 of 1 matches]
+(4) Call: teacher(_EX5, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX5: dumbledore}
+(3) Exit: {_EX5: dumbledore}
+(2) Exit: {_EX5: dumbledore}
+(1) Exit: {_EX5: dumbledore}
+(0) Exit: {_EX5: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (5203 nps)
+
+Query 53: sibling(george_weasley, ron_weasley)
+(0) Call: sibling(george_weasley, ron_weasley) (one of 1 subgoals)
+	Rule:sibling(X0, Y0) :- parent(Z0, X0), parent(Z0, Y0) [Score: 0.7690631151199341, 0 of 1 matches]
+(1) Call: parent(Z0, ron_weasley) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ron_weasley) [Score: 0.9860349893569946, 0 of 2 matches]
+(2) Call: parent(arthur_weasley, george_weasley) (one of 1 subgoals)
+	Rule:parent(arthur_weasley, george_weasley) [Score: 0.9994226694107056, 0 of 1 matches]
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    4 :: 3 - 00:00:00 (2496 nps)
+
+Query 54: brave(Y)
+(0) Call: brave(Y) (one of 1 subgoals)
+	Rule:brave(X0) :- house(X0, gryffindor) [Score: 0.9999061822891235, 0 of 1 matches]
+(1) Call: house(Y, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9990966320037842, 0 of 12 matches]
+(1) Exit: {Y: fred_weasley}
+(0) Exit: {Y: fred_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1414 nps)
+
+Query 55: love(_EX1, madame_maxime)
+(0) Call: love(_EX1, madame_maxime) (one of 1 subgoals)
+	Rule:love(X0, Y0) :- height(X0, tall), height(Y0, tall) [Score: 0.9994719624519348, 0 of 1 matches]
+(1) Call: height(madame_maxime, tall) (one of 2 subgoals)
+	Rule:height(madame_maxime, tall) [Score: 0.9722453951835632, 0 of 1 matches]
+(2) Call: height(_EX1, tall) (one of 1 subgoals)
+	Rule:height(hagrid, tall) [Score: 0.9969133138656616, 0 of 2 matches]
+(2) Exit: {_EX1: hagrid}
+(1) Exit: {_EX1: hagrid}
+(0) Exit: {_EX1: hagrid}
+                                                                                                    4 :: 3 - 00:00:00 (3233 nps)
+
+Query 56: sibling(_EX2, _EX2)
+(0) Call: sibling(_EX2, _EX2) (one of 1 subgoals)
+	Rule:sibling(X0, Y0) :- parent(Z0, X0), parent(Z0, Y0) [Score: 0.5066586136817932, 0 of 1 matches]
+(1) Call: parent(Z0, _EX2) (one of 2 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9912382960319519, 0 of 14 matches]
+(1) Exit: {_EX2: ginny_weasley}
+(0) Exit: {_EX2: ginny_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1241 nps)
+
+Query 57: taught_by(_EX2, remus_lupin)
+(0) Call: taught_by(_EX2, remus_lupin) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999997615814209, 0 of 5 matches]
+(1) Call: wizard(_EX2) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9721178412437439, 0 of 1 matches]
+(2) Call: male(_EX2) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9941973686218262, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(remus_lupin, Z0) (one of 1 subgoals)
+	Rule:teacher(remus_lupin, defense_dark_arts) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX2: fred_weasley}
+(3) Exit: {_EX2: fred_weasley}
+(2) Exit: {_EX2: fred_weasley}
+(1) Exit: {_EX2: fred_weasley}
+(0) Exit: {_EX2: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (682 nps)
+
+Query 58: wizard(_EX4)
+(0) Call: wizard(_EX4) (one of 1 subgoals)
+	Rule:wizard(X0) :- house(X0, Y0), male(X0) [Score: 0.9736822843551636, 0 of 1 matches]
+(1) Call: male(_EX4) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9948264956474304, 0 of 23 matches]
+(2) Call: house(fred_weasley, Y0) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(2) Exit: {_EX4: fred_weasley}
+(1) Exit: {_EX4: fred_weasley}
+(0) Exit: {_EX4: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (578 nps)
+
+Query 59: must_be_asked_yule_ball(Z)
+(0) Call: must_be_asked_yule_ball(Z) (one of 1 subgoals)
+	Rule:must_be_asked_yule_ball(X0) :- at(Y0, X0), female(X0) [Score: 0.9997230172157288, 0 of 1 matches]
+(1) Call: female(Z) (one of 2 subgoals)
+	Rule:female(umbridge) [Score: 0.9812015295028687, 0 of 13 matches]
+(2) Call: at(Y0, umbridge) (one of 1 subgoals)
+	Rule:at(ministry_of_magic, umbridge) [Score: 0.9955908060073853, 0 of 1 matches]
+(2) Exit: {Z: umbridge}
+(1) Exit: {Z: umbridge}
+(0) Exit: {Z: umbridge}
+                                                                                                    4 :: 3 - 00:00:00 (719 nps)
+
+Query 60: ally(X, _EX2)
+(0) Call: ally(X, _EX2) (one of 1 subgoals)
+	Rule:ally(severus_snape, dumbledore) [Score: 0.9999964237213135, 0 of 8 matches]
+(0) Exit: {X: severus_snape, _EX2: dumbledore}
+                                                                                                    2 :: 1 - 00:00:00 (1428 nps)
+
+Query 61: witch(_EX4)
+(0) Call: witch(_EX4) (one of 1 subgoals)
+	Rule:witch(X0) :- house(X0, Y0), female(X0) [Score: 0.9999957084655762, 0 of 1 matches]
+(1) Call: female(_EX4) (one of 2 subgoals)
+	Rule:female(umbridge) [Score: 0.9835065603256226, 0 of 13 matches]
+(1) Fail
+(1) Call: female(_EX4) (one of 2 subgoals)
+	Rule:female(bellatrix_lestrange) [Score: 0.9590243697166443, 1 of 13 matches]
+(2) Call: house(bellatrix_lestrange, Y0) (one of 1 subgoals)
+	Rule:house(bellatrix_lestrange, slytherin) [Score: 0.9966701865196228, 0 of 1 matches]
+(2) Exit: {_EX4: bellatrix_lestrange}
+(1) Exit: {_EX4: bellatrix_lestrange}
+(0) Exit: {_EX4: bellatrix_lestrange}
+                                                                                                    5 :: 3 - 00:00:00 (1997 nps)
+
+Query 62: mutual_friend(_EX0, _EX0, luna_lovegood)
+(0) Call: mutual_friend(_EX0, _EX0, luna_lovegood) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9942903518676758, 0 of 1 matches]
+(1) Call: friend(_EX0, luna_lovegood) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999998807907104, 0 of 3 matches]
+(1) Exit: {_EX0: fred_weasley}
+(0) Exit: {_EX0: fred_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (3351 nps)
+
+Query 63: casts_spells(Z)
+(0) Call: casts_spells(Z) (one of 1 subgoals)
+	Rule:casts_spells(X0) :- wizard(X0) [Score: 0.9967799782752991, 0 of 1 matches]
+(1) Call: wizard(Z) (one of 1 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9729581475257874, 0 of 1 matches]
+(2) Call: male(Z) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.99428790807724, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(3) Exit: {Z: fred_weasley}
+(2) Exit: {Z: fred_weasley}
+(1) Exit: {Z: fred_weasley}
+(0) Exit: {Z: fred_weasley}
+                                                                                                    5 :: 4 - 00:00:00 (18050 nps)
+
+Query 64: brave(hermione_granger)
+(0) Call: brave(hermione_granger) (one of 1 subgoals)
+	Rule:brave(X0) :- house(X0, gryffindor) [Score: 0.9999136924743652, 0 of 1 matches]
+(1) Call: house(hermione_granger, gryffindor) (one of 1 subgoals)
+	Rule:house(hermione_granger, gryffindor) [Score: 0.9973209500312805, 0 of 1 matches]
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    3 :: 2 - 00:00:00 (6593 nps)
+
+Query 65: ally(_EX2, Z)
+(0) Call: ally(_EX2, Z) (one of 1 subgoals)
+	Rule:ally(severus_snape, dumbledore) [Score: 0.9999969005584717, 0 of 8 matches]
+(0) Exit: {Z: dumbledore, _EX2: severus_snape}
+                                                                                                    2 :: 1 - 00:00:00 (1539 nps)
+
+Query 66: taught_by(_EX4, _EX3)
+(0) Call: taught_by(_EX4, _EX3) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(_EX4) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9736822843551636, 0 of 1 matches]
+(2) Call: male(_EX4) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9948264956474304, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX3, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX4: fred_weasley, _EX3: dumbledore}
+(3) Exit: {_EX4: fred_weasley, _EX3: dumbledore}
+(2) Exit: {_EX4: fred_weasley, _EX3: dumbledore}
+(1) Exit: {_EX4: fred_weasley, _EX3: dumbledore}
+(0) Exit: {_EX4: fred_weasley, _EX3: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (609 nps)
+
+Query 67: taught_by(_EX6, _EX4)
+(0) Call: taught_by(_EX6, _EX4) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999997615814209, 0 of 22 matches]
+(1) Call: wizard(_EX6) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9768078327178955, 0 of 1 matches]
+(2) Call: male(_EX6) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9956658482551575, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX4, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX4: dumbledore, _EX6: fred_weasley}
+(3) Exit: {_EX4: dumbledore, _EX6: fred_weasley}
+(2) Exit: {_EX4: dumbledore, _EX6: fred_weasley}
+(1) Exit: {_EX4: dumbledore, _EX6: fred_weasley}
+(0) Exit: {_EX4: dumbledore, _EX6: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (1567 nps)
+
+Query 68: taught_by(_EX4, Z)
+(0) Call: taught_by(_EX4, Z) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(_EX4) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9736822843551636, 0 of 1 matches]
+(2) Call: male(_EX4) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9948264956474304, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(Z, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Z: dumbledore, _EX4: fred_weasley}
+(3) Exit: {Z: dumbledore, _EX4: fred_weasley}
+(2) Exit: {Z: dumbledore, _EX4: fred_weasley}
+(1) Exit: {Z: dumbledore, _EX4: fred_weasley}
+(0) Exit: {Z: dumbledore, _EX4: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (1672 nps)
+
+Query 69: taught_by(arthur_weasley, _EX6)
+(0) Call: taught_by(arthur_weasley, _EX6) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 1 matches]
+(1) Call: wizard(arthur_weasley) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9763944745063782, 0 of 1 matches]
+(2) Call: male(arthur_weasley) (one of 3 subgoals)
+	Rule:male(arthur_weasley) [Score: 0.9935844540596008, 0 of 1 matches]
+(3) Call: house(arthur_weasley, Y1) (one of 2 subgoals)
+	Rule:house(arthur_weasley, gryffindor) [Score: 0.9994000196456909, 0 of 1 matches]
+(4) Call: teacher(_EX6, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX6: dumbledore}
+(3) Exit: {_EX6: dumbledore}
+(2) Exit: {_EX6: dumbledore}
+(1) Exit: {_EX6: dumbledore}
+(0) Exit: {_EX6: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (6269 nps)
+
+Query 70: mutual_friend(_EX0, _EX0, neville_longbottom)
+(0) Call: mutual_friend(_EX0, _EX0, neville_longbottom) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9946651458740234, 0 of 1 matches]
+(1) Call: friend(_EX0, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999722242355347, 0 of 3 matches]
+(1) Exit: {_EX0: hermione_granger}
+(0) Exit: {_EX0: hermione_granger}
+                                                                                                    3 :: 2 - 00:00:00 (3003 nps)
+
+Query 71: taught_by(_EX1, _EX5)
+(0) Call: taught_by(_EX1, _EX5) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(_EX1) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9699516296386719, 0 of 1 matches]
+(2) Call: male(_EX1) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9943913817405701, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX5, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX5: dumbledore, _EX1: fred_weasley}
+(3) Exit: {_EX5: dumbledore, _EX1: fred_weasley}
+(2) Exit: {_EX5: dumbledore, _EX1: fred_weasley}
+(1) Exit: {_EX5: dumbledore, _EX1: fred_weasley}
+(0) Exit: {_EX5: dumbledore, _EX1: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (1675 nps)
+
+Query 72: must_be_asked_yule_ball(Y)
+(0) Call: must_be_asked_yule_ball(Y) (one of 1 subgoals)
+	Rule:must_be_asked_yule_ball(X0) :- at(Y0, X0), female(X0) [Score: 0.9997568726539612, 0 of 1 matches]
+(1) Call: female(Y) (one of 2 subgoals)
+	Rule:female(umbridge) [Score: 0.9827361106872559, 0 of 13 matches]
+(2) Call: at(Y0, umbridge) (one of 1 subgoals)
+	Rule:at(ministry_of_magic, umbridge) [Score: 0.9955908060073853, 0 of 1 matches]
+(2) Exit: {Y: umbridge}
+(1) Exit: {Y: umbridge}
+(0) Exit: {Y: umbridge}
+                                                                                                    4 :: 3 - 00:00:00 (747 nps)
+
+Query 73: mutual_friend(hermione_granger, george_weasley, _EX1)
+(0) Call: mutual_friend(hermione_granger, george_weasley, _EX1) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9997757077217102, 0 of 1 matches]
+(1) Call: friend(hermione_granger, _EX1) (one of 2 subgoals)
+	Rule:friend(hermione_granger, george_weasley) [Score: 0.9999653100967407, 0 of 6 matches]
+(2) Call: friend(george_weasley, george_weasley) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.8325735926628113, 0 of 1 matches]
+(3) Call: friend(Y2, george_weasley) (one of 2 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999990463256836, 0 of 4 matches]
+(4) Call: friend(george_weasley, fred_weasley) (one of 1 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.3095901608467102, 0 of 1 matches]
+(5) Call: friend(Y4, fred_weasley) (one of 2 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(6) Call: friend(george_weasley, hermione_granger) (one of 1 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.12734711170196533, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(5) Call: friend(Y4, fred_weasley) (one of 2 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(6) Call: friend(george_weasley, ron_weasley) (one of 1 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.36796310544013977, 0 of 1 matches]
+(7) Call: friend(Y6, ron_weasley) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.20336027443408966, 0 of 1 matches]
+(8) Call: friend(Y7, ron_weasley) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.20336027443408966, 0 of 1 matches]
+(9) Call: friend(Y8, ron_weasley) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.20336027443408966, 0 of 1 matches]
+(10) Call: friend(Y9, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(5) Call: friend(Y4, fred_weasley) (one of 2 subgoals)
+	Rule:friend(X5, Z5) :- friend(X5, Y5), friend(Y5, Z5) [Score: 0.15778587758541107, 2 of 3 matches]
+(6) Call: friend(Y5, fred_weasley) (one of 3 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(7) Call: friend(Y4, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(6) Call: friend(Y5, fred_weasley) (one of 3 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(7) Call: friend(Y4, ron_weasley) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.20336027443408966, 0 of 1 matches]
+(8) Call: friend(Y7, ron_weasley) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.20336027443408966, 0 of 1 matches]
+(9) Call: friend(Y8, ron_weasley) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.20336027443408966, 0 of 1 matches]
+(10) Call: friend(Y9, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(6) Call: friend(Y5, fred_weasley) (one of 3 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.15778587758541107, 2 of 3 matches]
+(7) Call: friend(Y6, fred_weasley) (one of 4 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(8) Call: friend(Y5, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(7) Call: friend(Y6, fred_weasley) (one of 4 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(8) Call: friend(Y5, ron_weasley) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.20336027443408966, 0 of 1 matches]
+(9) Call: friend(Y8, ron_weasley) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.20336027443408966, 0 of 1 matches]
+(10) Call: friend(Y9, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(7) Call: friend(Y6, fred_weasley) (one of 4 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.15778587758541107, 2 of 3 matches]
+(8) Call: friend(Y7, fred_weasley) (one of 5 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(9) Call: friend(Y6, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(8) Call: friend(Y7, fred_weasley) (one of 5 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(9) Call: friend(Y6, ron_weasley) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.20336027443408966, 0 of 1 matches]
+(10) Call: friend(Y9, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(8) Call: friend(Y7, fred_weasley) (one of 5 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.15778587758541107, 2 of 3 matches]
+(9) Call: friend(Y8, fred_weasley) (one of 6 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(10) Call: friend(Y7, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(9) Call: friend(Y8, fred_weasley) (one of 6 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(10) Call: friend(Y7, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(9) Call: friend(Y8, fred_weasley) (one of 6 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.15778587758541107, 2 of 3 matches]
+(10) Call: friend(Y9, fred_weasley) (one of 7 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(11) Call: friend(Y8, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(10) Call: friend(Y9, fred_weasley) (one of 7 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(11) Call: friend(Y8, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(10) Call: friend(Y9, fred_weasley) (one of 7 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.15778587758541107, 2 of 3 matches]
+(11) Call: friend(Y10, fred_weasley) (one of 8 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(12) Call: friend(Y9, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(11) Call: friend(Y10, fred_weasley) (one of 8 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(12) Call: friend(Y9, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(11) Call: friend(Y10, fred_weasley) (one of 8 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.15778587758541107, 2 of 3 matches]
+(12) Call: friend(Y11, fred_weasley) (one of 9 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(13) Call: friend(Y10, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(12) Call: friend(Y11, fred_weasley) (one of 9 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(13) Call: friend(Y10, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(12) Call: friend(Y11, fred_weasley) (one of 9 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.15778587758541107, 2 of 3 matches]
+(13) Call: friend(Y12, fred_weasley) (one of 10 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(14) Call: friend(Y11, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(13) Call: friend(Y12, fred_weasley) (one of 10 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(14) Call: friend(Y11, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(13) Call: friend(Y12, fred_weasley) (one of 10 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.15778587758541107, 2 of 3 matches]
+(14) Call: friend(Y13, fred_weasley) (one of 11 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(15) Call: friend(Y12, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(14) Call: friend(Y13, fred_weasley) (one of 11 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(15) Call: friend(Y12, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(14) Call: friend(Y13, fred_weasley) (one of 11 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.15778587758541107, 2 of 3 matches]
+(15) Call: friend(Y14, fred_weasley) (one of 12 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9998894929885864, 0 of 3 matches]
+(15) Fail
+(15) Call: friend(Y14, fred_weasley) (one of 12 subgoals)
+	Rule:friend(ron_weasley, fred_weasley) [Score: 0.9997592568397522, 1 of 3 matches]
+(15) Fail
+(15) Call: friend(Y14, fred_weasley) (one of 12 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.15778587758541107, 2 of 3 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(3) Call: friend(Y2, george_weasley) (one of 2 subgoals)
+	Rule:friend(hermione_granger, george_weasley) [Score: 0.9999972581863403, 1 of 4 matches]
+(4) Call: friend(george_weasley, hermione_granger) (one of 1 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.12734711170196533, 0 of 1 matches]
+(5) Call: friend(Y4, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X5, Z5) :- friend(X5, Y5), friend(Y5, Z5) [Score: 0.05841617286205292, 0 of 1 matches]
+(6) Call: friend(Y5, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.05841617286205292, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 11 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 12 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(3) Call: friend(Y2, george_weasley) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999938011169434, 2 of 4 matches]
+(4) Call: friend(george_weasley, ron_weasley) (one of 1 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.36796310544013977, 0 of 1 matches]
+(5) Call: friend(Y4, ron_weasley) (one of 2 subgoals)
+	Rule:friend(X5, Z5) :- friend(X5, Y5), friend(Y5, Z5) [Score: 0.20336027443408966, 0 of 1 matches]
+(6) Call: friend(Y5, ron_weasley) (one of 3 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.20336027443408966, 0 of 1 matches]
+(7) Call: friend(Y6, ron_weasley) (one of 4 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.20336027443408966, 0 of 1 matches]
+(8) Call: friend(Y7, ron_weasley) (one of 5 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.20336027443408966, 0 of 1 matches]
+(9) Call: friend(Y8, ron_weasley) (one of 6 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.20336027443408966, 0 of 1 matches]
+(10) Call: friend(Y9, ron_weasley) (one of 7 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.20336027443408966, 0 of 1 matches]
+(11) Call: friend(Y10, ron_weasley) (one of 8 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.20336027443408966, 0 of 1 matches]
+(12) Call: friend(Y11, ron_weasley) (one of 9 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.20336027443408966, 0 of 1 matches]
+(13) Call: friend(Y12, ron_weasley) (one of 10 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.20336027443408966, 0 of 1 matches]
+(14) Call: friend(Y13, ron_weasley) (one of 11 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.20336027443408966, 0 of 1 matches]
+(15) Call: friend(Y14, ron_weasley) (one of 12 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.20336027443408966, 0 of 1 matches]
+(3) Call: friend(Y2, george_weasley) (one of 2 subgoals)
+	Rule:friend(X3, Z3) :- friend(X3, Y3), friend(Y3, Z3) [Score: 0.6207445859909058, 3 of 4 matches]
+                                                                                                     [-------------------------] 0.1% to max depth (972 nps)(1) Call: friend(hermione_granger, _EX1) (one of 2 subgoals)
+	Rule:friend(hermione_granger, fred_weasley) [Score: 0.9999469518661499, 1 of 6 matches]
+(2) Call: friend(george_weasley, fred_weasley) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.3095901608467102, 0 of 1 matches]
+                                                                                                     [-------------------------] 0.2% to max depth (1511 nps)(1) Call: friend(hermione_granger, _EX1) (one of 2 subgoals)
+	Rule:friend(hermione_granger, remus_lupin) [Score: 0.9999157190322876, 2 of 6 matches]
+(2) Call: friend(george_weasley, remus_lupin) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.47047558426856995, 0 of 1 matches]
+(1) Call: friend(hermione_granger, _EX1) (one of 2 subgoals)
+	Rule:friend(hermione_granger, dumbledore) [Score: 0.9998525381088257, 3 of 6 matches]
+(2) Call: friend(george_weasley, dumbledore) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.3018854558467865, 0 of 1 matches]
+(1) Call: friend(hermione_granger, _EX1) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9998237490653992, 4 of 6 matches]
+(2) Call: friend(george_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.6538787484169006, 0 of 1 matches]
+                                                                                                    2578 :: 5 - 00:00:01 (1728 nps)
+
+Query 74: ally(_EX4, _EX2)
+(0) Call: ally(_EX4, _EX2) (one of 1 subgoals)
+	Rule:ally(severus_snape, dumbledore) [Score: 0.9999969005584717, 0 of 8 matches]
+(0) Exit: {_EX2: dumbledore, _EX4: severus_snape}
+                                                                                                    2 :: 1 - 00:00:00 (1523 nps)
+
+Query 75: friend(ron_weasley, neville_longbottom)
+(0) Call: friend(ron_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(X0, Z0) :- friend(X0, Y0), friend(Y0, Z0) [Score: 0.6120095252990723, 0 of 1 matches]
+(1) Call: friend(ron_weasley, Y0) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999555349349976, 0 of 5 matches]
+(2) Call: friend(george_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.6538787484169006, 0 of 1 matches]
+(3) Call: friend(Y2, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999651908874512, 0 of 3 matches]
+(4) Call: friend(george_weasley, hermione_granger) (one of 1 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.12734711170196533, 0 of 1 matches]
+(5) Call: friend(Y4, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X5, Z5) :- friend(X5, Y5), friend(Y5, Z5) [Score: 0.05841617286205292, 0 of 1 matches]
+(6) Call: friend(Y5, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.05841617286205292, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 11 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 12 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(3) Call: friend(Y2, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9999222755432129, 1 of 3 matches]
+(4) Call: friend(george_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(george_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(4) Exit: {}
+(3) Exit: {}
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    18 :: 5 - 00:00:00 (7515 nps)
+
+Query 76: taught_by(peter_pettigrew, slughorn)
+(0) Call: taught_by(peter_pettigrew, slughorn) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999991655349731, 0 of 1 matches]
+(1) Call: wizard(peter_pettigrew) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9842880964279175, 0 of 1 matches]
+(2) Call: male(peter_pettigrew) (one of 3 subgoals)
+	Rule:male(peter_pettigrew) [Score: 0.9449447393417358, 0 of 1 matches]
+(3) Call: house(peter_pettigrew, Y1) (one of 2 subgoals)
+	Rule:house(peter_pettigrew, gryffindor) [Score: 0.995425283908844, 0 of 1 matches]
+(4) Call: teacher(slughorn, Z0) (one of 1 subgoals)
+	Rule:teacher(slughorn, potions) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {}
+(3) Exit: {}
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    6 :: 5 - 00:00:00 (4792 nps)
+
+Query 77: mutual_friend(ron_weasley, fred_weasley, neville_longbottom)
+(0) Call: mutual_friend(ron_weasley, fred_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9955704808235168, 0 of 1 matches]
+(1) Call: friend(ron_weasley, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(X1, Z1) :- friend(X1, Y1), friend(Y1, Z1) [Score: 0.6120095252990723, 0 of 1 matches]
+(2) Call: friend(fred_weasley, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.6456501483917236, 0 of 1 matches]
+(3) Call: friend(ron_weasley, Y1) (one of 4 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999555349349976, 0 of 5 matches]
+(4) Call: friend(george_weasley, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.6538787484169006, 0 of 1 matches]
+(5) Call: friend(Y4, neville_longbottom) (one of 4 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999651908874512, 0 of 3 matches]
+(6) Call: friend(george_weasley, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.12734711170196533, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 11 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 12 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(5) Call: friend(Y4, neville_longbottom) (one of 4 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9999222755432129, 1 of 3 matches]
+(6) Call: friend(Y2, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999651908874512, 0 of 3 matches]
+(7) Call: friend(fred_weasley, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.1186784952878952, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(6) Call: friend(Y2, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9999222755432129, 1 of 3 matches]
+(7) Call: friend(fred_weasley, luna_lovegood) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(8) Call: friend(george_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(george_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(8) Exit: {}
+(7) Exit: {}
+(6) Exit: {}
+(5) Exit: {}
+(4) Exit: {}
+(3) Exit: {}
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    29 :: 9 - 00:00:00 (1101 nps)
+
+Query 78: taught_by(Y, trelawney)
+(0) Call: taught_by(Y, trelawney) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999990463256836, 0 of 2 matches]
+(1) Call: wizard(Y) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9740062355995178, 0 of 1 matches]
+(2) Call: male(Y) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9946479201316833, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(trelawney, Z0) (one of 1 subgoals)
+	Rule:teacher(trelawney, divination) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {Y: fred_weasley}
+(3) Exit: {Y: fred_weasley}
+(2) Exit: {Y: fred_weasley}
+(1) Exit: {Y: fred_weasley}
+(0) Exit: {Y: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (9104 nps)
+
+Query 79: mutual_friend(_EX2, _EX2, _EX5)
+(0) Call: mutual_friend(_EX2, _EX2, _EX5) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9996180534362793, 0 of 1 matches]
+(1) Call: friend(_EX2, _EX5) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999991655349731, 0 of 19 matches]
+(1) Exit: {_EX5: luna_lovegood, _EX2: fred_weasley}
+(0) Exit: {_EX5: luna_lovegood, _EX2: fred_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (917 nps)
+
+Query 80: unforgivable_curses(crucio, Y, imperio)
+(0) Call: unforgivable_curses(crucio, Y, imperio) (one of 1 subgoals)
+	Rule:unforgivable_curses(X0, Y0, Z0) :- torture_curse(X0), killing_curse(Y0), control_curse(Z0) [Score: 1.0, 0 of 1 matches]
+(1) Call: control_curse(imperio) (one of 3 subgoals)
+	Rule:control_curse(imperio) [Score: 0.9621595144271851, 0 of 1 matches]
+(2) Call: torture_curse(crucio) (one of 2 subgoals)
+	Rule:torture_curse(crucio) [Score: 0.9973617196083069, 0 of 1 matches]
+(3) Call: killing_curse(Y) (one of 1 subgoals)
+	Rule:killing_curse(avada_kedavra) [Score: 0.9999998807907104, 0 of 1 matches]
+(3) Exit: {Y: avada_kedavra}
+(2) Exit: {Y: avada_kedavra}
+(1) Exit: {Y: avada_kedavra}
+(0) Exit: {Y: avada_kedavra}
+                                                                                                    5 :: 4 - 00:00:00 (3984 nps)
+
+Query 81: mutual_friend(ron_weasley, Z, _EX0)
+(0) Call: mutual_friend(ron_weasley, Z, _EX0) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9998289346694946, 0 of 1 matches]
+(1) Call: friend(ron_weasley, _EX0) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999587535858154, 0 of 5 matches]
+(2) Call: friend(Z, george_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999990463256836, 0 of 4 matches]
+(2) Exit: {Z: fred_weasley, _EX0: george_weasley}
+(1) Exit: {Z: fred_weasley, _EX0: george_weasley}
+(0) Exit: {Z: fred_weasley, _EX0: george_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (793 nps)
+
+Query 82: mutual_friend(_EX0, Y, X)
+(0) Call: mutual_friend(_EX0, Y, X) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9993464350700378, 0 of 1 matches]
+(1) Call: friend(Y, X) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999990463256836, 0 of 19 matches]
+(2) Call: friend(_EX0, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999998807907104, 0 of 3 matches]
+(2) Exit: {X: luna_lovegood, _EX0: fred_weasley, Y: fred_weasley}
+(1) Exit: {X: luna_lovegood, _EX0: fred_weasley, Y: fred_weasley}
+(0) Exit: {X: luna_lovegood, _EX0: fred_weasley, Y: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (580 nps)
+
+Query 83: mutual_friend(Y, fred_weasley, _EX3)
+(0) Call: mutual_friend(Y, fred_weasley, _EX3) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9996129870414734, 0 of 1 matches]
+(1) Call: friend(Y, _EX3) (one of 2 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 0.9999991655349731, 0 of 19 matches]
+(2) Call: friend(fred_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(fred_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(2) Exit: {_EX3: luna_lovegood, Y: fred_weasley}
+(1) Exit: {_EX3: luna_lovegood, Y: fred_weasley}
+(0) Exit: {_EX3: luna_lovegood, Y: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (897 nps)
+
+Query 84: must_find_date_yule_ball(ron_weasley)
+(0) Call: must_find_date_yule_ball(ron_weasley) (one of 1 subgoals)
+	Rule:must_find_date_yule_ball(X0) :- at(Y0, X0), male(X0) [Score: 0.9999979734420776, 0 of 1 matches]
+(1) Call: at(Y0, ron_weasley) (one of 2 subgoals)
+	Rule:at(hogwarts, ron_weasley) [Score: 0.9855952262878418, 0 of 1 matches]
+(2) Call: male(ron_weasley) (one of 1 subgoals)
+	Rule:male(ron_weasley) [Score: 0.9884756803512573, 0 of 1 matches]
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    4 :: 3 - 00:00:00 (3849 nps)
+
+Query 85: casts_spells(lucius_malfoy)
+(0) Call: casts_spells(lucius_malfoy) (one of 1 subgoals)
+	Rule:casts_spells(X0) :- wizard(X0) [Score: 0.8912072777748108, 0 of 1 matches]
+(1) Call: wizard(lucius_malfoy) (one of 1 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.5800143480300903, 0 of 1 matches]
+(2) Call: male(lucius_malfoy) (one of 2 subgoals)
+	Rule:male(lucius_malfoy) [Score: 0.6267679929733276, 0 of 1 matches]
+(3) Call: house(lucius_malfoy, Y1) (one of 1 subgoals)
+	Rule:house(lucius_malfoy, slytherin) [Score: 0.825499415397644, 0 of 1 matches]
+(3) Exit: {}
+(2) Exit: {}
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    5 :: 4 - 00:00:00 (15923 nps)
+
+Query 86: mutual_friend(_EX3, _EX0, neville_longbottom)
+(0) Call: mutual_friend(_EX3, _EX0, neville_longbottom) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9940955638885498, 0 of 1 matches]
+(1) Call: friend(_EX0, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999722242355347, 0 of 3 matches]
+(2) Call: friend(_EX3, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999743700027466, 0 of 3 matches]
+(2) Exit: {_EX0: hermione_granger, _EX3: hermione_granger}
+(1) Exit: {_EX0: hermione_granger, _EX3: hermione_granger}
+(0) Exit: {_EX0: hermione_granger, _EX3: hermione_granger}
+                                                                                                    4 :: 3 - 00:00:00 (2538 nps)
+
+Query 87: taught_by(cedric_diggory, _EX1)
+(0) Call: taught_by(cedric_diggory, _EX1) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999995231628418, 0 of 1 matches]
+(1) Call: wizard(cedric_diggory) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.965560257434845, 0 of 1 matches]
+(2) Call: male(cedric_diggory) (one of 3 subgoals)
+	Rule:male(cedric_diggory) [Score: 0.9605522155761719, 0 of 1 matches]
+(3) Call: house(cedric_diggory, Y1) (one of 2 subgoals)
+	Rule:house(cedric_diggory, hufflepuff) [Score: 0.9862825274467468, 0 of 1 matches]
+(4) Call: teacher(_EX1, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {_EX1: dumbledore}
+(3) Exit: {_EX1: dumbledore}
+(2) Exit: {_EX1: dumbledore}
+(1) Exit: {_EX1: dumbledore}
+(0) Exit: {_EX1: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (801 nps)
+
+Query 88: mutual_friend(ron_weasley, luna_lovegood, _EX2)
+(0) Call: mutual_friend(ron_weasley, luna_lovegood, _EX2) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.9999783039093018, 0 of 1 matches]
+(1) Call: friend(luna_lovegood, _EX2) (one of 2 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9990125894546509, 0 of 2 matches]
+(2) Call: friend(ron_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(X2, Z2) :- friend(X2, Y2), friend(Y2, Z2) [Score: 0.6120095252990723, 0 of 1 matches]
+(3) Call: friend(ron_weasley, Y2) (one of 2 subgoals)
+	Rule:friend(ron_weasley, george_weasley) [Score: 0.9999555349349976, 0 of 5 matches]
+(4) Call: friend(george_weasley, neville_longbottom) (one of 1 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.6538787484169006, 0 of 1 matches]
+(5) Call: friend(Y4, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999651908874512, 0 of 3 matches]
+(6) Call: friend(george_weasley, hermione_granger) (one of 1 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.12734711170196533, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(5) Call: friend(Y4, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9999222755432129, 1 of 3 matches]
+(6) Call: friend(george_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(george_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(6) Exit: {_EX2: neville_longbottom}
+(5) Exit: {_EX2: neville_longbottom}
+(4) Exit: {_EX2: neville_longbottom}
+(3) Exit: {_EX2: neville_longbottom}
+(2) Exit: {_EX2: neville_longbottom}
+(1) Exit: {_EX2: neville_longbottom}
+(0) Exit: {_EX2: neville_longbottom}
+                                                                                                    18 :: 7 - 00:00:00 (5272 nps)
+
+Query 89: taught_by(_EX4, lockhart)
+(0) Call: taught_by(_EX4, lockhart) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999992847442627, 0 of 1 matches]
+(1) Call: wizard(_EX4) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9736822843551636, 0 of 1 matches]
+(2) Call: male(_EX4) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9948264956474304, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(lockhart, Z0) (one of 1 subgoals)
+	Rule:teacher(lockhart, defense_dark_arts) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX4: fred_weasley}
+(3) Exit: {_EX4: fred_weasley}
+(2) Exit: {_EX4: fred_weasley}
+(1) Exit: {_EX4: fred_weasley}
+(0) Exit: {_EX4: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (13953 nps)
+
+Query 90: taught_by(_EX3, quirrell)
+(0) Call: taught_by(_EX3, quirrell) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999998807907104, 0 of 1 matches]
+(1) Call: wizard(_EX3) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9792141318321228, 0 of 1 matches]
+(2) Call: male(_EX3) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953006505966187, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(quirrell, Z0) (one of 1 subgoals)
+	Rule:teacher(quirrell, defense_dark_arts) [Score: 1.0, 0 of 1 matches]
+(4) Exit: {_EX3: fred_weasley}
+(3) Exit: {_EX3: fred_weasley}
+(2) Exit: {_EX3: fred_weasley}
+(1) Exit: {_EX3: fred_weasley}
+(0) Exit: {_EX3: fred_weasley}
+                                                                                                    6 :: 5 - 00:00:00 (729 nps)
+
+Query 91: must_be_asked_yule_ball(_EX6)
+(0) Call: must_be_asked_yule_ball(_EX6) (one of 1 subgoals)
+	Rule:must_be_asked_yule_ball(X0) :- at(Y0, X0), female(X0) [Score: 0.9997674822807312, 0 of 1 matches]
+(1) Call: female(_EX6) (one of 2 subgoals)
+	Rule:female(umbridge) [Score: 0.986330509185791, 0 of 13 matches]
+(2) Call: at(Y0, umbridge) (one of 1 subgoals)
+	Rule:at(ministry_of_magic, umbridge) [Score: 0.9955908060073853, 0 of 1 matches]
+(2) Exit: {_EX6: umbridge}
+(1) Exit: {_EX6: umbridge}
+(0) Exit: {_EX6: umbridge}
+                                                                                                    4 :: 3 - 00:00:00 (725 nps)
+
+Query 92: mutual_friend(george_weasley, _EX5, neville_longbottom)
+(0) Call: mutual_friend(george_weasley, _EX5, neville_longbottom) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.998477041721344, 0 of 1 matches]
+(1) Call: friend(george_weasley, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(X1, Z1) :- friend(X1, Y1), friend(Y1, Z1) [Score: 0.6538787484169006, 0 of 1 matches]
+(2) Call: friend(Y1, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999651908874512, 0 of 3 matches]
+(3) Call: friend(george_weasley, hermione_granger) (one of 2 subgoals)
+	Rule:friend(X3, Z3) :- friend(X3, Y3), friend(Y3, Z3) [Score: 0.12734711170196533, 0 of 1 matches]
+(4) Call: friend(Y3, hermione_granger) (one of 3 subgoals)
+	Rule:friend(X4, Z4) :- friend(X4, Y4), friend(Y4, Z4) [Score: 0.05841617286205292, 0 of 1 matches]
+(5) Call: friend(Y4, hermione_granger) (one of 4 subgoals)
+	Rule:friend(X5, Z5) :- friend(X5, Y5), friend(Y5, Z5) [Score: 0.05841617286205292, 0 of 1 matches]
+(6) Call: friend(Y5, hermione_granger) (one of 5 subgoals)
+	Rule:friend(X6, Z6) :- friend(X6, Y6), friend(Y6, Z6) [Score: 0.05841617286205292, 0 of 1 matches]
+(7) Call: friend(Y6, hermione_granger) (one of 6 subgoals)
+	Rule:friend(X7, Z7) :- friend(X7, Y7), friend(Y7, Z7) [Score: 0.05841617286205292, 0 of 1 matches]
+(8) Call: friend(Y7, hermione_granger) (one of 7 subgoals)
+	Rule:friend(X8, Z8) :- friend(X8, Y8), friend(Y8, Z8) [Score: 0.05841617286205292, 0 of 1 matches]
+(9) Call: friend(Y8, hermione_granger) (one of 8 subgoals)
+	Rule:friend(X9, Z9) :- friend(X9, Y9), friend(Y9, Z9) [Score: 0.05841617286205292, 0 of 1 matches]
+(10) Call: friend(Y9, hermione_granger) (one of 9 subgoals)
+	Rule:friend(X10, Z10) :- friend(X10, Y10), friend(Y10, Z10) [Score: 0.05841617286205292, 0 of 1 matches]
+(11) Call: friend(Y10, hermione_granger) (one of 10 subgoals)
+	Rule:friend(X11, Z11) :- friend(X11, Y11), friend(Y11, Z11) [Score: 0.05841617286205292, 0 of 1 matches]
+(12) Call: friend(Y11, hermione_granger) (one of 11 subgoals)
+	Rule:friend(X12, Z12) :- friend(X12, Y12), friend(Y12, Z12) [Score: 0.05841617286205292, 0 of 1 matches]
+(13) Call: friend(Y12, hermione_granger) (one of 12 subgoals)
+	Rule:friend(X13, Z13) :- friend(X13, Y13), friend(Y13, Z13) [Score: 0.05841617286205292, 0 of 1 matches]
+(14) Call: friend(Y13, hermione_granger) (one of 13 subgoals)
+	Rule:friend(X14, Z14) :- friend(X14, Y14), friend(Y14, Z14) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Call: friend(Y14, hermione_granger) (one of 14 subgoals)
+	Rule:friend(X15, Z15) :- friend(X15, Y15), friend(Y15, Z15) [Score: 0.05841617286205292, 0 of 1 matches]
+(15) Fail
+(14) Fail
+(13) Fail
+(12) Fail
+(11) Fail
+(10) Fail
+(9) Fail
+(8) Fail
+(7) Fail
+(6) Fail
+(5) Fail
+(4) Fail
+(3) Fail
+(2) Fail
+(2) Call: friend(Y1, neville_longbottom) (one of 3 subgoals)
+	Rule:friend(luna_lovegood, neville_longbottom) [Score: 0.9999222755432129, 1 of 3 matches]
+(3) Call: friend(_EX5, neville_longbottom) (one of 2 subgoals)
+	Rule:friend(hermione_granger, neville_longbottom) [Score: 0.9999717473983765, 0 of 3 matches]
+(4) Call: friend(george_weasley, luna_lovegood) (one of 1 subgoals)
+	Rule:friend(george_weasley, luna_lovegood) [Score: 1.0, 0 of 2 matches]
+(4) Exit: {_EX5: hermione_granger}
+(3) Exit: {_EX5: hermione_granger}
+(2) Exit: {_EX5: hermione_granger}
+(1) Exit: {_EX5: hermione_granger}
+(0) Exit: {_EX5: hermione_granger}
+                                                                                                    19 :: 5 - 00:00:00 (1392 nps)
+
+Query 93: mutual_friend(_EX1, hermione_granger, _EX2)
+(0) Call: mutual_friend(_EX1, hermione_granger, _EX2) (one of 1 subgoals)
+	Rule:mutual_friend(X0, Y0, Z0) :- friend(X0, Z0), friend(Y0, Z0) [Score: 0.995431661605835, 0 of 1 matches]
+(1) Call: friend(hermione_granger, _EX2) (one of 2 subgoals)
+	Rule:friend(hermione_granger, george_weasley) [Score: 0.9999624490737915, 0 of 6 matches]
+(2) Call: friend(_EX1, george_weasley) (one of 1 subgoals)
+	Rule:friend(fred_weasley, george_weasley) [Score: 0.9999990463256836, 0 of 4 matches]
+(2) Exit: {_EX1: fred_weasley, _EX2: george_weasley}
+(1) Exit: {_EX1: fred_weasley, _EX2: george_weasley}
+(0) Exit: {_EX1: fred_weasley, _EX2: george_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (894 nps)
+
+Query 94: wizard(_EX5)
+(0) Call: wizard(_EX5) (one of 1 subgoals)
+	Rule:wizard(X0) :- house(X0, Y0), male(X0) [Score: 0.9748664498329163, 0 of 1 matches]
+(1) Call: male(_EX5) (one of 2 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9953628778457642, 0 of 23 matches]
+(2) Call: house(fred_weasley, Y0) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(2) Exit: {_EX5: fred_weasley}
+(1) Exit: {_EX5: fred_weasley}
+(0) Exit: {_EX5: fred_weasley}
+                                                                                                    4 :: 3 - 00:00:00 (1055 nps)
+
+Query 95: unforgivable_curses(_EX4, Z, _EX5)
+(0) Call: unforgivable_curses(_EX4, Z, _EX5) (one of 1 subgoals)
+	Rule:unforgivable_curses(X0, Y0, Z0) :- torture_curse(X0), killing_curse(Y0), control_curse(Z0) [Score: 1.0, 0 of 1 matches]
+(1) Call: control_curse(_EX5) (one of 3 subgoals)
+	Rule:control_curse(imperio) [Score: 0.9490148425102234, 0 of 1 matches]
+(2) Call: torture_curse(_EX4) (one of 2 subgoals)
+	Rule:torture_curse(crucio) [Score: 0.9987550973892212, 0 of 1 matches]
+(3) Call: killing_curse(Z) (one of 1 subgoals)
+	Rule:killing_curse(avada_kedavra) [Score: 0.9999998807907104, 0 of 1 matches]
+(3) Exit: {_EX5: imperio, Z: avada_kedavra, _EX4: crucio}
+(2) Exit: {_EX5: imperio, Z: avada_kedavra, _EX4: crucio}
+(1) Exit: {_EX5: imperio, Z: avada_kedavra, _EX4: crucio}
+(0) Exit: {_EX5: imperio, Z: avada_kedavra, _EX4: crucio}
+                                                                                                    5 :: 4 - 00:00:00 (3949 nps)
+
+Query 96: child(X, _EX3)
+(0) Call: child(X, _EX3) (one of 1 subgoals)
+	Rule:child(X0, Y0) :- parent(Y0, X0) [Score: 0.9946262240409851, 0 of 1 matches]
+(1) Call: parent(_EX3, X) (one of 1 subgoals)
+	Rule:parent(arthur_weasley, ginny_weasley) [Score: 0.9938312768936157, 0 of 14 matches]
+(1) Exit: {X: ginny_weasley, _EX3: arthur_weasley}
+(0) Exit: {X: ginny_weasley, _EX3: arthur_weasley}
+                                                                                                    3 :: 2 - 00:00:00 (1216 nps)
+
+Query 97: ally(Z, Z)
+(0) Call: ally(Z, Z) (one of 1 subgoals)
+	Rule:ally(X0, Y0) :- enemy(X0, Z0), enemy(Y0, Z0) [Score: 0.999967098236084, 0 of 1 matches]
+(1) Call: enemy(Z, Z0) (one of 2 subgoals)
+	Rule:enemy(harry_potter, bellatrix_lestrange) [Score: 0.9999995231628418, 0 of 17 matches]
+(1) Exit: {Z: harry_potter}
+(0) Exit: {Z: harry_potter}
+                                                                                                    3 :: 2 - 00:00:00 (1028 nps)
+
+Query 98: taught_by(Y, _EX6)
+(0) Call: taught_by(Y, _EX6) (one of 1 subgoals)
+	Rule:taught_by(X0, Y0) :- teacher(Y0, Z0), wizard(X0) [Score: 0.9999996423721313, 0 of 22 matches]
+(1) Call: wizard(Y) (one of 2 subgoals)
+	Rule:wizard(X1) :- house(X1, Y1), male(X1) [Score: 0.9740062355995178, 0 of 1 matches]
+(2) Call: male(Y) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.9946479201316833, 0 of 23 matches]
+(3) Call: house(fred_weasley, Y1) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(4) Call: teacher(_EX6, Z0) (one of 1 subgoals)
+	Rule:teacher(dumbledore, headmaster) [Score: 1.0, 0 of 10 matches]
+(4) Exit: {Y: fred_weasley, _EX6: dumbledore}
+(3) Exit: {Y: fred_weasley, _EX6: dumbledore}
+(2) Exit: {Y: fred_weasley, _EX6: dumbledore}
+(1) Exit: {Y: fred_weasley, _EX6: dumbledore}
+(0) Exit: {Y: fred_weasley, _EX6: dumbledore}
+                                                                                                    6 :: 5 - 00:00:00 (1616 nps)
+
+Query 99: job_terminated(quirrell)
+(0) Call: job_terminated(quirrell) (one of 1 subgoals)
+	Rule:job_terminated(X0) :- teacher(X0, defense_dark_arts) [Score: 0.9633402824401855, 0 of 1 matches]
+(1) Call: teacher(quirrell, defense_dark_arts) (one of 1 subgoals)
+	Rule:teacher(quirrell, defense_dark_arts) [Score: 0.9999990463256836, 0 of 1 matches]
+(1) Exit: {}
+(0) Exit: {}
+                                                                                                    3 :: 2 - 00:00:00 (6410 nps)
+
+Query 100: defeat_voldemort(Z)
+(0) Call: defeat_voldemort(Z) (one of 1 subgoals)
+	Rule:defeat_voldemort(X0) :- casts_spells(X0), brave(X0) [Score: 0.9163162708282471, 0 of 1 matches]
+(1) Call: casts_spells(Z) (one of 2 subgoals)
+	Rule:casts_spells(X1) :- wizard(X1) [Score: 0.9967799782752991, 0 of 1 matches]
+(2) Call: wizard(Z) (one of 2 subgoals)
+	Rule:wizard(X2) :- house(X2, Y2), male(X2) [Score: 0.9729581475257874, 0 of 1 matches]
+(3) Call: male(Z) (one of 3 subgoals)
+	Rule:male(fred_weasley) [Score: 0.99428790807724, 0 of 23 matches]
+(4) Call: house(fred_weasley, Y2) (one of 2 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.999847412109375, 0 of 1 matches]
+(5) Call: brave(fred_weasley) (one of 1 subgoals)
+	Rule:brave(X5) :- house(X5, gryffindor) [Score: 0.9999675750732422, 0 of 1 matches]
+(6) Call: house(fred_weasley, gryffindor) (one of 1 subgoals)
+	Rule:house(fred_weasley, gryffindor) [Score: 0.9996881484985352, 0 of 1 matches]
+(6) Exit: {Z: fred_weasley}
+(5) Exit: {Z: fred_weasley}
+(4) Exit: {Z: fred_weasley}
+(3) Exit: {Z: fred_weasley}
+(2) Exit: {Z: fred_weasley}
+(1) Exit: {Z: fred_weasley}
+(0) Exit: {Z: fred_weasley}
+                                                                                                    8 :: 7 - 00:00:00 (994 nps)
+
+ming: 31.69 nodes/query
+Time to run all queries: 1.9551269999999992
